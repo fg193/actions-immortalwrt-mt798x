@@ -57,6 +57,17 @@ jobs:
         git clone $REPO_URL -b $REPO_BRANCH --filter=blob:none -q openwrt
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
+    - name: Read cache from last build
+      uses: actions/cache@v4
+      with:
+        key: $REPO_BRANCH
+        path: |
+          /workdir/openwrt/package
+          /workdir/openwrt/staging_dir
+          /workdir/openwrt/target
+          /workdir/openwrt/tools
+          /workdir/openwrt/toolchain
+
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
