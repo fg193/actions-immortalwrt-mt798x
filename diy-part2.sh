@@ -17,4 +17,7 @@
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # Modify hostname
-#sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+sed -i 's/OpenWrt/ct3003/g' package/base-files/files/bin/config_generate
+
+# 移除USB网络共享
+sed -i 's/kmod-usb-net-rndis //g' target/linux/mediatek/image/mt7981.mk
