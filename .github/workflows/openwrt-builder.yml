@@ -24,8 +24,8 @@ env:
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: true
-  UPLOAD_FIRMWARE: true
-  UPLOAD_RELEASE: true
+  UPLOAD_FIRMWARE: false
+  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 jobs:
@@ -141,7 +141,7 @@ jobs:
       run: |
         echo "release_tag=$REPO_BRANCH-$(date +"%Y.%m.%d-%H%M")" >> $GITHUB_OUTPUT
         touch release.txt
-        [[ ${UPLOAD_GOFILE} = true && ${{ steps.gofile.outputs.url }} ]] && echo "🔗 [GoFile](${{ steps.gofile.outputs.url }})" >> release.txt
+        [ ${UPLOAD_GOFILE} = true && "${{ steps.gofile.outputs.url }}" ] && echo "🔗 [GoFile](${{ steps.gofile.outputs.url }})" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: Upload firmware to release
