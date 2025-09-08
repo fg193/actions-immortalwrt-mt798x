@@ -1,0 +1,1430 @@
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Generic x86/64
+Platform
+x86/64
+Version
+24.10.2 (r33247-467867283bb9)
+Date
+6/25/2025, 11:36:28 PM
+Links
+
+Customize installed packages and/or first boot script
+Build successful
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/64/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/64/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/64/kmods/6.6.93-1-c69323a377952557bd871e9f3c2e82ae/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/64/kmods/6.6.93-1-c69323a377952557bd871e9f3c2e82ae/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/24.10.2/packages/x86_64/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-x86_64_musl/root-x86/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+Pseudo file "dev" exists in source filesystem "/builder/build_dir/target-x86_64_musl/root-x86/dev".
+Ignoring, exclude it (-e/-ef) to override.
+157943+1 records in
+157943+1 records out
+80867086 bytes (81 MB, 77 MiB) copied, 0.128554 s, 629 MB/s
+0+1 records in
+1+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.0791 s, 292 MB/s
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.844368 s, 373 MB/s
+1+0 records in
+1+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.4875 s, 211 MB/s
+cp: cannot stat '/builder/staging_dir/target-x86_64_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz -h 16 -s 63 -t 83 -p 32m -t 83 -p 300m -l 256 -S 0xb0abef4b
+part 0 32768
+part 0 307200
++ set 262144 33554432 34078720 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66560
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz bs=512 seek=66560 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.427084 s, 737 MB/s
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz bs=512 seek=66560 conv=notrunc
+157943+1 records in
+157943+1 records out
+80867086 bytes (81 MB, 77 MiB) copied, 1.93213 s, 41.9 MB/s
++ [ -n  ]
++ make_ext4fs -J -L kernel -l 33554432 -T 1750865788 /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz.boot
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz.kernel of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0550092 s, 610 MB/s
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined.img.gz.kernel
+cp: cannot stat '/builder/staging_dir/target-x86_64_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.ext4
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz -h 16 -s 63 -t 83 -p 32m -t 83 -p 300m -l 256 -S 0xb0abef4b
+part 0 32768
+part 0 307200
++ set 262144 33554432 34078720 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66560
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz bs=512 seek=66560 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.412145 s, 763 MB/s
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.ext4 of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz bs=512 seek=66560 conv=notrunc
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 3.10086 s, 101 MB/s
++ [ -n  ]
++ make_ext4fs -J -L kernel -l 33554432 -T 1750865788 /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz.boot
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz.kernel of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0552309 s, 608 MB/s
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined.img.gz.kernel
+cp: cannot stat '/builder/staging_dir/target-x86_64_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz -h 16 -s 63 -g -t 83 -p 32m -t 83 -p 300m -l 256 -S 0xb0abef4b -G b0abef4b-f3a7-72d4-3574-6a3b9f5df800
+part 0 32768
+part 0 307200
++ set 262144 33554432 33816576 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66048
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz bs=512 seek=66048 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.416132 s, 756 MB/s
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz bs=512 seek=66048 conv=notrunc
+157943+1 records in
+157943+1 records out
+80867086 bytes (81 MB, 77 MiB) copied, 0.119074 s, 679 MB/s
++ [ -n b0abef4b-f3a7-72d4-3574-6a3b9f5df800 ]
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz bs=512 seek=680448 conv=notrunc count=63
+63+0 records in
+63+0 records out
+32256 bytes (32 kB, 32 KiB) copied, 7.2866e-05 s, 443 MB/s
++ mkfs.fat --invariant -n kernel -C /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel -S 512 32768
+mkfs.fat: Warning: lowercase labels might not work properly on some systems
++ LC_ALL=C dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot /
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel ::/boot
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot /boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub
++ baseentry=grub
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel ::/boot/grub
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub /boot/grub/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub/boot.img ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub/boot.img ::/boot/grub/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub/core.img ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub/core.img ::/boot/grub/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub/grub.cfg ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/grub/grub.cfg ::/boot/grub/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/vmlinuz ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/boot/vmlinuz ::/boot/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi
++ baseentry=efi
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel ::/efi
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi /efi/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi/boot ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi/boot ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel ::/efi/boot
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi/boot /efi/boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi/boot/bootx64.efi ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.boot/efi/boot/bootx64.efi ::/efi/boot/
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0590685 s, 568 MB/s
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-squashfs-combined-efi.img.gz.kernel
+/builder/staging_dir/host/bin/grub-bios-setup: warning: Your BIOS Boot Partition is under 1 MiB, please increase its size..
+cp: cannot stat '/builder/staging_dir/target-x86_64_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.ext4
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz -h 16 -s 63 -g -t 83 -p 32m -t 83 -p 300m -l 256 -S 0xb0abef4b -G b0abef4b-f3a7-72d4-3574-6a3b9f5df800
+part 0 32768
+part 0 307200
++ set 262144 33554432 33816576 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66048
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz bs=512 seek=66048 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.451301 s, 697 MB/s
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/root.ext4 of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz bs=512 seek=66048 conv=notrunc
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.22951 s, 256 MB/s
++ [ -n b0abef4b-f3a7-72d4-3574-6a3b9f5df800 ]
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz bs=512 seek=680448 conv=notrunc count=63
+63+0 records in
+63+0 records out
+32256 bytes (32 kB, 32 KiB) copied, 0.0566042 s, 570 kB/s
++ mkfs.fat --invariant -n kernel -C /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel -S 512 32768
+mkfs.fat: Warning: lowercase labels might not work properly on some systems
++ LC_ALL=C dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot /
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel ::/boot
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot /boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub
++ baseentry=grub
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel ::/boot/grub
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub /boot/grub/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub/boot.img ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub/boot.img ::/boot/grub/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub/core.img ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub/core.img ::/boot/grub/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub/grub.cfg ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/grub/grub.cfg ::/boot/grub/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/vmlinuz ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/boot/vmlinuz ::/boot/
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi
++ baseentry=efi
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel ::/efi
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi /efi/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi/boot ]
++ [ -d /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi/boot ]
++ basename /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel ::/efi/boot
++ dos_dircopy /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi/boot /efi/boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi/boot/bootx64.efi ]
++ mcopy -i /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.boot/efi/boot/bootx64.efi ::/efi/boot/
++ dd if=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel of=/builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0629304 s, 533 MB/s
++ rm -f /builder/build_dir/target-x86_64_musl/linux-x86_64/tmp/immortalwrt-24.10.2-d6b294dff0b2-x86-64-generic-ext4-combined-efi.img.gz.kernel
+/builder/staging_dir/host/bin/grub-bios-setup: warning: Your BIOS Boot Partition is under 1 MiB, please increase its size..
+STDOUT
+Checking 'true'... ok.
+Checking 'false'... ok.
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... ok.
+Checking 'proper-umask'... ok.
+Checking 'perl-data-dumper'... ok.
+Checking 'perl-findbin'... ok.
+Checking 'perl-file-copy'... ok.
+Checking 'perl-file-compare'... ok.
+Checking 'perl-thread-queue'... ok.
+Checking 'perl-ipc-cmd'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... updated.
+Checking 'xargs'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... updated.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... updated.
+Checking 'egrep'... updated.
+Checking 'getopt'... ok.
+Checking 'realpath'... ok.
+Checking 'stat'... ok.
+Checking 'gzip'... updated.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'install'... ok.
+Checking 'perl'... ok.
+Checking 'python'... updated.
+Checking 'python3'... updated.
+Checking 'python3-distutils'... ok.
+Checking 'python3-stdlib'... ok.
+Checking 'file'... ok.
+Checking 'which'... ok.
+Checking 'ldconfig-stub'... ok.
+Building images for x86 - Generic x86/64
+Packages: autocore automount base-files block-mount ca-bundle default-settings dropbear fdisk firewall4 fstools grub2-bios-setup i915-firmware-dmc kmod-8139cp kmod-8139too kmod-e1000e kmod-fs-f2fs kmod-nft-offload kmod-r8101 kmod-r8125 kmod-r8126 kmod-r8168 kmod-usb-hid libc libustream-openssl logd luci-app-package-manager luci-compat luci-lib-base luci-lib-ipkg luci-light mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only opkg partx-utils ppp ppp-mod-pppoe procd-ujail uci uclient-fetch urandom-seed urngd curl docker dockerd htop iperf3 ip-full less losetup lsblk luci-app-package-manager luci-app-hd-idle luci-proto-wireguard mtr ncdu nnn owut pv ripgrep rsync ss tmux xxhash xz zram-swap zsh autocore automount base-files block-mount ca-bundle dropbear fdisk firewall4 fstools grub2-bios-setup i915-firmware-dmc kernel kmod-8139cp kmod-8139too kmod-e1000e kmod-fs-f2fs kmod-nft-offload kmod-r8101 kmod-r8125 kmod-r8126 kmod-r8168 kmod-usb-hid libc libustream-openssl logd luci-app-package-manager luci-compat luci-lib-base luci-lib-ipkg luci-light mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only opkg partx-utils ppp ppp-mod-pppoe procd-ujail uci uclient-fetch urandom-seed urngd
+
+
+Installing packages...
+Installing libc (1.2.5-r4) to root...
+Installing libgcc1 (13.3.0-r4) to root...
+Copying /builder/dl/libgcc1_13.3.0-r4_x86_64.ipk.
+Configuring libgcc1.
+Configuring libc.
+Installing kernel (6.6.93~c69323a377952557bd871e9f3c2e82ae-r1) to root...
+Configuring kernel.
+Installing autocore (42) to root...
+Copying /builder/dl/autocore_42_x86_64.ipk.
+Installing ethtool (6.11-r1) to root...
+Copying /builder/dl/ethtool_6.11-r1_x86_64.ipk.
+Installing libsysfs2 (2.1.0-r4) to root...
+Copying /builder/dl/libsysfs2_2.1.0-r4_x86_64.ipk.
+Installing sysfsutils (2.1.0-r4) to root...
+Copying /builder/dl/sysfsutils_2.1.0-r4_x86_64.ipk.
+Installing libsensors5 (3.6.0-r1) to root...
+Copying /builder/dl/libsensors5_3.6.0-r1_x86_64.ipk.
+Installing lm-sensors (3.6.0-r1) to root...
+Copying /builder/dl/lm-sensors_3.6.0-r1_x86_64.ipk.
+Installing automount (10) to root...
+Copying /builder/dl/automount_10_all.ipk.
+Installing libubox20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libubox20240329_2025.07.23~49056d17-r1_x86_64.ipk.
+Installing libjson-c5 (0.18-r1) to root...
+Copying /builder/dl/libjson-c5_0.18-r1_x86_64.ipk.
+Installing libblobmsg-json20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libblobmsg-json20240329_2025.07.23~49056d17-r1_x86_64.ipk.
+Installing ubusd (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/ubusd_2025.07.02~5952b48e-r1_x86_64.ipk.
+Installing libubus20250102 (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/libubus20250102_2025.07.02~5952b48e-r1_x86_64.ipk.
+Installing ubus (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/ubus_2025.07.02~5952b48e-r1_x86_64.ipk.
+Installing libuci20250120 (2025.01.20~16ff0bad-r1) to root...
+Copying /builder/dl/libuci20250120_2025.01.20~16ff0bad-r1_x86_64.ipk.
+Installing ubox (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/ubox_2024.04.26~85f10530-r1_x86_64.ipk.
+Installing fstools (2024.07.14~408c2cc4-r1) to root...
+Copying /builder/dl/fstools_2024.07.14~408c2cc4-r1_x86_64.ipk.
+Installing block-mount (2024.07.14~408c2cc4-r1) to root...
+Copying /builder/dl/block-mount_2024.07.14~408c2cc4-r1_x86_64.ipk.
+Installing libpthread (1.2.5-r4) to root...
+Copying /builder/dl/libpthread_1.2.5-r4_x86_64.ipk.
+Installing librt (1.2.5-r4) to root...
+Copying /builder/dl/librt_1.2.5-r4_x86_64.ipk.
+Installing libuuid1 (2.40.2-r1) to root...
+Copying /builder/dl/libuuid1_2.40.2-r1_x86_64.ipk.
+Installing libblkid1 (2.40.2-r1) to root...
+Copying /builder/dl/libblkid1_2.40.2-r1_x86_64.ipk.
+Installing libcomerr0 (1.47.0-r2) to root...
+Copying /builder/dl/libcomerr0_1.47.0-r2_x86_64.ipk.
+Installing libss2 (1.47.0-r2) to root...
+Copying /builder/dl/libss2_1.47.0-r2_x86_64.ipk.
+Installing libext2fs2 (1.47.0-r2) to root...
+Copying /builder/dl/libext2fs2_1.47.0-r2_x86_64.ipk.
+Installing libe2p2 (1.47.0-r2) to root...
+Copying /builder/dl/libe2p2_1.47.0-r2_x86_64.ipk.
+Installing e2fsprogs (1.47.0-r2) to root...
+Copying /builder/dl/e2fsprogs_1.47.0-r2_x86_64.ipk.
+Installing kmod-scsi-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-scsi-core_6.6.93-r1_x86_64.ipk.
+Installing kmod-nls-base (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-base_6.6.93-r1_x86_64.ipk.
+Installing kmod-usb-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-core_6.6.93-r1_x86_64.ipk.
+Installing kmod-usb-storage (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage_6.6.93-r1_x86_64.ipk.
+Installing kmod-usb-storage-extras (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage-extras_6.6.93-r1_x86_64.ipk.
+Installing kmod-usb-storage-uas (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage-uas_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-crc16 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc16_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-hash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-hash_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-crc32c (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-crc32c_6.6.93-r1_x86_64.ipk.
+Installing kmod-fs-ext4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-ext4_6.6.93-r1_x86_64.ipk.
+Installing kmod-fs-exfat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-exfat_6.6.93-r1_x86_64.ipk.
+Installing kmod-nls-cp437 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-cp437_6.6.93-r1_x86_64.ipk.
+Installing kmod-nls-iso8859-1 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-iso8859-1_6.6.93-r1_x86_64.ipk.
+Installing kmod-nls-utf8 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-utf8_6.6.93-r1_x86_64.ipk.
+Installing kmod-fs-vfat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-vfat_6.6.93-r1_x86_64.ipk.
+Installing kmod-fs-ntfs3 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-ntfs3_6.6.93-r1_x86_64.ipk.
+Installing ntfs3-mount (10) to root...
+Copying /builder/dl/ntfs3-mount_10_all.ipk.
+Installing base-files (1859~467867283bb9) to root...
+Copying /builder/dl/base-files_1859~467867283bb9_x86_64.ipk.
+Installing libnl-tiny1 (2025.03.19~c0df580a-r1) to root...
+Copying /builder/dl/libnl-tiny1_2025.03.19~c0df580a-r1_x86_64.ipk.
+Installing jshn (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/jshn_2025.07.23~49056d17-r1_x86_64.ipk.
+Installing libudebug (2025.08.24~edeb4d6d) to root...
+Copying /builder/dl/libudebug_2025.08.24~edeb4d6d_x86_64.ipk.
+Installing libucode20230711 (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/libucode20230711_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing ucode (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing ucode-mod-fs (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-fs_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing netifd (2025.05.23~7901e66c-r1) to root...
+Copying /builder/dl/netifd_2025.05.23~7901e66c-r1_x86_64.ipk.
+Installing jsonfilter (2025.04.18~8a86fb78-r1) to root...
+Copying /builder/dl/jsonfilter_2025.04.18~8a86fb78-r1_x86_64.ipk.
+Installing usign (2020.05.23~f1f65026-r1) to root...
+Copying /builder/dl/usign_2020.05.23~f1f65026-r1_x86_64.ipk.
+Installing openwrt-keyring (2024.11.01~c5d6bdf2-r1) to root...
+Copying /builder/dl/openwrt-keyring_2024.11.01~c5d6bdf2-r1_x86_64.ipk.
+Installing fwtool (2019.11.12~8f7fe925-r1) to root...
+Copying /builder/dl/fwtool_2019.11.12~8f7fe925-r1_x86_64.ipk.
+Installing libjson-script20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libjson-script20240329_2025.07.23~49056d17-r1_x86_64.ipk.
+Installing procd (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd_2024.12.22~42d39376-r1_x86_64.ipk.
+Installing procd-seccomp (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd-seccomp_2024.12.22~42d39376-r1_x86_64.ipk.
+Installing busybox (1.36.1-r2) to root...
+Copying /builder/dl/busybox_1.36.1-r2_x86_64.ipk.
+Package block-mount (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Installing ca-bundle (20250419-r1) to root...
+Copying /builder/dl/ca-bundle_20250419-r1_all.ipk.
+Installing default-settings (29) to root...
+Copying /builder/dl/default-settings_29_all.ipk.
+Installing luci-proto-ipv6 (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ipv6_25.184.50942~23154bf_all.ipk.
+Installing rpcd (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd_2024.09.17~9f4b86e7-r1_x86_64.ipk.
+Installing rpcd-mod-file (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-file_2024.09.17~9f4b86e7-r1_x86_64.ipk.
+Installing rpcd-mod-luci (20240305-r1) to root...
+Copying /builder/dl/rpcd-mod-luci_20240305-r1_x86_64.ipk.
+Installing rpcd-mod-ucode (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-ucode_2024.09.17~9f4b86e7-r1_x86_64.ipk.
+Installing cgi-io (2022.08.10~901b0f04-r21) to root...
+Copying /builder/dl/cgi-io_2022.08.10~901b0f04-r21_x86_64.ipk.
+Installing ucode-mod-uci (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-uci_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing ucode-mod-ubus (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-ubus_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing ucode-mod-math (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-math_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing ucode-mod-html (1) to root...
+Copying /builder/dl/ucode-mod-html_1_x86_64.ipk.
+Installing liblucihttp0 (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp0_2023.03.15~9b5b683f-r1_x86_64.ipk.
+Installing liblucihttp-ucode (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp-ucode_2023.03.15~9b5b683f-r1_x86_64.ipk.
+Installing luci-base (25.187.32690~3d6dbd2) to root...
+Copying /builder/dl/luci-base_25.187.32690~3d6dbd2_x86_64.ipk.
+Installing kmod-nfnetlink (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nfnetlink_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-reject (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-reject_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-reject6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-reject6_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-conntrack (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-conntrack6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack6_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nat_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-log (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-log_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-log6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-log6_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-crc32c (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc32c_6.6.93-r1_x86_64.ipk.
+Installing kmod-nft-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-core_6.6.93-r1_x86_64.ipk.
+Installing kmod-nft-fib (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-fib_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-flow (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-flow_6.6.93-r1_x86_64.ipk.
+Installing kmod-nft-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-nat_6.6.93-r1_x86_64.ipk.
+Installing kmod-nft-offload (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-offload_6.6.93-r1_x86_64.ipk.
+Installing kmod-nft-fullcone (6.6.93.2023.05.17~07d93b62-r1) to root...
+Copying /builder/dl/kmod-nft-fullcone_6.6.93.2023.05.17~07d93b62-r1_x86_64.ipk.
+Installing libmnl0 (1.0.5-r1) to root...
+Copying /builder/dl/libmnl0_1.0.5-r1_x86_64.ipk.
+Installing libnftnl11 (1.2.8-r1) to root...
+Copying /builder/dl/libnftnl11_1.2.8-r1_x86_64.ipk.
+Installing jansson4 (2.14-r3) to root...
+Copying /builder/dl/jansson4_2.14-r3_x86_64.ipk.
+Installing nftables-json (1.1.1-r1) to root...
+Copying /builder/dl/nftables-json_1.1.1-r1_x86_64.ipk.
+Installing firewall4 (2024.12.18~18fc0ead-r1) to root...
+Copying /builder/dl/firewall4_2024.12.18~18fc0ead-r1_x86_64.ipk.
+Installing luci-app-firewall (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-firewall_25.184.50942~23154bf_all.ipk.
+Installing libiwinfo-data (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/libiwinfo-data_2024.10.20~b94f066e-r1_x86_64.ipk.
+Installing libiwinfo20230701 (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/libiwinfo20230701_2024.10.20~b94f066e-r1_x86_64.ipk.
+Installing rpcd-mod-iwinfo (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-iwinfo_2024.09.17~9f4b86e7-r1_x86_64.ipk.
+Installing luci-mod-status (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-mod-status_25.187.32633~383d9ef_x86_64.ipk.
+Installing luci-mod-system (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-mod-system_25.184.50942~23154bf_all.ipk.
+Installing luci-mod-network (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-mod-network_25.187.32633~383d9ef_all.ipk.
+Installing luci-mod-admin-full (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-mod-admin-full_25.184.50942~23154bf_all.ipk.
+Installing luci-proto-ppp (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ppp_25.184.50942~23154bf_all.ipk.
+Installing luci-theme-bootstrap (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-theme-bootstrap_25.170.03049~65670be_all.ipk.
+Installing rpcd-mod-rrdns (20170710) to root...
+Copying /builder/dl/rpcd-mod-rrdns_20170710_x86_64.ipk.
+Installing uhttpd (2025.07.06~7e64e8ba-r4) to root...
+Copying /builder/dl/uhttpd_2025.07.06~7e64e8ba-r4_x86_64.ipk.
+Installing uhttpd-mod-ubus (2025.07.06~7e64e8ba-r4) to root...
+Copying /builder/dl/uhttpd-mod-ubus_2025.07.06~7e64e8ba-r4_x86_64.ipk.
+Installing luci-light (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-light_25.184.50942~23154bf_all.ipk.
+Installing luci-app-package-manager (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-package-manager_25.184.50942~23154bf_all.ipk.
+Installing luci (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci_25.184.50942~23154bf_all.ipk.
+Installing dropbear (2024.86-r1) to root...
+Copying /builder/dl/dropbear_2024.86-r1_x86_64.ipk.
+Installing fdisk (2.40.2-r1) to root...
+Copying /builder/dl/fdisk_2.40.2-r1_x86_64.ipk.
+Installing libsmartcols1 (2.40.2-r1) to root...
+Copying /builder/dl/libsmartcols1_2.40.2-r1_x86_64.ipk.
+Installing libfdisk1 (2.40.2-r1) to root...
+Copying /builder/dl/libfdisk1_2.40.2-r1_x86_64.ipk.
+Installing terminfo (6.4-r2) to root...
+Copying /builder/dl/terminfo_6.4-r2_x86_64.ipk.
+Installing libncurses6 (6.4-r2) to root...
+Copying /builder/dl/libncurses6_6.4-r2_x86_64.ipk.
+Package firewall4 (2024.12.18~18fc0ead-r1) installed in root is up to date.
+Package fstools (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Installing grub2-bios-setup (2.12-r1) to root...
+Copying /builder/dl/grub2-bios-setup_2.12-r1_x86_64.ipk.
+Installing i915-firmware-dmc (20241110-r2) to root...
+Copying /builder/dl/i915-firmware-dmc_20241110-r2_x86_64.ipk.
+Installing kmod-8139cp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-8139cp_6.6.93-r1_x86_64.ipk.
+Installing kmod-mii (6.6.93-r1) to root...
+Copying /builder/dl/kmod-mii_6.6.93-r1_x86_64.ipk.
+Installing kmod-8139too (6.6.93-r1) to root...
+Copying /builder/dl/kmod-8139too_6.6.93-r1_x86_64.ipk.
+Installing kmod-e1000e (6.6.93-r1) to root...
+Copying /builder/dl/kmod-e1000e_6.6.93-r1_x86_64.ipk.
+Installing kmod-pps (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pps_6.6.93-r1_x86_64.ipk.
+Installing kmod-ptp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ptp_6.6.93-r1_x86_64.ipk.
+Installing kmod-fs-f2fs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-f2fs_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-crc32 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-crc32_6.6.93-r1_x86_64.ipk.
+Package kmod-nft-offload (6.6.93-r1) installed in root is up to date.
+Installing kmod-r8101 (6.6.93.1.039.00-r3) to root...
+Copying /builder/dl/kmod-r8101_6.6.93.1.039.00-r3_x86_64.ipk.
+Installing kmod-libphy (6.6.93-r1) to root...
+Copying /builder/dl/kmod-libphy_6.6.93-r1_x86_64.ipk.
+Installing kmod-r8125 (6.6.93.9.016.00-r1) to root...
+Copying /builder/dl/kmod-r8125_6.6.93.9.016.00-r1_x86_64.ipk.
+Installing kmod-r8126 (6.6.93.10.015.00-r3) to root...
+Copying /builder/dl/kmod-r8126_6.6.93.10.015.00-r3_x86_64.ipk.
+Installing kmod-r8168 (6.6.93.8.055.00-r3) to root...
+Copying /builder/dl/kmod-r8168_6.6.93.8.055.00-r3_x86_64.ipk.
+Installing kmod-usb-hid (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-hid_6.6.93-r1_x86_64.ipk.
+Installing kmod-input-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-input-core_6.6.93-r1_x86_64.ipk.
+Installing kmod-input-evdev (6.6.93-r1) to root...
+Copying /builder/dl/kmod-input-evdev_6.6.93-r1_x86_64.ipk.
+Installing kmod-hid (6.6.93-r1) to root...
+Copying /builder/dl/kmod-hid_6.6.93-r1_x86_64.ipk.
+Installing kmod-hid-generic (6.6.93-r1) to root...
+Copying /builder/dl/kmod-hid-generic_6.6.93-r1_x86_64.ipk.
+Package libc (1.2.5-r4) installed in root is up to date.
+Installing libustream-openssl20201210 (2024.07.28~99bd3d2b-r1) to root...
+Copying /builder/dl/libustream-openssl20201210_2024.07.28~99bd3d2b-r1_x86_64.ipk.
+Installing libopenssl3 (3.0.17-r1) to root...
+Copying /builder/dl/libopenssl3_3.0.17-r1_x86_64.ipk.
+Installing logd (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/logd_2024.04.26~85f10530-r1_x86_64.ipk.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Installing luci-compat (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-compat_25.170.03049~65670be_all.ipk.
+Installing liblua5.1.5 (5.1.5-r11) to root...
+Copying /builder/dl/liblua5.1.5_5.1.5-r11_x86_64.ipk.
+Installing lua (5.1.5-r11) to root...
+Copying /builder/dl/lua_5.1.5-r11_x86_64.ipk.
+Installing luci-lib-nixio (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-nixio_25.184.50942~23154bf_x86_64.ipk.
+Installing luci-lib-ip (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-ip_25.184.50942~23154bf_x86_64.ipk.
+Installing luci-lib-jsonc (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-jsonc_25.184.50942~23154bf_x86_64.ipk.
+Installing liblucihttp-lua (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp-lua_2023.03.15~9b5b683f-r1_x86_64.ipk.
+Installing luci-lib-base (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-base_25.184.50942~23154bf_all.ipk.
+Installing libubus-lua (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/libubus-lua_2025.07.02~5952b48e-r1_x86_64.ipk.
+Installing ucode-mod-lua (1) to root...
+Copying /builder/dl/ucode-mod-lua_1_x86_64.ipk.
+Installing luci-lua-runtime (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lua-runtime_25.184.50942~23154bf_x86_64.ipk.
+Package luci-lib-base (25.184.50942~23154bf) installed in root is up to date.
+Installing luci-lib-ipkg (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-ipkg_25.184.50942~23154bf_all.ipk.
+Package luci-light (25.184.50942~23154bf) installed in root is up to date.
+Installing mkf2fs (1.16.0-r3) to root...
+Copying /builder/dl/mkf2fs_1.16.0-r3_x86_64.ipk.
+Installing libf2fs6 (1.16.0-r3) to root...
+Copying /builder/dl/libf2fs6_1.16.0-r3_x86_64.ipk.
+Installing mtd (26) to root...
+Copying /builder/dl/mtd_26_x86_64.ipk.
+Package netifd (2025.05.23~7901e66c-r1) installed in root is up to date.
+Package nftables-json (1.1.1-r1) installed in root is up to date.
+Installing odhcp6c (2024.09.25~b6ae9ffa-r1) to root...
+Copying /builder/dl/odhcp6c_2024.09.25~b6ae9ffa-r1_x86_64.ipk.
+Installing odhcpd-ipv6only (2024.05.08~a2988231-r3) to root...
+Copying /builder/dl/odhcpd-ipv6only_2024.05.08~a2988231-r3_x86_64.ipk.
+Installing opkg (2024.10.16~38eccbb1-r1) to root...
+Copying /builder/dl/opkg_2024.10.16~38eccbb1-r1_x86_64.ipk.
+Installing libuclient20201210 (2024.10.22~88ae8f20-r1) to root...
+Copying /builder/dl/libuclient20201210_2024.10.22~88ae8f20-r1_x86_64.ipk.
+Installing uclient-fetch (2024.10.22~88ae8f20-r1) to root...
+Copying /builder/dl/uclient-fetch_2024.10.22~88ae8f20-r1_x86_64.ipk.
+Installing partx-utils (2.40.2-r1) to root...
+Copying /builder/dl/partx-utils_2.40.2-r1_x86_64.ipk.
+Installing ppp (2.5.1-r1) to root...
+Copying /builder/dl/ppp_2.5.1-r1_x86_64.ipk.
+Installing kmod-lib-crc-ccitt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc-ccitt_6.6.93-r1_x86_64.ipk.
+Installing kmod-slhc (6.6.93-r1) to root...
+Copying /builder/dl/kmod-slhc_6.6.93-r1_x86_64.ipk.
+Installing kmod-ppp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ppp_6.6.93-r1_x86_64.ipk.
+Installing kmod-macvlan (6.6.93-r1) to root...
+Copying /builder/dl/kmod-macvlan_6.6.93-r1_x86_64.ipk.
+Installing shellsync (0.2-r2) to root...
+Copying /builder/dl/shellsync_0.2-r2_x86_64.ipk.
+Installing kmod-crypto-null (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-null_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-aead (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-aead_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-manager (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-manager_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-hmac (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-hmac_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-sha512 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-sha512_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-sha3 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-sha3_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-rng (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-rng_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-user (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-user_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-arc4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-arc4_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-sha1 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-sha1_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-ecb (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-ecb_6.6.93-r1_x86_64.ipk.
+Installing kmod-mppe (6.6.93-r1) to root...
+Copying /builder/dl/kmod-mppe_6.6.93-r1_x86_64.ipk.
+Installing ppp-mod-pppoe (2.5.1-r1) to root...
+Copying /builder/dl/ppp-mod-pppoe_2.5.1-r1_x86_64.ipk.
+Installing kmod-pppox (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pppox_6.6.93-r1_x86_64.ipk.
+Installing kmod-pppoe (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pppoe_6.6.93-r1_x86_64.ipk.
+Installing procd-ujail (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd-ujail_2024.12.22~42d39376-r1_x86_64.ipk.
+Installing uci (2025.01.20~16ff0bad-r1) to root...
+Copying /builder/dl/uci_2025.01.20~16ff0bad-r1_x86_64.ipk.
+Package uclient-fetch (2024.10.22~88ae8f20-r1) installed in root is up to date.
+Installing urandom-seed (3) to root...
+Copying /builder/dl/urandom-seed_3_x86_64.ipk.
+Installing getrandom (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/getrandom_2024.04.26~85f10530-r1_x86_64.ipk.
+Installing urngd (2023.11.01~44365eb1-r1) to root...
+Copying /builder/dl/urngd_2023.11.01~44365eb1-r1_x86_64.ipk.
+Installing curl (8.12.1-r1) to root...
+Copying /builder/dl/curl_8.12.1-r1_x86_64.ipk.
+Installing libnghttp2-14 (1.63.0-r1) to root...
+Copying /builder/dl/libnghttp2-14_1.63.0-r1_x86_64.ipk.
+Installing libcurl4 (8.12.1-r1) to root...
+Copying /builder/dl/libcurl4_8.12.1-r1_x86_64.ipk.
+Installing docker (27.3.1-r1) to root...
+Copying /builder/dl/docker_27.3.1-r1_x86_64.ipk.
+Installing dockerd (27.3.1-r3) to root...
+Copying /builder/dl/dockerd_27.3.1-r3_x86_64.ipk.
+Installing ca-certificates (20250419-r1) to root...
+Copying /builder/dl/ca-certificates_20250419-r1_all.ipk.
+Installing libattr (2.5.2-r3) to root...
+Copying /builder/dl/libattr_2.5.2-r3_x86_64.ipk.
+Installing libmount1 (2.40.2-r1) to root...
+Copying /builder/dl/libmount1_2.40.2-r1_x86_64.ipk.
+Installing zlib (1.3.1-r1) to root...
+Copying /builder/dl/zlib_1.3.1-r1_x86_64.ipk.
+Installing liblzo2 (2.10-r4) to root...
+Copying /builder/dl/liblzo2_2.10-r4_x86_64.ipk.
+Installing kmod-crypto-acompress (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-acompress_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-lzo (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-lzo_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-zlib-inflate (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zlib-inflate_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-zlib-deflate (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zlib-deflate_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-raid6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-raid6_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-xor (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-xor_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-xxhash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-xxhash_6.6.93-r1_x86_64.ipk.
+Installing kmod-lib-zstd (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zstd_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-blake2b (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-blake2b_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-xxhash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-xxhash_6.6.93-r1_x86_64.ipk.
+Installing kmod-fs-btrfs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-btrfs_6.6.93-r1_x86_64.ipk.
+Installing btrfs-progs (6.11-r1) to root...
+Copying /builder/dl/btrfs-progs_6.11-r1_x86_64.ipk.
+Installing libseccomp (2.5.5-r1) to root...
+Copying /builder/dl/libseccomp_2.5.5-r1_x86_64.ipk.
+Installing runc (1.1.14-r1) to root...
+Copying /builder/dl/runc_1.1.14-r1_x86_64.ipk.
+Installing containerd (1.7.22-r1) to root...
+Copying /builder/dl/containerd_1.7.22-r1_x86_64.ipk.
+Installing kmod-nf-ipt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipt_6.6.93-r1_x86_64.ipk.
+Installing kmod-ipt-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-core_6.6.93-r1_x86_64.ipk.
+Installing libip4tc2 (1.8.10-r1) to root...
+Copying /builder/dl/libip4tc2_1.8.10-r1_x86_64.ipk.
+Installing libip6tc2 (1.8.10-r1) to root...
+Copying /builder/dl/libip6tc2_1.8.10-r1_x86_64.ipk.
+Installing libxtables12 (1.8.10-r1) to root...
+Copying /builder/dl/libxtables12_1.8.10-r1_x86_64.ipk.
+Installing libiptext0 (1.8.10-r1) to root...
+Copying /builder/dl/libiptext0_1.8.10-r1_x86_64.ipk.
+Installing libiptext6-0 (1.8.10-r1) to root...
+Copying /builder/dl/libiptext6-0_1.8.10-r1_x86_64.ipk.
+Installing xtables-legacy (1.8.10-r1) to root...
+Copying /builder/dl/xtables-legacy_1.8.10-r1_x86_64.ipk.
+Installing iptables-zz-legacy (1.8.10-r1) to root...
+Copying /builder/dl/iptables-zz-legacy_1.8.10-r1_x86_64.ipk.
+Installing kmod-ipt-extra (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-extra_6.6.93-r1_x86_64.ipk.
+Installing iptables-mod-extra (1.8.10-r1) to root...
+Copying /builder/dl/iptables-mod-extra_1.8.10-r1_x86_64.ipk.
+Installing kmod-nf-ipt6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipt6_6.6.93-r1_x86_64.ipk.
+Installing kmod-ip6tables (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ip6tables_6.6.93-r1_x86_64.ipk.
+Installing ip6tables-zz-legacy (1.8.10-r1) to root...
+Copying /builder/dl/ip6tables-zz-legacy_1.8.10-r1_x86_64.ipk.
+Installing kmod-nf-nat6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nat6_6.6.93-r1_x86_64.ipk.
+Installing kmod-ipt-conntrack (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-conntrack_6.6.93-r1_x86_64.ipk.
+Installing kmod-ipt-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-nat_6.6.93-r1_x86_64.ipk.
+Installing kmod-ipt-nat6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-nat6_6.6.93-r1_x86_64.ipk.
+Installing kmod-br-netfilter (6.6.93-r1) to root...
+Copying /builder/dl/kmod-br-netfilter_6.6.93-r1_x86_64.ipk.
+Installing kmod-ipt-physdev (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-physdev_6.6.93-r1_x86_64.ipk.
+Installing kmod-nf-ipvs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipvs_6.6.93-r1_x86_64.ipk.
+Installing kmod-veth (6.6.93-r1) to root...
+Copying /builder/dl/kmod-veth_6.6.93-r1_x86_64.ipk.
+Installing tini (0.19.0-r2) to root...
+Copying /builder/dl/tini_0.19.0-r2_x86_64.ipk.
+Installing htop (3.4.1-r1) to root...
+Copying /builder/dl/htop_3.4.1-r1_x86_64.ipk.
+Installing iperf3 (3.17.1-r4) to root...
+Copying /builder/dl/iperf3_3.17.1-r4_x86_64.ipk.
+Installing libatomic1 (13.3.0-r4) to root...
+Copying /builder/dl/libatomic1_13.3.0-r4_x86_64.ipk.
+Installing libiperf3 (3.17.1-r4) to root...
+Copying /builder/dl/libiperf3_3.17.1-r4_x86_64.ipk.
+Installing ip-full (6.11.0-r1) to root...
+Copying /builder/dl/ip-full_6.11.0-r1_x86_64.ipk.
+Installing libelf1 (0.192-r1) to root...
+Copying /builder/dl/libelf1_0.192-r1_x86_64.ipk.
+Installing libbpf1 (1.5.0-r1) to root...
+Copying /builder/dl/libbpf1_1.5.0-r1_x86_64.ipk.
+Installing less (661-r1) to root...
+Copying /builder/dl/less_661-r1_x86_64.ipk.
+Installing losetup (2.40.2-r1) to root...
+Copying /builder/dl/losetup_2.40.2-r1_x86_64.ipk.
+Installing lsblk (2.40.2-r1) to root...
+Copying /builder/dl/lsblk_2.40.2-r1_x86_64.ipk.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Installing luci-app-hd-idle (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-hd-idle_25.184.50942~23154bf_all.ipk.
+Installing hd-idle (1.05-r2) to root...
+Copying /builder/dl/hd-idle_1.05-r2_x86_64.ipk.
+Installing luci-proto-wireguard (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-proto-wireguard_25.170.03049~65670be_all.ipk.
+Installing kmod-crypto-lib-chacha20 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-lib-poly1305 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-poly1305_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-lib-chacha20poly1305 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20poly1305_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-kpp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-kpp_6.6.93-r1_x86_64.ipk.
+Installing kmod-crypto-lib-curve25519 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-curve25519_6.6.93-r1_x86_64.ipk.
+Installing kmod-udptunnel4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-udptunnel4_6.6.93-r1_x86_64.ipk.
+Installing kmod-udptunnel6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-udptunnel6_6.6.93-r1_x86_64.ipk.
+Installing kmod-wireguard (6.6.93-r1) to root...
+Copying /builder/dl/kmod-wireguard_6.6.93-r1_x86_64.ipk.
+Installing wireguard-tools (1.0.20210914-r4) to root...
+Copying /builder/dl/wireguard-tools_1.0.20210914-r4_x86_64.ipk.
+Installing luci-lib-uqr (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-uqr_25.184.50942~23154bf_all.ipk.
+Installing resolveip (2) to root...
+Copying /builder/dl/resolveip_2_x86_64.ipk.
+Installing mtr-json (0.95-r3) to root...
+Copying /builder/dl/mtr-json_0.95-r3_x86_64.ipk.
+Installing ncdu (1.20-r1) to root...
+Copying /builder/dl/ncdu_1.20-r1_x86_64.ipk.
+Installing nnn (4.9-r1) to root...
+Copying /builder/dl/nnn_4.9-r1_x86_64.ipk.
+Installing libreadline8 (8.2-r2) to root...
+Copying /builder/dl/libreadline8_8.2-r2_x86_64.ipk.
+Installing musl-fts (1.2.7-r1) to root...
+Copying /builder/dl/musl-fts_1.2.7-r1_x86_64.ipk.
+Installing owut (2025.08.15~93f2b06b-r1) to root...
+Copying /builder/dl/owut_2025.08.15~93f2b06b-r1_all.ipk.
+Installing rpcd-mod-rpcsys (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-rpcsys_2024.09.17~9f4b86e7-r1_x86_64.ipk.
+Installing attendedsysupgrade-common (9) to root...
+Copying /builder/dl/attendedsysupgrade-common_9_all.ipk.
+Installing ucode-mod-uclient (2024.10.22~88ae8f20-r1) to root...
+Copying /builder/dl/ucode-mod-uclient_2024.10.22~88ae8f20-r1_x86_64.ipk.
+Installing ucode-mod-uloop (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-uloop_2025.07.18~3f64c808-r1_x86_64.ipk.
+Installing pv (1.6.6-r1) to root...
+Copying /builder/dl/pv_1.6.6-r1_x86_64.ipk.
+Installing ripgrep (14.1.1-r1) to root...
+Copying /builder/dl/ripgrep_14.1.1-r1_x86_64.ipk.
+Installing libpcre2 (10.42-r1) to root...
+Copying /builder/dl/libpcre2_10.42-r1_x86_64.ipk.
+Installing rsync (3.4.1-r1) to root...
+Copying /builder/dl/rsync_3.4.1-r1_x86_64.ipk.
+Installing libpopt0 (1.19-r1) to root...
+Copying /builder/dl/libpopt0_1.19-r1_x86_64.ipk.
+Installing libacl (2.3.2-r2) to root...
+Copying /builder/dl/libacl_2.3.2-r2_x86_64.ipk.
+Installing ss (6.11.0-r1) to root...
+Copying /builder/dl/ss_6.11.0-r1_x86_64.ipk.
+Installing kmod-netlink-diag (6.6.93-r1) to root...
+Copying /builder/dl/kmod-netlink-diag_6.6.93-r1_x86_64.ipk.
+Installing tmux (3.5a-r1) to root...
+Copying /builder/dl/tmux_3.5a-r1_x86_64.ipk.
+Installing libevent2-core7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-core7_2.1.12-r2_x86_64.ipk.
+Installing xxhash (0.8.2-r2) to root...
+Copying /builder/dl/xxhash_0.8.2-r2_x86_64.ipk.
+Installing libxxhash (0.8.2-r2) to root...
+Copying /builder/dl/libxxhash_0.8.2-r2_x86_64.ipk.
+Installing xz (5.6.2-r2) to root...
+Copying /builder/dl/xz_5.6.2-r2_x86_64.ipk.
+Installing xz-utils (5.6.2-r2) to root...
+Copying /builder/dl/xz-utils_5.6.2-r2_x86_64.ipk.
+Installing liblzma (5.6.2-r2) to root...
+Copying /builder/dl/liblzma_5.6.2-r2_x86_64.ipk.
+Installing zram-swap (32) to root...
+Copying /builder/dl/zram-swap_32_all.ipk.
+Installing kmod-zram (6.6.93-r1) to root...
+Copying /builder/dl/kmod-zram_6.6.93-r1_x86_64.ipk.
+Installing zsh (5.9-r3) to root...
+Copying /builder/dl/zsh_5.9-r3_x86_64.ipk.
+Installing libcap (2.69-r1) to root...
+Copying /builder/dl/libcap_2.69-r1_x86_64.ipk.
+Package autocore (42) installed in root is up to date.
+Package automount (10) installed in root is up to date.
+Package base-files (1859~467867283bb9) installed in root is up to date.
+Package block-mount (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Package ca-bundle (20250419-r1) installed in root is up to date.
+Package dropbear (2024.86-r1) installed in root is up to date.
+Package fdisk (2.40.2-r1) installed in root is up to date.
+Package firewall4 (2024.12.18~18fc0ead-r1) installed in root is up to date.
+Package fstools (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Package grub2-bios-setup (2.12-r1) installed in root is up to date.
+Package i915-firmware-dmc (20241110-r2) installed in root is up to date.
+Package kernel (6.6.93~c69323a377952557bd871e9f3c2e82ae-r1) installed in root is up to date.
+Package kmod-8139cp (6.6.93-r1) installed in root is up to date.
+Package kmod-8139too (6.6.93-r1) installed in root is up to date.
+Package kmod-e1000e (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-f2fs (6.6.93-r1) installed in root is up to date.
+Package kmod-nft-offload (6.6.93-r1) installed in root is up to date.
+Package kmod-r8101 (6.6.93.1.039.00-r3) installed in root is up to date.
+Package kmod-r8125 (6.6.93.9.016.00-r1) installed in root is up to date.
+Package kmod-r8126 (6.6.93.10.015.00-r3) installed in root is up to date.
+Package kmod-r8168 (6.6.93.8.055.00-r3) installed in root is up to date.
+Package kmod-usb-hid (6.6.93-r1) installed in root is up to date.
+Package libc (1.2.5-r4) installed in root is up to date.
+Package libustream-openssl20201210 (2024.07.28~99bd3d2b-r1) installed in root is up to date.
+Package logd (2024.04.26~85f10530-r1) installed in root is up to date.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Package luci-compat (25.170.03049~65670be) installed in root is up to date.
+Package luci-lib-base (25.184.50942~23154bf) installed in root is up to date.
+Package luci-lib-ipkg (25.184.50942~23154bf) installed in root is up to date.
+Package luci-light (25.184.50942~23154bf) installed in root is up to date.
+Package mkf2fs (1.16.0-r3) installed in root is up to date.
+Package mtd (26) installed in root is up to date.
+Package netifd (2025.05.23~7901e66c-r1) installed in root is up to date.
+Package nftables-json (1.1.1-r1) installed in root is up to date.
+Package odhcp6c (2024.09.25~b6ae9ffa-r1) installed in root is up to date.
+Package odhcpd-ipv6only (2024.05.08~a2988231-r3) installed in root is up to date.
+Package opkg (2024.10.16~38eccbb1-r1) installed in root is up to date.
+Package partx-utils (2.40.2-r1) installed in root is up to date.
+Package ppp (2.5.1-r1) installed in root is up to date.
+Package ppp-mod-pppoe (2.5.1-r1) installed in root is up to date.
+Package procd-ujail (2024.12.22~42d39376-r1) installed in root is up to date.
+Package uci (2025.01.20~16ff0bad-r1) installed in root is up to date.
+Package uclient-fetch (2024.10.22~88ae8f20-r1) installed in root is up to date.
+Package urandom-seed (3) installed in root is up to date.
+Package urngd (2023.11.01~44365eb1-r1) installed in root is up to date.
+Configuring kmod-scsi-core.
+Configuring kmod-nls-base.
+Configuring kmod-usb-core.
+Configuring kmod-usb-storage.
+Configuring terminfo.
+Configuring libnl-tiny1.
+Configuring zlib.
+Configuring libelf1.
+Configuring libbpf1.
+Configuring libmnl0.
+Configuring ip-full.
+Configuring kmod-crypto-lib-chacha20.
+Configuring kmod-crypto-hash.
+Configuring kmod-crypto-lib-poly1305.
+Configuring kmod-crypto-lib-chacha20poly1305.
+Configuring kmod-crypto-kpp.
+Configuring kmod-crypto-lib-curve25519.
+Configuring kmod-udptunnel4.
+Configuring kmod-udptunnel6.
+Configuring kmod-wireguard.
+Configuring wireguard-tools.
+Configuring libjson-c5.
+Configuring libucode20230711.
+Configuring ucode.
+Configuring luci-lib-uqr.
+Configuring resolveip.
+Configuring luci-proto-wireguard.
+Configuring libopenssl3.
+Configuring liblucihttp0.
+Configuring libubox20240329.
+Configuring libubus20250102.
+Configuring cgi-io.
+Configuring liblua5.1.5.
+Configuring lua.
+Configuring luci-lib-nixio.
+Configuring luci-lib-ip.
+Configuring luci-lib-jsonc.
+Configuring liblucihttp-lua.
+Configuring luci-lib-base.
+Configuring kmod-macvlan.
+Configuring kmod-crypto-null.
+Configuring kmod-crypto-aead.
+Configuring kmod-crypto-manager.
+Configuring kmod-crypto-hmac.
+Configuring kmod-crypto-sha512.
+Configuring kmod-crypto-sha3.
+Configuring kmod-crypto-rng.
+Configuring kmod-crypto-user.
+Configuring libpthread.
+Configuring librt.
+Configuring libuuid1.
+Configuring libf2fs6.
+Configuring mkf2fs.
+Configuring libuclient20201210.
+Configuring uclient-fetch.
+Configuring opkg.
+Configuring libxtables12.
+Configuring kmod-nf-reject.
+Configuring kmod-nf-ipt.
+Configuring kmod-nf-log.
+Configuring kmod-ipt-core.
+Configuring kmod-ipt-extra.
+Configuring iptables-mod-extra.
+Configuring kmod-libphy.
+Configuring kmod-r8101.
+Configuring kmod-usb-storage-uas.
+Configuring libblobmsg-json20240329.
+Configuring ubusd.
+Configuring ubus.
+Configuring libatomic1.
+Configuring libiperf3.
+Configuring kmod-nfnetlink.
+Configuring kmod-nf-reject6.
+Configuring kmod-nf-conntrack.
+Configuring kmod-nf-conntrack6.
+Configuring kmod-nf-nat.
+Configuring kmod-nf-log6.
+Configuring kmod-crypto-crc32c.
+Configuring kmod-lib-crc32c.
+Configuring kmod-nft-core.
+Configuring kmod-nft-nat.
+Configuring kmod-nft-fullcone.
+Configuring libuci20250120.
+Configuring rpcd.
+Configuring busybox.
+Configuring kmod-fs-ntfs3.
+Configuring ntfs3-mount.
+Configuring kmod-lib-zlib-deflate.
+Configuring libiwinfo-data.
+Configuring libiwinfo20230701.
+Configuring kmod-nft-fib.
+Configuring kmod-zram.
+Configuring zram-swap.
+Configuring libubus-lua.
+Configuring libxxhash.
+Configuring kmod-netlink-diag.
+Configuring kmod-r8125.
+Configuring kmod-r8126.
+Configuring kmod-br-netfilter.
+Configuring libattr.
+Configuring libacl.
+Configuring liblzma.
+Configuring rpcd-mod-file.
+Configuring rpcd-mod-luci.
+Configuring rpcd-mod-ucode.
+Configuring ucode-mod-fs.
+Configuring ucode-mod-uci.
+Configuring ucode-mod-ubus.
+Configuring ucode-mod-math.
+Configuring ucode-mod-html.
+Configuring liblucihttp-ucode.
+Configuring luci-base.
+Configuring luci-mod-system.
+Configuring kmod-nf-flow.
+Configuring kmod-lib-crc-ccitt.
+Configuring ucode-mod-uloop.
+Configuring liblzo2.
+Configuring getrandom.
+Configuring libiptext0.
+Configuring libustream-openssl20201210.
+Configuring i915-firmware-dmc.
+Configuring tini.
+Configuring luci-theme-bootstrap.
+Configuring kmod-slhc.
+Configuring kmod-ppp.
+Configuring kmod-pppox.
+Configuring kmod-pppoe.
+Configuring libsysfs2.
+Configuring sysfsutils.
+Configuring libcap.
+Configuring ucode-mod-lua.
+Configuring luci-lua-runtime.
+Configuring kmod-veth.
+Configuring kmod-ipt-conntrack.
+Configuring shellsync.
+Configuring hd-idle.
+Configuring procd-ujail.
+Configuring jshn.
+Configuring libudebug.
+Configuring netifd.
+Configuring jsonfilter.
+Configuring usign.
+Configuring openwrt-keyring.
+Configuring ubox.
+Configuring fstools.
+Configuring fwtool.
+Configuring libjson-script20240329.
+Configuring procd.
+Configuring procd-seccomp.
+Configuring base-files.
+Configuring kmod-lib-crc16.
+Configuring kmod-input-core.
+Configuring libblkid1.
+Configuring libsmartcols1.
+Configuring partx-utils.
+Configuring kmod-crypto-blake2b.
+Configuring kmod-r8168.
+Configuring libseccomp.
+Configuring kmod-nft-offload.
+Configuring libnftnl11.
+Configuring jansson4.
+Configuring nftables-json.
+Configuring firewall4.
+Configuring libncurses6.
+Configuring libpcre2.
+Configuring zsh.
+Configuring kmod-lib-xor.
+Configuring kmod-mii.
+Configuring libmount1.
+Configuring ethtool.
+Configuring libsensors5.
+Configuring lm-sensors.
+Configuring autocore.
+Configuring pv.
+Configuring kmod-nf-nat6.
+Configuring kmod-crypto-acompress.
+Configuring kmod-8139cp.
+Configuring kmod-input-evdev.
+Configuring kmod-hid.
+Configuring kmod-hid-generic.
+Configuring kmod-usb-hid.
+Configuring rpcd-mod-iwinfo.
+Configuring luci-mod-status.
+Configuring less.
+Configuring lsblk.
+Configuring libreadline8.
+Configuring musl-fts.
+Configuring nnn.
+Configuring block-mount.
+Configuring libcomerr0.
+Configuring libss2.
+Configuring libext2fs2.
+Configuring libe2p2.
+Configuring e2fsprogs.
+Configuring kmod-usb-storage-extras.
+Configuring kmod-fs-ext4.
+Configuring kmod-fs-exfat.
+Configuring kmod-nls-cp437.
+Configuring kmod-nls-iso8859-1.
+Configuring kmod-nls-utf8.
+Configuring kmod-fs-vfat.
+Configuring automount.
+Configuring luci-app-firewall.
+Configuring ss.
+Configuring luci-lib-ipkg.
+Configuring grub2-bios-setup.
+Configuring kmod-nf-ipt6.
+Configuring kmod-ip6tables.
+Configuring odhcp6c.
+Configuring docker.
+Configuring ca-certificates.
+Configuring kmod-lib-lzo.
+Configuring kmod-lib-zlib-inflate.
+Configuring kmod-lib-raid6.
+Configuring kmod-lib-xxhash.
+Configuring kmod-lib-zstd.
+Configuring kmod-crypto-xxhash.
+Configuring kmod-fs-btrfs.
+Configuring btrfs-progs.
+Configuring runc.
+Configuring containerd.
+Configuring libip4tc2.
+Configuring libip6tc2.
+Configuring libiptext6-0.
+Configuring xtables-legacy.
+Configuring iptables-zz-legacy.
+Configuring ip6tables-zz-legacy.
+Configuring kmod-ipt-nat.
+Configuring kmod-ipt-nat6.
+Configuring kmod-ipt-physdev.
+Configuring kmod-nf-ipvs.
+Configuring dockerd.
+Configuring uci.
+Configuring losetup.
+Configuring dropbear.
+Configuring libnghttp2-14.
+Configuring ca-bundle.
+Configuring libcurl4.
+Configuring curl.
+Configuring luci-compat.
+Configuring mtd.
+Configuring odhcpd-ipv6only.
+Configuring luci-app-package-manager.
+Configuring urandom-seed.
+Configuring luci-proto-ppp.
+Configuring kmod-crypto-arc4.
+Configuring kmod-crypto-sha1.
+Configuring kmod-crypto-ecb.
+Configuring kmod-mppe.
+Configuring ppp.
+Configuring luci-mod-network.
+Configuring luci-mod-admin-full.
+Configuring xz-utils.
+Configuring xz.
+Configuring logd.
+Configuring libpopt0.
+Configuring rsync.
+Configuring ucode-mod-uclient.
+Configuring kmod-8139too.
+Configuring luci-proto-ipv6.
+Configuring libevent2-core7.
+Configuring tmux.
+Configuring libfdisk1.
+Configuring rpcd-mod-rpcsys.
+Configuring attendedsysupgrade-common.
+Configuring kmod-pps.
+Configuring kmod-crypto-crc32.
+Configuring kmod-fs-f2fs.
+Configuring uhttpd.
+Configuring rpcd-mod-rrdns.
+Configuring uhttpd-mod-ubus.
+Configuring luci-light.
+Configuring luci.
+Configuring default-settings.
+Configuring htop.
+Configuring ripgrep.
+Configuring kmod-ptp.
+Configuring owut.
+Configuring fdisk.
+Configuring kmod-e1000e.
+Configuring ncdu.
+Configuring mtr-json.
+Configuring iperf3.
+Configuring luci-app-hd-idle.
+Configuring urngd.
+Configuring ppp-mod-pppoe.
+Configuring xxhash.
+
+Finalizing root filesystem...
+Enabling autocore
+Enabling boot
+Enabling cron
+Enabling dockerd
+Enabling done
+Enabling dropbear
+Enabling firewall
+Enabling fstab
+Enabling gpio_switch
+Enabling hd-idle
+Enabling led
+Enabling lm-sensors
+Enabling log
+Enabling network
+Enabling odhcpd
+Enabling packet_steering
+Enabling rpcd
+Enabling sysctl
+Enabling sysfixtime
+Enabling sysfsutils
+Enabling sysntpd
+Enabling system
+Enabling ucitrack
+Enabling uhttpd
+Enabling umount
+Enabling urandom_seed
+Enabling urngd
+Enabling zram
+
+Building images...
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /builder/build_dir/target-x86_64_musl/linux-x86_64/root.squashfs, block size 262144.
+
+[|                                                             ]    0/4131   0%
+[======================/                                       ] 1500/4131  36%
+[=============================================================|] 4131/4131 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 78971.76 Kbytes (77.12 Mbytes)
+	27.48% of uncompressed filesystem size (287363.99 Kbytes)
+Inode table size 28828 bytes (28.15 Kbytes)
+	22.01% of uncompressed inode table size (130969 bytes)
+Directory table size 36000 bytes (35.16 Kbytes)
+	44.98% of uncompressed directory table size (80042 bytes)
+Number of duplicate files found 307
+Number of inodes 3777
+Number of files 3123
+Number of fragments 87
+Number of symbolic links 487
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 166
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	unknown (0)
+Number of gids 1
+	unknown (0)
+Creating filesystem with parameters:
+    Size: 314572800
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 6400
+    Inode size: 256
+    Journal blocks: 1200
+    Label: rootfs
+    Blocks: 76800
+    Block groups: 3
+    Reserved blocks: 0
+    Reserved block group size: 23
+Created filesystem with 3786/19200 inodes and 76771/76800 blocks
+Creating filesystem with parameters:
+    Size: 33554432
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 2048
+    Inode size: 256
+    Journal blocks: 0
+    Label: kernel
+    Blocks: 8192
+    Block groups: 1
+    Reserved blocks: 0
+    Reserved block group size: 7
+Created filesystem with 17/2048 inodes and 2117/8192 blocks
+Creating filesystem with parameters:
+    Size: 33554432
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 2048
+    Inode size: 256
+    Journal blocks: 0
+    Label: kernel
+    Blocks: 8192
+    Block groups: 1
+    Reserved blocks: 0
+    Reserved block group size: 7
+Created filesystem with 17/2048 inodes and 2117/8192 blocks
+mkfs.fat 4.2 (2021-01-31)
+mkfs.fat 4.2 (2021-01-31)
+
+Calculating checksums...
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Custom Downloads
+
+COMBINED-EFI (EXT4)
+Other image type.
+sha256sum: b40be5e6cfcefab496dccfe0efb90ec0984c0c41fa4a505ccc88ac04680cc464
+COMBINED (EXT4)
+Other image type.
+sha256sum: f072b59f65ccb0ea6c8dc55a340ff49ba2ecd780685c73fa3c81fc0c97f12ed5
+ROOTFS (EXT4)
+Root file system as a separate image.
+sha256sum: e0533382343606f844eebd7eb3b6d415578b1103daca1fd309339bc04f1206c1
+COMBINED-EFI (SQUASHFS)
+Other image type.
+sha256sum: 01cbf8a97aa63ed86430856d049ef915d0f3360dfb5bd3302385d198af3ee676
+COMBINED (SQUASHFS)
+Other image type.
+sha256sum: 3be4edd23e8205c07d8226f00d2a9dfb9a75920c1b36eddd34f10719ed7b8e00
+ROOTFS (SQUASHFS)
+Root file system as a separate image.
+sha256sum: ebbafabb15b4563056d365976ed29dc6ad5e53a06148e8848b3f481175eff7a5
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f

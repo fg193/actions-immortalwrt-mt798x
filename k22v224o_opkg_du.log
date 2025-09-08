@@ -1,0 +1,20 @@
+luci-app-ddns
+luci-proto-wireguard
+
+006 luci-app-watchcat
+007 luci-app-wol
+020 luci-proto-ipip
+026 6in4 + kmod-sit
+032 mtr
+026 ncdu
+062 luci-app-eoip
+062 luci-proto-gre
+065 iperf3
+083 xz
+089 htop
+150 luci-app-adblock-fast - curl
+158 nnn
+205 rsync
+292 tmux
+367 luci-app-pbr
+508 curl

@@ -1,0 +1,18 @@
+base-files block-mount ca-bundle default-settings dropbear firewall4 kmod-gpio-button-hotplug kmod-leds-gpio kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-rt2800-soc logd luci luci-app-opkg mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-basic-openssl kmod-mt76x2
+
+luci-app-adblock-fast
+luci-app-ddns
+luci-app-watchcat
+luci-app-wol
+luci-proto-gre
+luci-proto-ipip
+luci-proto-wireguard
+iperf3
+mtr
+ncdu
+tmux
+zram-swap
+
+rsync
+htop
+xz

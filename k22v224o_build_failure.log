@@ -1,0 +1,1744 @@
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Phicomm K2 v22.4 or older
+Platform
+ramips/mt7620
+Version
+23.05.5 (r28311-9c1829a5fdac)
+Date
+8/25/2025, 7:37:23 PM
+Links
+
+Customize installed packages and/or first boot script
+Error: No JSON file found
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/kmods/5.15.189-1-93ee331f7700f4d0558245c996f61de0/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/kmods/5.15.189-1-93ee331f7700f4d0558245c996f61de0/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+Pseudo file "dev" exists in source filesystem "/builder/build_dir/target-mipsel_24kc_musl/root-ramips/dev".
+Ignoring, exclude it (-e/-ef) to override.
+4803+1 records in
+4803+1 records out
+2459600 bytes (2.5 MB, 2.3 MiB) copied, 0.00390899 s, 629 MB/s
+10815+1 records in
+10815+1 records out
+5537396 bytes (5.5 MB, 5.3 MiB) copied, 0.00901791 s, 614 MB/s
+padding image to 007b0000
+bash: line 1: 8: Bad file descriptor
+Failed to open firmware file
+sha256sum: /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-23.05.5-7457c0c3498e-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin: No such file or directory
+cp: cannot stat '/builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-23.05.5-7457c0c3498e-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin': No such file or directory
+STDOUT
+Checking 'true'... ok.
+Checking 'false'... ok.
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... ok.
+Checking 'proper-umask'... ok.
+Checking 'perl-data-dumper'... ok.
+Checking 'perl-findbin'... ok.
+Checking 'perl-file-copy'... ok.
+Checking 'perl-file-compare'... ok.
+Checking 'perl-thread-queue'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... ok.
+Checking 'xargs'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... ok.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... ok.
+Checking 'egrep'... ok.
+Checking 'getopt'... ok.
+Checking 'realpath'... ok.
+Checking 'stat'... ok.
+Checking 'gzip'... ok.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'install'... ok.
+Checking 'perl'... ok.
+Checking 'python'... ok.
+Checking 'python3'... ok.
+Checking 'python3-distutils'... ok.
+Checking 'python3-stdlib'... ok.
+Checking 'file'... ok.
+Checking 'which'... ok.
+Checking 'ldconfig-stub'... ok.
+Building images for ramips - Phicomm K2 v22.4 or older
+Packages: base-files block-mount ca-bundle default-settings dropbear firewall4 kmod-gpio-button-hotplug kmod-leds-gpio kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-rt2800-soc logd luci luci-app-opkg mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-basic-openssl kmod-mt76x2 luci-app-adblock-fast luci-app-ddns luci-proto-wireguard tmux xz zram-swap iperf3 mtr ncdu luci-app-watchcat luci-app-wol base-files block-mount ca-bundle dropbear firewall4 kernel kmod-gpio-button-hotplug kmod-leds-gpio kmod-mt76x2 kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-rt2800-soc logd luci luci-app-opkg mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-basic-openssl
+
+
+Installing packages...
+Installing libc (1.2.4-4) to root...
+Installing libgcc1 (12.3.0-4) to root...
+Copying /builder/dl/libgcc1_12.3.0-4_mipsel_24kc.ipk.
+Configuring libgcc1.
+Configuring libc.
+Installing kernel (5.15.189-1-93ee331f7700f4d0558245c996f61de0) to root...
+Configuring kernel.
+Installing base-files (1724-r28311-9c1829a5fdac) to root...
+Copying /builder/dl/base-files_1724-r28311-9c1829a5fdac_mipsel_24kc.ipk.
+Installing libubox20230523 (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/libubox20230523_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing libuci20130104 (2023-08-10-5781664d-1) to root...
+Copying /builder/dl/libuci20130104_2023-08-10-5781664d-1_mipsel_24kc.ipk.
+Installing libnl-tiny1 (2023-07-27-bc92a280-1) to root...
+Copying /builder/dl/libnl-tiny1_2023-07-27-bc92a280-1_mipsel_24kc.ipk.
+Installing libubus20230605 (2023-06-05-f787c97b-1) to root...
+Copying /builder/dl/libubus20230605_2023-06-05-f787c97b-1_mipsel_24kc.ipk.
+Installing libjson-c5 (0.16-3) to root...
+Copying /builder/dl/libjson-c5_0.16-3_mipsel_24kc.ipk.
+Installing libblobmsg-json20230523 (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/libblobmsg-json20230523_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing ubusd (2023-06-05-f787c97b-1) to root...
+Copying /builder/dl/ubusd_2023-06-05-f787c97b-1_mipsel_24kc.ipk.
+Installing ubus (2023-06-05-f787c97b-1) to root...
+Copying /builder/dl/ubus_2023-06-05-f787c97b-1_mipsel_24kc.ipk.
+Installing jshn (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/jshn_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing netifd (2024-01-04-c18cc79d-2) to root...
+Copying /builder/dl/netifd_2024-01-04-c18cc79d-2_mipsel_24kc.ipk.
+Installing jsonfilter (2025-04-18-8a86fb78-1) to root...
+Copying /builder/dl/jsonfilter_2025-04-18-8a86fb78-1_mipsel_24kc.ipk.
+Installing usign (2020-05-23-f1f65026-1) to root...
+Copying /builder/dl/usign_2020-05-23-f1f65026-1_mipsel_24kc.ipk.
+Installing openwrt-keyring (2023-05-22-455b399d-3) to root...
+Copying /builder/dl/openwrt-keyring_2023-05-22-455b399d-3_mipsel_24kc.ipk.
+Installing ubox (2022-08-13-4c7b720b-2) to root...
+Copying /builder/dl/ubox_2022-08-13-4c7b720b-2_mipsel_24kc.ipk.
+Installing fstools (2023-02-28-bfe882d5-1) to root...
+Copying /builder/dl/fstools_2023-02-28-bfe882d5-1_mipsel_24kc.ipk.
+Installing fwtool (2019-11-12-8f7fe925-1) to root...
+Copying /builder/dl/fwtool_2019-11-12-8f7fe925-1_mipsel_24kc.ipk.
+Installing block-mount (2023-02-28-bfe882d5-1) to root...
+Copying /builder/dl/block-mount_2023-02-28-bfe882d5-1_mipsel_24kc.ipk.
+Installing ca-bundle (20250419-1) to root...
+Copying /builder/dl/ca-bundle_20250419-1_all.ipk.
+Installing default-settings (29) to root...
+Copying /builder/dl/default-settings_29_all.ipk.
+Installing luci-proto-ipv6 (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-proto-ipv6_git-24.272.29284-d386ad6_all.ipk.
+Installing libucode20230711 (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/libucode20230711_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing kmod-nfnetlink (5.15.189-1) to root...
+Copying /builder/dl/kmod-nfnetlink_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-reject (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-reject_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-reject6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-reject6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-conntrack (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-conntrack_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-conntrack6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-conntrack6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-nat (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-nat_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-log (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-log_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-log6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-log6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-hash (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-hash_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-crc32c (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-crc32c_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-lib-crc32c (5.15.189-1) to root...
+Copying /builder/dl/kmod-lib-crc32c_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-core (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-core_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-fib (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-fib_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-flow (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-flow_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-nat (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-nat_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-offload (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-offload_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-fullcone (5.15.189+2023-01-10-95ad79bc-1) to root...
+Copying /builder/dl/kmod-nft-fullcone_5.15.189+2023-01-10-95ad79bc-1_mipsel_24kc.ipk.
+Installing libmnl0 (1.0.5-1) to root...
+Copying /builder/dl/libmnl0_1.0.5-1_mipsel_24kc.ipk.
+Installing libnftnl11 (1.2.6-1) to root...
+Copying /builder/dl/libnftnl11_1.2.6-1_mipsel_24kc.ipk.
+Installing jansson4 (2.14-3) to root...
+Copying /builder/dl/jansson4_2.14-3_mipsel_24kc.ipk.
+Installing nftables-json (1.0.8-1) to root...
+Copying /builder/dl/nftables-json_1.0.8-1_mipsel_24kc.ipk.
+Installing ucode-mod-fs (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-fs_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-ubus (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-ubus_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-uci (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-uci_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing firewall4 (2023-09-01-598d9fbb-1) to root...
+Copying /builder/dl/firewall4_2023-09-01-598d9fbb-1_mipsel_24kc.ipk.
+Installing luci-app-firewall (git-25.093.36456-7eaec9d) to root...
+Copying /builder/dl/luci-app-firewall_git-25.093.36456-7eaec9d_all.ipk.
+Installing rpcd (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing rpcd-mod-file (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd-mod-file_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing rpcd-mod-luci (20240305-1) to root...
+Copying /builder/dl/rpcd-mod-luci_20240305-1_mipsel_24kc.ipk.
+Installing rpcd-mod-ucode (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd-mod-ucode_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing cgi-io (2022-08-10-901b0f04-21) to root...
+Copying /builder/dl/cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk.
+Installing ucode-mod-math (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-math_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-html (1) to root...
+Copying /builder/dl/ucode-mod-html_1_mipsel_24kc.ipk.
+Installing liblucihttp0 (2023-03-15-9b5b683f-1) to root...
+Copying /builder/dl/liblucihttp0_2023-03-15-9b5b683f-1_mipsel_24kc.ipk.
+Installing liblucihttp-ucode (2023-03-15-9b5b683f-1) to root...
+Copying /builder/dl/liblucihttp-ucode_2023-03-15-9b5b683f-1_mipsel_24kc.ipk.
+Installing luci-base (git-25.210.35495-a8012fc) to root...
+Copying /builder/dl/luci-base_git-25.210.35495-a8012fc_mipsel_24kc.ipk.
+Installing libiwinfo-data (2023-07-01-ca79f641-1) to root...
+Copying /builder/dl/libiwinfo-data_2023-07-01-ca79f641-1_mipsel_24kc.ipk.
+Installing libiwinfo20230701 (2023-07-01-ca79f641-1) to root...
+Copying /builder/dl/libiwinfo20230701_2023-07-01-ca79f641-1_mipsel_24kc.ipk.
+Installing rpcd-mod-iwinfo (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd-mod-iwinfo_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing luci-mod-status (git-25.104.33767-417c453) to root...
+Copying /builder/dl/luci-mod-status_git-25.104.33767-417c453_mipsel_24kc.ipk.
+Installing luci-mod-system (git-24.365.26965-7378b30) to root...
+Copying /builder/dl/luci-mod-system_git-24.365.26965-7378b30_all.ipk.
+Installing luci-mod-network (git-25.196.29046-28ced42) to root...
+Copying /builder/dl/luci-mod-network_git-25.196.29046-28ced42_all.ipk.
+Installing luci-mod-admin-full (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-mod-admin-full_git-24.272.29284-d386ad6_all.ipk.
+Installing luci-proto-ppp (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-proto-ppp_git-24.272.29284-d386ad6_all.ipk.
+Installing luci-theme-bootstrap (git-25.113.44797-b7f1756) to root...
+Copying /builder/dl/luci-theme-bootstrap_git-25.113.44797-b7f1756_all.ipk.
+Installing rpcd-mod-rrdns (20170710) to root...
+Copying /builder/dl/rpcd-mod-rrdns_20170710_mipsel_24kc.ipk.
+Installing libjson-script20230523 (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/libjson-script20230523_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing uhttpd (2023-06-25-34a8a74d-2) to root...
+Copying /builder/dl/uhttpd_2023-06-25-34a8a74d-2_mipsel_24kc.ipk.
+Installing uhttpd-mod-ubus (2023-06-25-34a8a74d-2) to root...
+Copying /builder/dl/uhttpd-mod-ubus_2023-06-25-34a8a74d-2_mipsel_24kc.ipk.
+Installing luci-light (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-light_git-24.272.29284-d386ad6_all.ipk.
+Installing libuclient20201210 (2023-04-13-007d9454-1) to root...
+Copying /builder/dl/libuclient20201210_2023-04-13-007d9454-1_mipsel_24kc.ipk.
+Installing uclient-fetch (2023-04-13-007d9454-1) to root...
+Copying /builder/dl/uclient-fetch_2023-04-13-007d9454-1_mipsel_24kc.ipk.
+Installing libpthread (1.2.4-4) to root...
+Copying /builder/dl/libpthread_1.2.4-4_mipsel_24kc.ipk.
+Installing opkg (2022-02-24-d038e5b6-2) to root...
+Copying /builder/dl/opkg_2022-02-24-d038e5b6-2_mipsel_24kc.ipk.
+Installing luci-app-opkg (git-24.302.38724-3ded930) to root...
+Copying /builder/dl/luci-app-opkg_git-24.302.38724-3ded930_all.ipk.
+Installing luci (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci_git-24.272.29284-d386ad6_all.ipk.
+Installing dropbear (2022.82-6) to root...
+Copying /builder/dl/dropbear_2022.82-6_mipsel_24kc.ipk.
+Package firewall4 (2023-09-01-598d9fbb-1) installed in root is up to date.
+Installing kmod-gpio-button-hotplug (5.15.189-3) to root...
+Copying /builder/dl/kmod-gpio-button-hotplug_5.15.189-3_mipsel_24kc.ipk.
+Installing kmod-leds-gpio (5.15.189-1) to root...
+Copying /builder/dl/kmod-leds-gpio_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-nathelper (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-nathelper_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-nathelper-extra (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-nathelper-extra_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-lib-textsearch (5.15.189-1) to root...
+Copying /builder/dl/kmod-lib-textsearch_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-asn1-decoder (5.15.189-1) to root...
+Copying /builder/dl/kmod-asn1-decoder_5.15.189-1_mipsel_24kc.ipk.
+Package kmod-nft-offload (5.15.189-1) installed in root is up to date.
+Installing kmod-rt2800-soc (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2800-soc_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing iw (5.19-1) to root...
+Copying /builder/dl/iw_5.19-1_mipsel_24kc.ipk.
+Installing iwinfo (2023-07-01-ca79f641-1) to root...
+Copying /builder/dl/iwinfo_2023-07-01-ca79f641-1_mipsel_24kc.ipk.
+Installing wireless-regdb (2025.07.10-1) to root...
+Copying /builder/dl/wireless-regdb_2025.07.10-1_all.ipk.
+Installing kmod-cfg80211 (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-cfg80211_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-crypto-cmac (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-cmac_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-null (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-null_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-aead (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-aead_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-manager (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-manager_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-hmac (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-hmac_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-sha512 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-sha512_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-rng (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-rng_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-seqiv (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-seqiv_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ctr (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ctr_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ccm (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ccm_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-gf128 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-gf128_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ghash (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ghash_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-gcm (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-gcm_5.15.189-1_mipsel_24kc.ipk.
+Installing hostapd-common (2023-09-08-e5ccbfc6-8) to root...
+Copying /builder/dl/hostapd-common_2023-09-08-e5ccbfc6-8_mipsel_24kc.ipk.
+Installing kmod-mac80211 (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-mac80211_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-rt2x00-lib (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2x00-lib_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-lib-crc-ccitt (5.15.189-1) to root...
+Copying /builder/dl/kmod-lib-crc-ccitt_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-rt2800-lib (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2800-lib_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-rt2x00-mmio (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2x00-mmio_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-rt2800-mmio (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2800-mmio_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing logd (2022-08-13-4c7b720b-2) to root...
+Copying /builder/dl/logd_2022-08-13-4c7b720b-2_mipsel_24kc.ipk.
+Package luci (git-24.272.29284-d386ad6) installed in root is up to date.
+Package luci-app-opkg (git-24.302.38724-3ded930) installed in root is up to date.
+Installing mtd (26) to root...
+Copying /builder/dl/mtd_26_mipsel_24kc.ipk.
+Package netifd (2024-01-04-c18cc79d-2) installed in root is up to date.
+Package nftables-json (1.0.8-1) installed in root is up to date.
+Installing odhcp6c (2023-05-12-bcd28363-20) to root...
+Copying /builder/dl/odhcp6c_2023-05-12-bcd28363-20_mipsel_24kc.ipk.
+Installing odhcpd-ipv6only (2023-10-24-d8118f6e-3) to root...
+Copying /builder/dl/odhcpd-ipv6only_2023-10-24-d8118f6e-3_mipsel_24kc.ipk.
+Package opkg (2022-02-24-d038e5b6-2) installed in root is up to date.
+Installing ppp (2.4.9.git-2021-01-04-7) to root...
+Copying /builder/dl/ppp_2.4.9.git-2021-01-04-7_mipsel_24kc.ipk.
+Installing kmod-slhc (5.15.189-1) to root...
+Copying /builder/dl/kmod-slhc_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-ppp (5.15.189-1) to root...
+Copying /builder/dl/kmod-ppp_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-macvlan (5.15.189-1) to root...
+Copying /builder/dl/kmod-macvlan_5.15.189-1_mipsel_24kc.ipk.
+Installing shellsync (0.2-2) to root...
+Copying /builder/dl/shellsync_0.2-2_mipsel_24kc.ipk.
+Installing kmod-crypto-user (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-user_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-arc4 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-arc4_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-sha1 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-sha1_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ecb (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ecb_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-mppe (5.15.189-1) to root...
+Copying /builder/dl/kmod-mppe_5.15.189-1_mipsel_24kc.ipk.
+Installing ppp-mod-pppoe (2.4.9.git-2021-01-04-7) to root...
+Copying /builder/dl/ppp-mod-pppoe_2.4.9.git-2021-01-04-7_mipsel_24kc.ipk.
+Installing kmod-pppox (5.15.189-1) to root...
+Copying /builder/dl/kmod-pppox_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-pppoe (5.15.189-1) to root...
+Copying /builder/dl/kmod-pppoe_5.15.189-1_mipsel_24kc.ipk.
+Installing procd (2023-06-25-2db83655-2) to root...
+Copying /builder/dl/procd_2023-06-25-2db83655-2_mipsel_24kc.ipk.
+Installing procd-seccomp (2023-06-25-2db83655-2) to root...
+Copying /builder/dl/procd-seccomp_2023-06-25-2db83655-2_mipsel_24kc.ipk.
+Installing procd-ujail (2023-06-25-2db83655-2) to root...
+Copying /builder/dl/procd-ujail_2023-06-25-2db83655-2_mipsel_24kc.ipk.
+Installing swconfig (12) to root...
+Copying /builder/dl/swconfig_12_mipsel_24kc.ipk.
+Installing uci (2023-08-10-5781664d-1) to root...
+Copying /builder/dl/uci_2023-08-10-5781664d-1_mipsel_24kc.ipk.
+Package uclient-fetch (2023-04-13-007d9454-1) installed in root is up to date.
+Installing urandom-seed (3) to root...
+Copying /builder/dl/urandom-seed_3_mipsel_24kc.ipk.
+Installing getrandom (2022-08-13-4c7b720b-2) to root...
+Copying /builder/dl/getrandom_2022-08-13-4c7b720b-2_mipsel_24kc.ipk.
+Installing urngd (2023-11-01-44365eb1-1) to root...
+Copying /builder/dl/urngd_2023-11-01-44365eb1-1_mipsel_24kc.ipk.
+Installing wpad-basic-openssl (2023-09-08-e5ccbfc6-8) to root...
+Copying /builder/dl/wpad-basic-openssl_2023-09-08-e5ccbfc6-8_mipsel_24kc.ipk.
+Installing ucode-mod-nl80211 (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-nl80211_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-rtnl (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-rtnl_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-uloop (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-uloop_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing kmod-crypto-authenc (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-authenc_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-cryptodev (5.15.189+1.12-ramips-1) to root...
+Copying /builder/dl/kmod-cryptodev_5.15.189+1.12-ramips-1_mipsel_24kc.ipk.
+Installing libatomic1 (12.3.0-4) to root...
+Copying /builder/dl/libatomic1_12.3.0-4_mipsel_24kc.ipk.
+Installing libopenssl3 (3.0.17-1) to root...
+Copying /builder/dl/libopenssl3_3.0.17-1_mipsel_24kc.ipk.
+Installing libopenssl-conf (3.0.17-1) to root...
+Copying /builder/dl/libopenssl-conf_3.0.17-1_mipsel_24kc.ipk.
+Installing libopenssl-legacy (3.0.17-1) to root...
+Copying /builder/dl/libopenssl-legacy_3.0.17-1_mipsel_24kc.ipk.
+Installing kmod-mt76x2 (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76x2_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing kmod-mt76-core (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76-core_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing kmod-mt76x02-common (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76x02-common_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing kmod-mt76x2-common (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76x2-common_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing luci-app-adblock-fast (1.1.2-18) to root...
+Copying /builder/dl/luci-app-adblock-fast_1.1.2-18_all.ipk.
+Installing libnghttp2-14 (1.57.0-1) to root...
+Copying /builder/dl/libnghttp2-14_1.57.0-1_mipsel_24kc.ipk.
+Installing libcurl4 (8.7.1-r1) to root...
+Copying /builder/dl/libcurl4_8.7.1-r1_mipsel_24kc.ipk.
+Installing curl (8.7.1-r1) to root...
+Copying /builder/dl/curl_8.7.1-r1_mipsel_24kc.ipk.
+Installing adblock-fast (1.1.2-20) to root...
+Copying /builder/dl/adblock-fast_1.1.2-20_all.ipk.
+Installing luci-app-ddns (git-25.120.37830-21c1b60) to root...
+Copying /builder/dl/luci-app-ddns_git-25.120.37830-21c1b60_all.ipk.
+Installing ddns-scripts-services (2.8.2-43) to root...
+Copying /builder/dl/ddns-scripts-services_2.8.2-43_all.ipk.
+Installing ddns-scripts (2.8.2-43) to root...
+Copying /builder/dl/ddns-scripts_2.8.2-43_all.ipk.
+Installing luci-proto-wireguard (git-25.103.51469-fee5112) to root...
+Copying /builder/dl/luci-proto-wireguard_git-25.103.51469-fee5112_all.ipk.
+Installing kmod-crypto-lib-chacha20 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-lib-poly1305 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-poly1305_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-lib-chacha20poly1305 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20poly1305_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-kpp (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-kpp_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-lib-curve25519 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-curve25519_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-udptunnel4 (5.15.189-1) to root...
+Copying /builder/dl/kmod-udptunnel4_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-udptunnel6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-udptunnel6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-wireguard (5.15.189-1) to root...
+Copying /builder/dl/kmod-wireguard_5.15.189-1_mipsel_24kc.ipk.
+Installing wireguard-tools (1.0.20210914-2) to root...
+Copying /builder/dl/wireguard-tools_1.0.20210914-2_mipsel_24kc.ipk.
+Installing luci-lib-uqr (git-24.299.73750-f2bbf4e) to root...
+Copying /builder/dl/luci-lib-uqr_git-24.299.73750-f2bbf4e_all.ipk.
+Installing resolveip (2) to root...
+Copying /builder/dl/resolveip_2_mipsel_24kc.ipk.
+Installing tmux (3.3a-1) to root...
+Copying /builder/dl/tmux_3.3a-1_mipsel_24kc.ipk.
+Installing terminfo (6.4-2) to root...
+Copying /builder/dl/terminfo_6.4-2_mipsel_24kc.ipk.
+Installing libncurses6 (6.4-2) to root...
+Copying /builder/dl/libncurses6_6.4-2_mipsel_24kc.ipk.
+Installing libevent2-core7 (2.1.12-1) to root...
+Copying /builder/dl/libevent2-core7_2.1.12-1_mipsel_24kc.ipk.
+Installing librt (1.2.4-4) to root...
+Copying /builder/dl/librt_1.2.4-4_mipsel_24kc.ipk.
+Installing xz (5.4.6-1) to root...
+Copying /builder/dl/xz_5.4.6-1_mipsel_24kc.ipk.
+Installing xz-utils (5.4.6-1) to root...
+Copying /builder/dl/xz-utils_5.4.6-1_mipsel_24kc.ipk.
+Installing liblzma (5.4.6-1) to root...
+Copying /builder/dl/liblzma_5.4.6-1_mipsel_24kc.ipk.
+Installing zram-swap (32) to root...
+Copying /builder/dl/zram-swap_32_all.ipk.
+Installing kmod-zram (5.15.189-1) to root...
+Copying /builder/dl/kmod-zram_5.15.189-1_mipsel_24kc.ipk.
+Installing iperf3 (3.17.1-4) to root...
+Copying /builder/dl/iperf3_3.17.1-4_mipsel_24kc.ipk.
+Installing libiperf3 (3.17.1-4) to root...
+Copying /builder/dl/libiperf3_3.17.1-4_mipsel_24kc.ipk.
+Installing mtr-json (0.95-3) to root...
+Copying /builder/dl/mtr-json_0.95-3_mipsel_24kc.ipk.
+Installing ncdu (1.18-1) to root...
+Copying /builder/dl/ncdu_1.18-1_mipsel_24kc.ipk.
+Installing luci-app-watchcat (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-app-watchcat_git-24.272.29284-d386ad6_all.ipk.
+Installing watchcat (1-17) to root...
+Copying /builder/dl/watchcat_1-17_all.ipk.
+Installing luci-app-wol (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-app-wol_git-24.272.29284-d386ad6_all.ipk.
+Installing etherwake (1.09-5) to root...
+Copying /builder/dl/etherwake_1.09-5_mipsel_24kc.ipk.
+Package base-files (1724-r28311-9c1829a5fdac) installed in root is up to date.
+Package block-mount (2023-02-28-bfe882d5-1) installed in root is up to date.
+Package ca-bundle (20250419-1) installed in root is up to date.
+Package dropbear (2022.82-6) installed in root is up to date.
+Package firewall4 (2023-09-01-598d9fbb-1) installed in root is up to date.
+Package kernel (5.15.189-1-93ee331f7700f4d0558245c996f61de0) installed in root is up to date.
+Package kmod-gpio-button-hotplug (5.15.189-3) installed in root is up to date.
+Package kmod-leds-gpio (5.15.189-1) installed in root is up to date.
+Package kmod-mt76x2 (5.15.189+2024-04-03-1e336a85-1) installed in root is up to date.
+Package kmod-nf-nathelper (5.15.189-1) installed in root is up to date.
+Package kmod-nf-nathelper-extra (5.15.189-1) installed in root is up to date.
+Package kmod-nft-offload (5.15.189-1) installed in root is up to date.
+Package kmod-rt2800-soc (5.15.189+6.1.145-1-1) installed in root is up to date.
+Package logd (2022-08-13-4c7b720b-2) installed in root is up to date.
+Package luci (git-24.272.29284-d386ad6) installed in root is up to date.
+Package luci-app-opkg (git-24.302.38724-3ded930) installed in root is up to date.
+Package mtd (26) installed in root is up to date.
+Package netifd (2024-01-04-c18cc79d-2) installed in root is up to date.
+Package nftables-json (1.0.8-1) installed in root is up to date.
+Package odhcp6c (2023-05-12-bcd28363-20) installed in root is up to date.
+Package odhcpd-ipv6only (2023-10-24-d8118f6e-3) installed in root is up to date.
+Package opkg (2022-02-24-d038e5b6-2) installed in root is up to date.
+Package ppp (2.4.9.git-2021-01-04-7) installed in root is up to date.
+Package ppp-mod-pppoe (2.4.9.git-2021-01-04-7) installed in root is up to date.
+Package procd (2023-06-25-2db83655-2) installed in root is up to date.
+Package procd-seccomp (2023-06-25-2db83655-2) installed in root is up to date.
+Package procd-ujail (2023-06-25-2db83655-2) installed in root is up to date.
+Package swconfig (12) installed in root is up to date.
+Package uci (2023-08-10-5781664d-1) installed in root is up to date.
+Package uclient-fetch (2023-04-13-007d9454-1) installed in root is up to date.
+Package urandom-seed (3) installed in root is up to date.
+Package urngd (2023-11-01-44365eb1-1) installed in root is up to date.
+Package wpad-basic-openssl (2023-09-08-e5ccbfc6-8) installed in root is up to date.
+Configuring terminfo.
+Configuring kmod-crypto-lib-chacha20.
+Configuring kmod-crypto-hash.
+Configuring kmod-crypto-lib-poly1305.
+Configuring kmod-crypto-lib-chacha20poly1305.
+Configuring kmod-crypto-kpp.
+Configuring kmod-crypto-lib-curve25519.
+Configuring kmod-udptunnel4.
+Configuring kmod-udptunnel6.
+Configuring kmod-wireguard.
+Configuring wireguard-tools.
+Configuring libjson-c5.
+Configuring libucode20230711.
+Configuring ucode.
+Configuring luci-lib-uqr.
+Configuring resolveip.
+Configuring luci-proto-wireguard.
+Configuring libnl-tiny1.
+Configuring libubox20230523.
+Configuring libuci20130104.
+Configuring libubus20230605.
+Configuring libiwinfo-data.
+Configuring libiwinfo20230701.
+Configuring iwinfo.
+Configuring kmod-crypto-null.
+Configuring kmod-crypto-aead.
+Configuring kmod-crypto-manager.
+Configuring kmod-crypto-user.
+Configuring kmod-crypto-authenc.
+Configuring kmod-cryptodev.
+Configuring libatomic1.
+Configuring libopenssl3.
+Configuring watchcat.
+Configuring liblucihttp0.
+Configuring luci-app-watchcat.
+Configuring kmod-lib-textsearch.
+Configuring cgi-io.
+Configuring kmod-macvlan.
+Configuring kmod-crypto-gf128.
+Configuring libuclient20201210.
+Configuring uclient-fetch.
+Configuring libpthread.
+Configuring opkg.
+Configuring luci-app-opkg.
+Configuring libblobmsg-json20230523.
+Configuring ubusd.
+Configuring ubus.
+Configuring iw.
+Configuring libiperf3.
+Configuring kmod-nfnetlink.
+Configuring kmod-nf-reject.
+Configuring kmod-nf-reject6.
+Configuring kmod-nf-conntrack.
+Configuring kmod-nf-conntrack6.
+Configuring kmod-nf-nat.
+Configuring kmod-nf-log.
+Configuring kmod-nf-log6.
+Configuring kmod-crypto-crc32c.
+Configuring kmod-lib-crc32c.
+Configuring kmod-nft-core.
+Configuring kmod-nft-nat.
+Configuring kmod-nft-fullcone.
+Configuring rpcd.
+Configuring kmod-crypto-hmac.
+Configuring kmod-crypto-sha512.
+Configuring kmod-crypto-rng.
+Configuring kmod-crypto-seqiv.
+Configuring kmod-crypto-ctr.
+Configuring ddns-scripts-services.
+Configuring kmod-nft-fib.
+Configuring kmod-zram.
+Configuring zram-swap.
+Configuring swconfig.
+Configuring liblzma.
+Configuring rpcd-mod-file.
+Configuring rpcd-mod-luci.
+Configuring rpcd-mod-ucode.
+Configuring ucode-mod-fs.
+Configuring ucode-mod-uci.
+Configuring ucode-mod-ubus.
+Configuring ucode-mod-math.
+Configuring ucode-mod-html.
+Configuring liblucihttp-ucode.
+Configuring luci-base.
+Configuring luci-mod-system.
+Configuring kmod-nf-flow.
+Configuring kmod-lib-crc-ccitt.
+Configuring ucode-mod-uloop.
+Configuring getrandom.
+Configuring kmod-asn1-decoder.
+Configuring luci-theme-bootstrap.
+Configuring kmod-nf-nathelper.
+Configuring kmod-slhc.
+Configuring kmod-ppp.
+Configuring kmod-pppox.
+Configuring kmod-pppoe.
+Configuring shellsync.
+Configuring procd-ujail.
+Configuring jshn.
+Configuring netifd.
+Configuring jsonfilter.
+Configuring usign.
+Configuring openwrt-keyring.
+Configuring ubox.
+Configuring fstools.
+Configuring fwtool.
+Configuring base-files.
+Configuring wireless-regdb.
+Configuring kmod-cfg80211.
+Configuring kmod-crypto-cmac.
+Configuring kmod-crypto-ccm.
+Configuring kmod-crypto-ghash.
+Configuring kmod-crypto-gcm.
+Configuring hostapd-common.
+Configuring kmod-mac80211.
+Configuring kmod-rt2x00-lib.
+Configuring kmod-rt2800-lib.
+Configuring ddns-scripts.
+Configuring kmod-nft-offload.
+Configuring libmnl0.
+Configuring libnftnl11.
+Configuring jansson4.
+Configuring nftables-json.
+Configuring firewall4.
+Configuring libjson-script20230523.
+Configuring procd.
+Configuring etherwake.
+Configuring rpcd-mod-iwinfo.
+Configuring luci-mod-status.
+Configuring block-mount.
+Configuring luci-app-ddns.
+Configuring libopenssl-conf.
+Configuring libopenssl-legacy.
+Configuring luci-app-firewall.
+Configuring odhcp6c.
+Configuring uci.
+Configuring kmod-mt76-core.
+Configuring kmod-mt76x02-common.
+Configuring kmod-mt76x2-common.
+Configuring kmod-rt2x00-mmio.
+Configuring kmod-rt2800-mmio.
+Configuring dropbear.
+Configuring libnghttp2-14.
+Configuring ca-bundle.
+Configuring libcurl4.
+Configuring curl.
+Configuring mtd.
+Configuring odhcpd-ipv6only.
+Configuring procd-seccomp.
+Configuring ucode-mod-nl80211.
+Configuring urandom-seed.
+Configuring luci-proto-ppp.
+Configuring kmod-crypto-arc4.
+Configuring kmod-crypto-sha1.
+Configuring kmod-crypto-ecb.
+Configuring kmod-mppe.
+Configuring ppp.
+Configuring luci-mod-network.
+Configuring luci-mod-admin-full.
+Configuring xz-utils.
+Configuring xz.
+Configuring kmod-leds-gpio.
+Configuring kmod-gpio-button-hotplug.
+Configuring logd.
+Configuring librt.
+Configuring luci-proto-ipv6.
+Configuring kmod-nf-nathelper-extra.
+Configuring libncurses6.
+Configuring libevent2-core7.
+Configuring tmux.
+Configuring luci-app-wol.
+Configuring ucode-mod-rtnl.
+Configuring wpad-basic-openssl.
+Configuring uhttpd.
+Configuring rpcd-mod-rrdns.
+Configuring uhttpd-mod-ubus.
+Configuring luci-light.
+Configuring luci.
+Configuring default-settings.
+Configuring adblock-fast.
+Configuring luci-app-adblock-fast.
+Configuring kmod-rt2800-soc.
+Configuring kmod-mt76x2.
+Configuring ncdu.
+Configuring mtr-json.
+Configuring iperf3.
+Configuring urngd.
+Configuring ppp-mod-pppoe.
+
+Finalizing root filesystem...
+Enabling adblock-fast
+Enabling boot
+Enabling bootcount
+Enabling ddns
+Enabling done
+Enabling dropbear
+Enabling etherwake
+Enabling firewall
+Enabling fstab
+Enabling gpio_switch
+Enabling led
+Enabling log
+Enabling network
+Enabling odhcpd
+Enabling openssl
+Enabling packet_steering
+Enabling rpcd
+Enabling sysctl
+Enabling sysfixtime
+Enabling system
+Enabling ucitrack
+Enabling uhttpd
+Enabling umount
+Enabling urandom_seed
+Enabling urngd
+Enabling watchcat
+Enabling wpad
+Enabling zram
+
+Building images...
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/root.squashfs, block size 262144.
+
+[|                                                             ]    0/1390   0%
+[=============================================================\] 1390/1390 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 5407.61 Kbytes (5.28 Mbytes)
+	26.41% of uncompressed filesystem size (20472.07 Kbytes)
+Inode table size 10938 bytes (10.68 Kbytes)
+	20.66% of uncompressed inode table size (52942 bytes)
+Directory table size 15666 bytes (15.30 Kbytes)
+	42.33% of uncompressed directory table size (37011 bytes)
+Number of duplicate files found 205
+Number of inodes 1616
+Number of files 1372
+Number of fragments 55
+Number of symbolic links 114
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 129
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	unknown (0)
+Number of gids 1
+	unknown (0)
+Skip JSON creation for non existing file /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-23.05.5-7457c0c3498e-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin
+JSON info file script could not find any JSON files for target
+
+Calculating checksums...
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Custom Downloads
+
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f
+
+
+
+
+
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Phicomm K2 v22.4 or older
+Platform
+ramips/mt7620
+Version
+24.10.2 (r33247-467867283bb9)
+Links
+
+Customize installed packages and/or first boot script
+init
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/24.10.2/targets/ramips/mt7620/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/24.10.2/targets/ramips/mt7620/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/targets/ramips/mt7620/kmods/6.6.93-1-054de990cdf8bfe7442a750bfa977107/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/24.10.2/targets/ramips/mt7620/kmods/6.6.93-1-054de990cdf8bfe7442a750bfa977107/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/24.10.2/packages/mipsel_24kc/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+Pseudo file "dev" exists in source filesystem "/builder/build_dir/target-mipsel_24kc_musl/root-ramips/dev".
+Ignoring, exclude it (-e/-ef) to override.
+5446+1 records in
+5446+1 records out
+2788584 bytes (2.8 MB, 2.7 MiB) copied, 0.0242174 s, 115 MB/s
+10848+1 records in
+10848+1 records out
+5554232 bytes (5.6 MB, 5.3 MiB) copied, 0.00958934 s, 579 MB/s
+padding image to 00800000
+    WARNING: Image file /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-24.10.2-595ad9bb0576-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin is too big: 8388612 > 8060928
+Failed to open firmware file
+sha256sum: /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-24.10.2-595ad9bb0576-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin: No such file or directory
+cp: cannot stat '/builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-24.10.2-595ad9bb0576-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin': No such file or directory
+STDOUT
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Download an image
+
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f
+
+
+
+
+
+
+
+
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Phicomm K2 v22.4 or older
+Platform
+ramips/mt7620
+Version
+23.05.5 (r28311-9c1829a5fdac)
+Date
+8/25/2025, 7:37:23 PM
+Links
+
+Customize installed packages and/or first boot script
+Error: No JSON file found
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/kmods/5.15.189-1-93ee331f7700f4d0558245c996f61de0/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/23.05.5/targets/ramips/mt7620/kmods/5.15.189-1-93ee331f7700f4d0558245c996f61de0/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/23.05.5/packages/mipsel_24kc/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-mipsel_24kc_musl/root-ramips/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+Pseudo file "dev" exists in source filesystem "/builder/build_dir/target-mipsel_24kc_musl/root-ramips/dev".
+Ignoring, exclude it (-e/-ef) to override.
+4803+1 records in
+4803+1 records out
+2459600 bytes (2.5 MB, 2.3 MiB) copied, 0.00399601 s, 616 MB/s
+11527+1 records in
+11527+1 records out
+5902056 bytes (5.9 MB, 5.6 MiB) copied, 0.00954698 s, 618 MB/s
+padding image to 00800000
+bash: line 1: 8: Bad file descriptor
+Failed to open firmware file
+sha256sum: /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-23.05.5-488819f0a03f-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin: No such file or directory
+cp: cannot stat '/builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-23.05.5-488819f0a03f-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin': No such file or directory
+STDOUT
+Checking 'true'... ok.
+Checking 'false'... ok.
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... ok.
+Checking 'proper-umask'... ok.
+Checking 'perl-data-dumper'... ok.
+Checking 'perl-findbin'... ok.
+Checking 'perl-file-copy'... ok.
+Checking 'perl-file-compare'... ok.
+Checking 'perl-thread-queue'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... ok.
+Checking 'xargs'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... ok.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... ok.
+Checking 'egrep'... ok.
+Checking 'getopt'... ok.
+Checking 'realpath'... ok.
+Checking 'stat'... ok.
+Checking 'gzip'... ok.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'install'... ok.
+Checking 'perl'... ok.
+Checking 'python'... ok.
+Checking 'python3'... ok.
+Checking 'python3-distutils'... ok.
+Checking 'python3-stdlib'... ok.
+Checking 'file'... ok.
+Checking 'which'... ok.
+Checking 'ldconfig-stub'... ok.
+Building images for ramips - Phicomm K2 v22.4 or older
+Packages: base-files block-mount ca-bundle default-settings dropbear firewall4 kmod-gpio-button-hotplug kmod-leds-gpio kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-rt2800-soc logd luci luci-app-opkg mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-basic-openssl kmod-mt76x2 iperf3 luci-app-ddns luci-proto-wireguard mtr ncdu rsync tmux xz htop luci-app-watchcat luci-app-wol luci-proto-ipip luci-app-eoip luci-proto-gre luci-app-pbr base-files block-mount ca-bundle dropbear firewall4 kernel kmod-gpio-button-hotplug kmod-leds-gpio kmod-mt76x2 kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-rt2800-soc logd luci luci-app-opkg mtd netifd nftables odhcp6c odhcpd-ipv6only opkg ppp ppp-mod-pppoe procd procd-seccomp procd-ujail swconfig uci uclient-fetch urandom-seed urngd wpad-basic-openssl
+
+
+Installing packages...
+Installing libc (1.2.4-4) to root...
+Installing libgcc1 (12.3.0-4) to root...
+Copying /builder/dl/libgcc1_12.3.0-4_mipsel_24kc.ipk.
+Configuring libgcc1.
+Configuring libc.
+Installing kernel (5.15.189-1-93ee331f7700f4d0558245c996f61de0) to root...
+Configuring kernel.
+Installing base-files (1724-r28311-9c1829a5fdac) to root...
+Copying /builder/dl/base-files_1724-r28311-9c1829a5fdac_mipsel_24kc.ipk.
+Installing libubox20230523 (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/libubox20230523_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing libuci20130104 (2023-08-10-5781664d-1) to root...
+Copying /builder/dl/libuci20130104_2023-08-10-5781664d-1_mipsel_24kc.ipk.
+Installing libnl-tiny1 (2023-07-27-bc92a280-1) to root...
+Copying /builder/dl/libnl-tiny1_2023-07-27-bc92a280-1_mipsel_24kc.ipk.
+Installing libubus20230605 (2023-06-05-f787c97b-1) to root...
+Copying /builder/dl/libubus20230605_2023-06-05-f787c97b-1_mipsel_24kc.ipk.
+Installing libjson-c5 (0.16-3) to root...
+Copying /builder/dl/libjson-c5_0.16-3_mipsel_24kc.ipk.
+Installing libblobmsg-json20230523 (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/libblobmsg-json20230523_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing ubusd (2023-06-05-f787c97b-1) to root...
+Copying /builder/dl/ubusd_2023-06-05-f787c97b-1_mipsel_24kc.ipk.
+Installing ubus (2023-06-05-f787c97b-1) to root...
+Copying /builder/dl/ubus_2023-06-05-f787c97b-1_mipsel_24kc.ipk.
+Installing jshn (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/jshn_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing netifd (2024-01-04-c18cc79d-2) to root...
+Copying /builder/dl/netifd_2024-01-04-c18cc79d-2_mipsel_24kc.ipk.
+Installing jsonfilter (2025-04-18-8a86fb78-1) to root...
+Copying /builder/dl/jsonfilter_2025-04-18-8a86fb78-1_mipsel_24kc.ipk.
+Installing usign (2020-05-23-f1f65026-1) to root...
+Copying /builder/dl/usign_2020-05-23-f1f65026-1_mipsel_24kc.ipk.
+Installing openwrt-keyring (2023-05-22-455b399d-3) to root...
+Copying /builder/dl/openwrt-keyring_2023-05-22-455b399d-3_mipsel_24kc.ipk.
+Installing ubox (2022-08-13-4c7b720b-2) to root...
+Copying /builder/dl/ubox_2022-08-13-4c7b720b-2_mipsel_24kc.ipk.
+Installing fstools (2023-02-28-bfe882d5-1) to root...
+Copying /builder/dl/fstools_2023-02-28-bfe882d5-1_mipsel_24kc.ipk.
+Installing fwtool (2019-11-12-8f7fe925-1) to root...
+Copying /builder/dl/fwtool_2019-11-12-8f7fe925-1_mipsel_24kc.ipk.
+Installing block-mount (2023-02-28-bfe882d5-1) to root...
+Copying /builder/dl/block-mount_2023-02-28-bfe882d5-1_mipsel_24kc.ipk.
+Installing ca-bundle (20250419-1) to root...
+Copying /builder/dl/ca-bundle_20250419-1_all.ipk.
+Installing default-settings (29) to root...
+Copying /builder/dl/default-settings_29_all.ipk.
+Installing luci-proto-ipv6 (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-proto-ipv6_git-24.272.29284-d386ad6_all.ipk.
+Installing libucode20230711 (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/libucode20230711_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing kmod-nfnetlink (5.15.189-1) to root...
+Copying /builder/dl/kmod-nfnetlink_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-reject (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-reject_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-reject6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-reject6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-conntrack (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-conntrack_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-conntrack6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-conntrack6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-nat (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-nat_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-log (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-log_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-log6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-log6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-hash (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-hash_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-crc32c (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-crc32c_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-lib-crc32c (5.15.189-1) to root...
+Copying /builder/dl/kmod-lib-crc32c_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-core (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-core_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-fib (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-fib_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-flow (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-flow_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-nat (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-nat_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-offload (5.15.189-1) to root...
+Copying /builder/dl/kmod-nft-offload_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nft-fullcone (5.15.189+2023-01-10-95ad79bc-1) to root...
+Copying /builder/dl/kmod-nft-fullcone_5.15.189+2023-01-10-95ad79bc-1_mipsel_24kc.ipk.
+Installing libmnl0 (1.0.5-1) to root...
+Copying /builder/dl/libmnl0_1.0.5-1_mipsel_24kc.ipk.
+Installing libnftnl11 (1.2.6-1) to root...
+Copying /builder/dl/libnftnl11_1.2.6-1_mipsel_24kc.ipk.
+Installing jansson4 (2.14-3) to root...
+Copying /builder/dl/jansson4_2.14-3_mipsel_24kc.ipk.
+Installing nftables-json (1.0.8-1) to root...
+Copying /builder/dl/nftables-json_1.0.8-1_mipsel_24kc.ipk.
+Installing ucode-mod-fs (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-fs_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-ubus (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-ubus_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-uci (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-uci_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing firewall4 (2023-09-01-598d9fbb-1) to root...
+Copying /builder/dl/firewall4_2023-09-01-598d9fbb-1_mipsel_24kc.ipk.
+Installing luci-app-firewall (git-25.093.36456-7eaec9d) to root...
+Copying /builder/dl/luci-app-firewall_git-25.093.36456-7eaec9d_all.ipk.
+Installing rpcd (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing rpcd-mod-file (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd-mod-file_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing rpcd-mod-luci (20240305-1) to root...
+Copying /builder/dl/rpcd-mod-luci_20240305-1_mipsel_24kc.ipk.
+Installing rpcd-mod-ucode (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd-mod-ucode_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing cgi-io (2022-08-10-901b0f04-21) to root...
+Copying /builder/dl/cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk.
+Installing ucode-mod-math (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-math_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-html (1) to root...
+Copying /builder/dl/ucode-mod-html_1_mipsel_24kc.ipk.
+Installing liblucihttp0 (2023-03-15-9b5b683f-1) to root...
+Copying /builder/dl/liblucihttp0_2023-03-15-9b5b683f-1_mipsel_24kc.ipk.
+Installing liblucihttp-ucode (2023-03-15-9b5b683f-1) to root...
+Copying /builder/dl/liblucihttp-ucode_2023-03-15-9b5b683f-1_mipsel_24kc.ipk.
+Installing luci-base (git-25.210.35495-a8012fc) to root...
+Copying /builder/dl/luci-base_git-25.210.35495-a8012fc_mipsel_24kc.ipk.
+Installing libiwinfo-data (2023-07-01-ca79f641-1) to root...
+Copying /builder/dl/libiwinfo-data_2023-07-01-ca79f641-1_mipsel_24kc.ipk.
+Installing libiwinfo20230701 (2023-07-01-ca79f641-1) to root...
+Copying /builder/dl/libiwinfo20230701_2023-07-01-ca79f641-1_mipsel_24kc.ipk.
+Installing rpcd-mod-iwinfo (2023-07-01-c07ab2f9-1) to root...
+Copying /builder/dl/rpcd-mod-iwinfo_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk.
+Installing luci-mod-status (git-25.104.33767-417c453) to root...
+Copying /builder/dl/luci-mod-status_git-25.104.33767-417c453_mipsel_24kc.ipk.
+Installing luci-mod-system (git-24.365.26965-7378b30) to root...
+Copying /builder/dl/luci-mod-system_git-24.365.26965-7378b30_all.ipk.
+Installing luci-mod-network (git-25.196.29046-28ced42) to root...
+Copying /builder/dl/luci-mod-network_git-25.196.29046-28ced42_all.ipk.
+Installing luci-mod-admin-full (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-mod-admin-full_git-24.272.29284-d386ad6_all.ipk.
+Installing luci-proto-ppp (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-proto-ppp_git-24.272.29284-d386ad6_all.ipk.
+Installing luci-theme-bootstrap (git-25.113.44797-b7f1756) to root...
+Copying /builder/dl/luci-theme-bootstrap_git-25.113.44797-b7f1756_all.ipk.
+Installing rpcd-mod-rrdns (20170710) to root...
+Copying /builder/dl/rpcd-mod-rrdns_20170710_mipsel_24kc.ipk.
+Installing libjson-script20230523 (2023-05-23-75a3b870-1) to root...
+Copying /builder/dl/libjson-script20230523_2023-05-23-75a3b870-1_mipsel_24kc.ipk.
+Installing uhttpd (2023-06-25-34a8a74d-2) to root...
+Copying /builder/dl/uhttpd_2023-06-25-34a8a74d-2_mipsel_24kc.ipk.
+Installing uhttpd-mod-ubus (2023-06-25-34a8a74d-2) to root...
+Copying /builder/dl/uhttpd-mod-ubus_2023-06-25-34a8a74d-2_mipsel_24kc.ipk.
+Installing luci-light (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-light_git-24.272.29284-d386ad6_all.ipk.
+Installing libuclient20201210 (2023-04-13-007d9454-1) to root...
+Copying /builder/dl/libuclient20201210_2023-04-13-007d9454-1_mipsel_24kc.ipk.
+Installing uclient-fetch (2023-04-13-007d9454-1) to root...
+Copying /builder/dl/uclient-fetch_2023-04-13-007d9454-1_mipsel_24kc.ipk.
+Installing libpthread (1.2.4-4) to root...
+Copying /builder/dl/libpthread_1.2.4-4_mipsel_24kc.ipk.
+Installing opkg (2022-02-24-d038e5b6-2) to root...
+Copying /builder/dl/opkg_2022-02-24-d038e5b6-2_mipsel_24kc.ipk.
+Installing luci-app-opkg (git-24.302.38724-3ded930) to root...
+Copying /builder/dl/luci-app-opkg_git-24.302.38724-3ded930_all.ipk.
+Installing luci (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci_git-24.272.29284-d386ad6_all.ipk.
+Installing dropbear (2022.82-6) to root...
+Copying /builder/dl/dropbear_2022.82-6_mipsel_24kc.ipk.
+Package firewall4 (2023-09-01-598d9fbb-1) installed in root is up to date.
+Installing kmod-gpio-button-hotplug (5.15.189-3) to root...
+Copying /builder/dl/kmod-gpio-button-hotplug_5.15.189-3_mipsel_24kc.ipk.
+Installing kmod-leds-gpio (5.15.189-1) to root...
+Copying /builder/dl/kmod-leds-gpio_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-nathelper (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-nathelper_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-nf-nathelper-extra (5.15.189-1) to root...
+Copying /builder/dl/kmod-nf-nathelper-extra_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-lib-textsearch (5.15.189-1) to root...
+Copying /builder/dl/kmod-lib-textsearch_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-asn1-decoder (5.15.189-1) to root...
+Copying /builder/dl/kmod-asn1-decoder_5.15.189-1_mipsel_24kc.ipk.
+Package kmod-nft-offload (5.15.189-1) installed in root is up to date.
+Installing kmod-rt2800-soc (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2800-soc_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing iw (5.19-1) to root...
+Copying /builder/dl/iw_5.19-1_mipsel_24kc.ipk.
+Installing iwinfo (2023-07-01-ca79f641-1) to root...
+Copying /builder/dl/iwinfo_2023-07-01-ca79f641-1_mipsel_24kc.ipk.
+Installing wireless-regdb (2025.07.10-1) to root...
+Copying /builder/dl/wireless-regdb_2025.07.10-1_all.ipk.
+Installing kmod-cfg80211 (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-cfg80211_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-crypto-cmac (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-cmac_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-null (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-null_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-aead (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-aead_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-manager (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-manager_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-hmac (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-hmac_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-sha512 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-sha512_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-rng (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-rng_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-seqiv (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-seqiv_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ctr (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ctr_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ccm (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ccm_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-gf128 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-gf128_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ghash (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ghash_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-gcm (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-gcm_5.15.189-1_mipsel_24kc.ipk.
+Installing hostapd-common (2023-09-08-e5ccbfc6-8) to root...
+Copying /builder/dl/hostapd-common_2023-09-08-e5ccbfc6-8_mipsel_24kc.ipk.
+Installing kmod-mac80211 (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-mac80211_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-rt2x00-lib (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2x00-lib_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-lib-crc-ccitt (5.15.189-1) to root...
+Copying /builder/dl/kmod-lib-crc-ccitt_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-rt2800-lib (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2800-lib_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-rt2x00-mmio (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2x00-mmio_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing kmod-rt2800-mmio (5.15.189+6.1.145-1-1) to root...
+Copying /builder/dl/kmod-rt2800-mmio_5.15.189+6.1.145-1-1_mipsel_24kc.ipk.
+Installing logd (2022-08-13-4c7b720b-2) to root...
+Copying /builder/dl/logd_2022-08-13-4c7b720b-2_mipsel_24kc.ipk.
+Package luci (git-24.272.29284-d386ad6) installed in root is up to date.
+Package luci-app-opkg (git-24.302.38724-3ded930) installed in root is up to date.
+Installing mtd (26) to root...
+Copying /builder/dl/mtd_26_mipsel_24kc.ipk.
+Package netifd (2024-01-04-c18cc79d-2) installed in root is up to date.
+Package nftables-json (1.0.8-1) installed in root is up to date.
+Installing odhcp6c (2023-05-12-bcd28363-20) to root...
+Copying /builder/dl/odhcp6c_2023-05-12-bcd28363-20_mipsel_24kc.ipk.
+Installing odhcpd-ipv6only (2023-10-24-d8118f6e-3) to root...
+Copying /builder/dl/odhcpd-ipv6only_2023-10-24-d8118f6e-3_mipsel_24kc.ipk.
+Package opkg (2022-02-24-d038e5b6-2) installed in root is up to date.
+Installing ppp (2.4.9.git-2021-01-04-7) to root...
+Copying /builder/dl/ppp_2.4.9.git-2021-01-04-7_mipsel_24kc.ipk.
+Installing kmod-slhc (5.15.189-1) to root...
+Copying /builder/dl/kmod-slhc_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-ppp (5.15.189-1) to root...
+Copying /builder/dl/kmod-ppp_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-macvlan (5.15.189-1) to root...
+Copying /builder/dl/kmod-macvlan_5.15.189-1_mipsel_24kc.ipk.
+Installing shellsync (0.2-2) to root...
+Copying /builder/dl/shellsync_0.2-2_mipsel_24kc.ipk.
+Installing kmod-crypto-user (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-user_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-arc4 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-arc4_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-sha1 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-sha1_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-ecb (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-ecb_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-mppe (5.15.189-1) to root...
+Copying /builder/dl/kmod-mppe_5.15.189-1_mipsel_24kc.ipk.
+Installing ppp-mod-pppoe (2.4.9.git-2021-01-04-7) to root...
+Copying /builder/dl/ppp-mod-pppoe_2.4.9.git-2021-01-04-7_mipsel_24kc.ipk.
+Installing kmod-pppox (5.15.189-1) to root...
+Copying /builder/dl/kmod-pppox_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-pppoe (5.15.189-1) to root...
+Copying /builder/dl/kmod-pppoe_5.15.189-1_mipsel_24kc.ipk.
+Installing procd (2023-06-25-2db83655-2) to root...
+Copying /builder/dl/procd_2023-06-25-2db83655-2_mipsel_24kc.ipk.
+Installing procd-seccomp (2023-06-25-2db83655-2) to root...
+Copying /builder/dl/procd-seccomp_2023-06-25-2db83655-2_mipsel_24kc.ipk.
+Installing procd-ujail (2023-06-25-2db83655-2) to root...
+Copying /builder/dl/procd-ujail_2023-06-25-2db83655-2_mipsel_24kc.ipk.
+Installing swconfig (12) to root...
+Copying /builder/dl/swconfig_12_mipsel_24kc.ipk.
+Installing uci (2023-08-10-5781664d-1) to root...
+Copying /builder/dl/uci_2023-08-10-5781664d-1_mipsel_24kc.ipk.
+Package uclient-fetch (2023-04-13-007d9454-1) installed in root is up to date.
+Installing urandom-seed (3) to root...
+Copying /builder/dl/urandom-seed_3_mipsel_24kc.ipk.
+Installing getrandom (2022-08-13-4c7b720b-2) to root...
+Copying /builder/dl/getrandom_2022-08-13-4c7b720b-2_mipsel_24kc.ipk.
+Installing urngd (2023-11-01-44365eb1-1) to root...
+Copying /builder/dl/urngd_2023-11-01-44365eb1-1_mipsel_24kc.ipk.
+Installing wpad-basic-openssl (2023-09-08-e5ccbfc6-8) to root...
+Copying /builder/dl/wpad-basic-openssl_2023-09-08-e5ccbfc6-8_mipsel_24kc.ipk.
+Installing ucode-mod-nl80211 (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-nl80211_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-rtnl (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-rtnl_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing ucode-mod-uloop (2024-07-11-1a8a0bcf-4) to root...
+Copying /builder/dl/ucode-mod-uloop_2024-07-11-1a8a0bcf-4_mipsel_24kc.ipk.
+Installing kmod-crypto-authenc (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-authenc_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-cryptodev (5.15.189+1.12-ramips-1) to root...
+Copying /builder/dl/kmod-cryptodev_5.15.189+1.12-ramips-1_mipsel_24kc.ipk.
+Installing libatomic1 (12.3.0-4) to root...
+Copying /builder/dl/libatomic1_12.3.0-4_mipsel_24kc.ipk.
+Installing libopenssl3 (3.0.17-1) to root...
+Copying /builder/dl/libopenssl3_3.0.17-1_mipsel_24kc.ipk.
+Installing libopenssl-conf (3.0.17-1) to root...
+Copying /builder/dl/libopenssl-conf_3.0.17-1_mipsel_24kc.ipk.
+Installing libopenssl-legacy (3.0.17-1) to root...
+Copying /builder/dl/libopenssl-legacy_3.0.17-1_mipsel_24kc.ipk.
+Installing kmod-mt76x2 (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76x2_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing kmod-mt76-core (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76-core_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing kmod-mt76x02-common (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76x02-common_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing kmod-mt76x2-common (5.15.189+2024-04-03-1e336a85-1) to root...
+Copying /builder/dl/kmod-mt76x2-common_5.15.189+2024-04-03-1e336a85-1_mipsel_24kc.ipk.
+Installing iperf3 (3.17.1-4) to root...
+Copying /builder/dl/iperf3_3.17.1-4_mipsel_24kc.ipk.
+Installing libiperf3 (3.17.1-4) to root...
+Copying /builder/dl/libiperf3_3.17.1-4_mipsel_24kc.ipk.
+Installing luci-app-ddns (git-25.120.37830-21c1b60) to root...
+Copying /builder/dl/luci-app-ddns_git-25.120.37830-21c1b60_all.ipk.
+Installing ddns-scripts-services (2.8.2-43) to root...
+Copying /builder/dl/ddns-scripts-services_2.8.2-43_all.ipk.
+Installing ddns-scripts (2.8.2-43) to root...
+Copying /builder/dl/ddns-scripts_2.8.2-43_all.ipk.
+Installing luci-proto-wireguard (git-25.103.51469-fee5112) to root...
+Copying /builder/dl/luci-proto-wireguard_git-25.103.51469-fee5112_all.ipk.
+Installing kmod-crypto-lib-chacha20 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-lib-poly1305 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-poly1305_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-lib-chacha20poly1305 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20poly1305_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-kpp (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-kpp_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-crypto-lib-curve25519 (5.15.189-1) to root...
+Copying /builder/dl/kmod-crypto-lib-curve25519_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-udptunnel4 (5.15.189-1) to root...
+Copying /builder/dl/kmod-udptunnel4_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-udptunnel6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-udptunnel6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-wireguard (5.15.189-1) to root...
+Copying /builder/dl/kmod-wireguard_5.15.189-1_mipsel_24kc.ipk.
+Installing wireguard-tools (1.0.20210914-2) to root...
+Copying /builder/dl/wireguard-tools_1.0.20210914-2_mipsel_24kc.ipk.
+Installing luci-lib-uqr (git-24.299.73750-f2bbf4e) to root...
+Copying /builder/dl/luci-lib-uqr_git-24.299.73750-f2bbf4e_all.ipk.
+Installing resolveip (2) to root...
+Copying /builder/dl/resolveip_2_mipsel_24kc.ipk.
+Installing mtr-json (0.95-3) to root...
+Copying /builder/dl/mtr-json_0.95-3_mipsel_24kc.ipk.
+Installing terminfo (6.4-2) to root...
+Copying /builder/dl/terminfo_6.4-2_mipsel_24kc.ipk.
+Installing libncurses6 (6.4-2) to root...
+Copying /builder/dl/libncurses6_6.4-2_mipsel_24kc.ipk.
+Installing ncdu (1.18-1) to root...
+Copying /builder/dl/ncdu_1.18-1_mipsel_24kc.ipk.
+Installing rsync (3.2.7-2) to root...
+Copying /builder/dl/rsync_3.2.7-2_mipsel_24kc.ipk.
+Installing libpopt0 (1.19-1) to root...
+Copying /builder/dl/libpopt0_1.19-1_mipsel_24kc.ipk.
+Installing zlib (1.2.13-1) to root...
+Copying /builder/dl/zlib_1.2.13-1_mipsel_24kc.ipk.
+Installing tmux (3.3a-1) to root...
+Copying /builder/dl/tmux_3.3a-1_mipsel_24kc.ipk.
+Installing libevent2-core7 (2.1.12-1) to root...
+Copying /builder/dl/libevent2-core7_2.1.12-1_mipsel_24kc.ipk.
+Installing librt (1.2.4-4) to root...
+Copying /builder/dl/librt_1.2.4-4_mipsel_24kc.ipk.
+Installing xz (5.4.6-1) to root...
+Copying /builder/dl/xz_5.4.6-1_mipsel_24kc.ipk.
+Installing xz-utils (5.4.6-1) to root...
+Copying /builder/dl/xz-utils_5.4.6-1_mipsel_24kc.ipk.
+Installing liblzma (5.4.6-1) to root...
+Copying /builder/dl/liblzma_5.4.6-1_mipsel_24kc.ipk.
+Installing htop (3.3.0-1) to root...
+Copying /builder/dl/htop_3.3.0-1_mipsel_24kc.ipk.
+Installing luci-app-watchcat (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-app-watchcat_git-24.272.29284-d386ad6_all.ipk.
+Installing watchcat (1-17) to root...
+Copying /builder/dl/watchcat_1-17_all.ipk.
+Installing luci-app-wol (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-app-wol_git-24.272.29284-d386ad6_all.ipk.
+Installing etherwake (1.09-5) to root...
+Copying /builder/dl/etherwake_1.09-5_mipsel_24kc.ipk.
+Installing luci-proto-ipip (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-proto-ipip_git-24.272.29284-d386ad6_all.ipk.
+Installing kmod-iptunnel (5.15.189-1) to root...
+Copying /builder/dl/kmod-iptunnel_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-iptunnel4 (5.15.189-1) to root...
+Copying /builder/dl/kmod-iptunnel4_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-ipip (5.15.189-1) to root...
+Copying /builder/dl/kmod-ipip_5.15.189-1_mipsel_24kc.ipk.
+Installing ipip (4) to root...
+Copying /builder/dl/ipip_4_all.ipk.
+Installing luci-app-eoip (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-app-eoip_git-24.272.29284-d386ad6_all.ipk.
+Installing kmod-tun (5.15.189-1) to root...
+Copying /builder/dl/kmod-tun_5.15.189-1_mipsel_24kc.ipk.
+Installing liblzo2 (2.10-4) to root...
+Copying /builder/dl/liblzo2_2.10-4_mipsel_24kc.ipk.
+Installing eoip (0.5-1) to root...
+Copying /builder/dl/eoip_0.5-1_mipsel_24kc.ipk.
+Installing luci-proto-gre (git-24.272.29284-d386ad6) to root...
+Copying /builder/dl/luci-proto-gre_git-24.272.29284-d386ad6_all.ipk.
+Installing kmod-gre (5.15.189-1) to root...
+Copying /builder/dl/kmod-gre_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-iptunnel6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-iptunnel6_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-ip6-tunnel (5.15.189-1) to root...
+Copying /builder/dl/kmod-ip6-tunnel_5.15.189-1_mipsel_24kc.ipk.
+Installing kmod-gre6 (5.15.189-1) to root...
+Copying /builder/dl/kmod-gre6_5.15.189-1_mipsel_24kc.ipk.
+Installing gre (13) to root...
+Copying /builder/dl/gre_13_all.ipk.
+Installing luci-app-pbr (1.1.6-20) to root...
+Copying /builder/dl/luci-app-pbr_1.1.6-20_all.ipk.
+Installing libelf1 (0.189-1) to root...
+Copying /builder/dl/libelf1_0.189-1_mipsel_24kc.ipk.
+Installing libbpf1 (1.2.2-1) to root...
+Copying /builder/dl/libbpf1_1.2.2-1_mipsel_24kc.ipk.
+Installing ip-full (6.3.0-1) to root...
+Copying /builder/dl/ip-full_6.3.0-1_mipsel_24kc.ipk.
+Installing pbr (1.1.6-22) to root...
+Copying /builder/dl/pbr_1.1.6-22_all.ipk.
+Package base-files (1724-r28311-9c1829a5fdac) installed in root is up to date.
+Package block-mount (2023-02-28-bfe882d5-1) installed in root is up to date.
+Package ca-bundle (20250419-1) installed in root is up to date.
+Package dropbear (2022.82-6) installed in root is up to date.
+Package firewall4 (2023-09-01-598d9fbb-1) installed in root is up to date.
+Package kernel (5.15.189-1-93ee331f7700f4d0558245c996f61de0) installed in root is up to date.
+Package kmod-gpio-button-hotplug (5.15.189-3) installed in root is up to date.
+Package kmod-leds-gpio (5.15.189-1) installed in root is up to date.
+Package kmod-mt76x2 (5.15.189+2024-04-03-1e336a85-1) installed in root is up to date.
+Package kmod-nf-nathelper (5.15.189-1) installed in root is up to date.
+Package kmod-nf-nathelper-extra (5.15.189-1) installed in root is up to date.
+Package kmod-nft-offload (5.15.189-1) installed in root is up to date.
+Package kmod-rt2800-soc (5.15.189+6.1.145-1-1) installed in root is up to date.
+Package logd (2022-08-13-4c7b720b-2) installed in root is up to date.
+Package luci (git-24.272.29284-d386ad6) installed in root is up to date.
+Package luci-app-opkg (git-24.302.38724-3ded930) installed in root is up to date.
+Package mtd (26) installed in root is up to date.
+Package netifd (2024-01-04-c18cc79d-2) installed in root is up to date.
+Package nftables-json (1.0.8-1) installed in root is up to date.
+Package odhcp6c (2023-05-12-bcd28363-20) installed in root is up to date.
+Package odhcpd-ipv6only (2023-10-24-d8118f6e-3) installed in root is up to date.
+Package opkg (2022-02-24-d038e5b6-2) installed in root is up to date.
+Package ppp (2.4.9.git-2021-01-04-7) installed in root is up to date.
+Package ppp-mod-pppoe (2.4.9.git-2021-01-04-7) installed in root is up to date.
+Package procd (2023-06-25-2db83655-2) installed in root is up to date.
+Package procd-seccomp (2023-06-25-2db83655-2) installed in root is up to date.
+Package procd-ujail (2023-06-25-2db83655-2) installed in root is up to date.
+Package swconfig (12) installed in root is up to date.
+Package uci (2023-08-10-5781664d-1) installed in root is up to date.
+Package uclient-fetch (2023-04-13-007d9454-1) installed in root is up to date.
+Package urandom-seed (3) installed in root is up to date.
+Package urngd (2023-11-01-44365eb1-1) installed in root is up to date.
+Package wpad-basic-openssl (2023-09-08-e5ccbfc6-8) installed in root is up to date.
+Configuring terminfo.
+Configuring kmod-crypto-lib-chacha20.
+Configuring kmod-crypto-hash.
+Configuring kmod-crypto-lib-poly1305.
+Configuring kmod-crypto-lib-chacha20poly1305.
+Configuring kmod-crypto-kpp.
+Configuring kmod-crypto-lib-curve25519.
+Configuring kmod-udptunnel4.
+Configuring kmod-udptunnel6.
+Configuring kmod-wireguard.
+Configuring wireguard-tools.
+Configuring libjson-c5.
+Configuring libucode20230711.
+Configuring ucode.
+Configuring luci-lib-uqr.
+Configuring resolveip.
+Configuring luci-proto-wireguard.
+Configuring libnl-tiny1.
+Configuring libubox20230523.
+Configuring libuci20130104.
+Configuring libubus20230605.
+Configuring libiwinfo-data.
+Configuring libiwinfo20230701.
+Configuring iwinfo.
+Configuring kmod-crypto-null.
+Configuring kmod-crypto-aead.
+Configuring kmod-crypto-manager.
+Configuring kmod-crypto-user.
+Configuring kmod-crypto-authenc.
+Configuring kmod-cryptodev.
+Configuring libatomic1.
+Configuring libopenssl3.
+Configuring watchcat.
+Configuring liblucihttp0.
+Configuring luci-app-watchcat.
+Configuring kmod-lib-textsearch.
+Configuring cgi-io.
+Configuring kmod-iptunnel.
+Configuring kmod-gre.
+Configuring kmod-iptunnel6.
+Configuring kmod-ip6-tunnel.
+Configuring kmod-gre6.
+Configuring gre.
+Configuring luci-proto-gre.
+Configuring kmod-macvlan.
+Configuring kmod-crypto-gf128.
+Configuring libuclient20201210.
+Configuring uclient-fetch.
+Configuring libpthread.
+Configuring opkg.
+Configuring luci-app-opkg.
+Configuring libblobmsg-json20230523.
+Configuring ubusd.
+Configuring ubus.
+Configuring iw.
+Configuring libiperf3.
+Configuring kmod-nfnetlink.
+Configuring kmod-nf-reject.
+Configuring kmod-nf-reject6.
+Configuring kmod-nf-conntrack.
+Configuring kmod-nf-conntrack6.
+Configuring kmod-nf-nat.
+Configuring kmod-nf-log.
+Configuring kmod-nf-log6.
+Configuring kmod-crypto-crc32c.
+Configuring kmod-lib-crc32c.
+Configuring kmod-nft-core.
+Configuring kmod-nft-nat.
+Configuring kmod-nft-fullcone.
+Configuring rpcd.
+Configuring kmod-crypto-hmac.
+Configuring kmod-crypto-sha512.
+Configuring kmod-crypto-rng.
+Configuring kmod-crypto-seqiv.
+Configuring kmod-crypto-ctr.
+Configuring ddns-scripts-services.
+Configuring zlib.
+Configuring libelf1.
+Configuring libbpf1.
+Configuring libmnl0.
+Configuring ip-full.
+Configuring kmod-nft-fib.
+Configuring jshn.
+Configuring jsonfilter.
+Configuring libnftnl11.
+Configuring jansson4.
+Configuring nftables-json.
+Configuring pbr.
+Configuring kmod-tun.
+Configuring swconfig.
+Configuring liblzma.
+Configuring rpcd-mod-file.
+Configuring rpcd-mod-luci.
+Configuring rpcd-mod-ucode.
+Configuring ucode-mod-fs.
+Configuring ucode-mod-uci.
+Configuring ucode-mod-ubus.
+Configuring ucode-mod-math.
+Configuring ucode-mod-html.
+Configuring liblucihttp-ucode.
+Configuring luci-base.
+Configuring luci-mod-system.
+Configuring kmod-nf-flow.
+Configuring kmod-lib-crc-ccitt.
+Configuring ucode-mod-uloop.
+Configuring liblzo2.
+Configuring getrandom.
+Configuring kmod-asn1-decoder.
+Configuring luci-theme-bootstrap.
+Configuring kmod-nf-nathelper.
+Configuring kmod-slhc.
+Configuring kmod-ppp.
+Configuring kmod-pppox.
+Configuring kmod-pppoe.
+Configuring shellsync.
+Configuring procd-ujail.
+Configuring netifd.
+Configuring usign.
+Configuring openwrt-keyring.
+Configuring ubox.
+Configuring fstools.
+Configuring fwtool.
+Configuring base-files.
+Configuring wireless-regdb.
+Configuring kmod-cfg80211.
+Configuring kmod-crypto-cmac.
+Configuring kmod-crypto-ccm.
+Configuring kmod-crypto-ghash.
+Configuring kmod-crypto-gcm.
+Configuring hostapd-common.
+Configuring kmod-mac80211.
+Configuring kmod-rt2x00-lib.
+Configuring kmod-rt2800-lib.
+Configuring ddns-scripts.
+Configuring kmod-nft-offload.
+Configuring firewall4.
+Configuring kmod-iptunnel4.
+Configuring kmod-ipip.
+Configuring ipip.
+Configuring luci-proto-ipip.
+Configuring libjson-script20230523.
+Configuring procd.
+Configuring etherwake.
+Configuring rpcd-mod-iwinfo.
+Configuring luci-mod-status.
+Configuring block-mount.
+Configuring luci-app-ddns.
+Configuring libopenssl-conf.
+Configuring libopenssl-legacy.
+Configuring luci-app-firewall.
+Configuring odhcp6c.
+Configuring uci.
+Configuring kmod-mt76-core.
+Configuring kmod-mt76x02-common.
+Configuring kmod-mt76x2-common.
+Configuring kmod-rt2x00-mmio.
+Configuring kmod-rt2800-mmio.
+Configuring dropbear.
+Configuring mtd.
+Configuring odhcpd-ipv6only.
+Configuring procd-seccomp.
+Configuring ucode-mod-nl80211.
+Configuring urandom-seed.
+Configuring luci-proto-ppp.
+Configuring kmod-crypto-arc4.
+Configuring kmod-crypto-sha1.
+Configuring kmod-crypto-ecb.
+Configuring kmod-mppe.
+Configuring ppp.
+Configuring luci-mod-network.
+Configuring luci-mod-admin-full.
+Configuring xz-utils.
+Configuring xz.
+Configuring kmod-leds-gpio.
+Configuring kmod-gpio-button-hotplug.
+Configuring logd.
+Configuring librt.
+Configuring libpopt0.
+Configuring rsync.
+Configuring luci-proto-ipv6.
+Configuring kmod-nf-nathelper-extra.
+Configuring libncurses6.
+Configuring libevent2-core7.
+Configuring tmux.
+Configuring luci-app-wol.
+Configuring ucode-mod-rtnl.
+Configuring wpad-basic-openssl.
+Configuring uhttpd.
+Configuring rpcd-mod-rrdns.
+Configuring uhttpd-mod-ubus.
+Configuring luci-light.
+Configuring luci.
+Configuring default-settings.
+Configuring htop.
+Configuring ca-bundle.
+Configuring luci-app-pbr.
+Configuring kmod-rt2800-soc.
+Configuring kmod-mt76x2.
+Configuring ncdu.
+Configuring mtr-json.
+Configuring iperf3.
+Configuring urngd.
+Configuring eoip.
+Configuring ppp-mod-pppoe.
+Configuring luci-app-eoip.
+
+Finalizing root filesystem...
+Enabling boot
+Enabling bootcount
+Enabling ddns
+Enabling done
+Enabling dropbear
+Enabling eoip
+Enabling etherwake
+Enabling firewall
+Enabling fstab
+Enabling gpio_switch
+Enabling led
+Enabling log
+Enabling network
+Enabling odhcpd
+Enabling openssl
+Enabling packet_steering
+Enabling pbr
+Enabling rpcd
+Enabling sysctl
+Enabling sysfixtime
+Enabling system
+Enabling ucitrack
+Enabling uhttpd
+Enabling umount
+Enabling urandom_seed
+Enabling urngd
+Enabling watchcat
+Enabling wpad
+
+Building images...
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/root.squashfs, block size 262144.
+
+[|                                                             ]    0/1488   0%
+[=============================================================\] 1488/1488 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 5763.73 Kbytes (5.63 Mbytes)
+	26.62% of uncompressed filesystem size (21653.44 Kbytes)
+Inode table size 11510 bytes (11.24 Kbytes)
+	20.34% of uncompressed inode table size (56585 bytes)
+Directory table size 16430 bytes (16.04 Kbytes)
+	41.92% of uncompressed directory table size (39191 bytes)
+Number of duplicate files found 223
+Number of inodes 1728
+Number of files 1469
+Number of fragments 59
+Number of symbolic links 119
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 139
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	unknown (0)
+Number of gids 1
+	unknown (0)
+Skip JSON creation for non existing file /builder/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7620/tmp/immortalwrt-23.05.5-488819f0a03f-ramips-mt7620-phicomm_k2-v22.4-squashfs-sysupgrade.bin
+JSON info file script could not find any JSON files for target
+
+Calculating checksums...
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Custom Downloads
+
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f

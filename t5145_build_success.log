@@ -1,0 +1,3253 @@
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Generic x86
+Platform
+x86/generic
+Version
+24.10.2 (r33247-467867283bb9)
+Date
+6/25/2025, 11:36:28 PM
+Links
+
+Customize installed packages and/or first boot script
+Build successful
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/kmods/6.6.93-1-c3b6ece951258d1ef23245649d0e6cf6/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/kmods/6.6.93-1-c3b6ece951258d1ef23245649d0e6cf6/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+Pseudo file "dev" exists in source filesystem "/builder/build_dir/target-i386_pentium4_musl/root-x86/dev".
+Ignoring, exclude it (-e/-ef) to override.
+158533+1 records in
+158533+1 records out
+81169071 bytes (81 MB, 77 MiB) copied, 0.357177 s, 227 MB/s
+0+1 records in
+1+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.07667 s, 292 MB/s
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.897034 s, 351 MB/s
+1+0 records in
+1+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.53621 s, 205 MB/s
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz -h 16 -s 63 -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3
+part 0 32768
+part 0 307200
++ set 262144 33554432 34078720 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66560
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz bs=512 seek=66560 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.410553 s, 766 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz bs=512 seek=66560 conv=notrunc
+158533+1 records in
+158533+1 records out
+81169071 bytes (81 MB, 77 MiB) copied, 1.58295 s, 51.3 MB/s
++ [ -n  ]
++ make_ext4fs -J -L kernel -l 33554432 -T 1750865788 /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz.boot
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0544688 s, 616 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined.img.gz.kernel
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz -h 16 -s 63 -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3
+part 0 32768
+part 0 307200
++ set 262144 33554432 34078720 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66560
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz bs=512 seek=66560 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.410421 s, 766 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4 of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz bs=512 seek=66560 conv=notrunc
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.83298 s, 172 MB/s
++ [ -n  ]
++ make_ext4fs -J -L kernel -l 33554432 -T 1750865788 /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz.boot
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0561674 s, 597 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined.img.gz.kernel
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz -h 16 -s 63 -g -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3 -G 21eda3e3-84ed-b259-d996-b272d6260400
+part 0 32768
+part 0 307200
++ set 262144 33554432 33816576 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66048
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=66048 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.432396 s, 728 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=66048 conv=notrunc
+158533+1 records in
+158533+1 records out
+81169071 bytes (81 MB, 77 MiB) copied, 0.117496 s, 691 MB/s
++ [ -n 21eda3e3-84ed-b259-d996-b272d6260400 ]
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=680448 conv=notrunc count=63
+63+0 records in
+63+0 records out
+32256 bytes (32 kB, 32 KiB) copied, 7.3668e-05 s, 438 MB/s
++ mkfs.fat --invariant -n kernel -C /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel -S 512 32768
+mkfs.fat: Warning: lowercase labels might not work properly on some systems
++ LC_ALL=C dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot /
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot /boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub
++ baseentry=grub
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/boot/grub
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub /boot/grub/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/boot.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/boot.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/core.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/core.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/grub.cfg ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/grub.cfg ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/vmlinuz ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/vmlinuz ::/boot/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi
++ baseentry=efi
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/efi
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi /efi/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/efi/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot /efi/boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot/bootia32.efi ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot/bootia32.efi ::/efi/boot/
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0576602 s, 582 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-squashfs-combined-efi.img.gz.kernel
+/builder/staging_dir/host/bin/grub-bios-setup: warning: Your BIOS Boot Partition is under 1 MiB, please increase its size..
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz -h 16 -s 63 -g -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3 -G 21eda3e3-84ed-b259-d996-b272d6260400
+part 0 32768
+part 0 307200
++ set 262144 33554432 33816576 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66048
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=66048 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.459732 s, 684 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4 of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=66048 conv=notrunc
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.57997 s, 199 MB/s
++ [ -n 21eda3e3-84ed-b259-d996-b272d6260400 ]
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=680448 conv=notrunc count=63
+63+0 records in
+63+0 records out
+32256 bytes (32 kB, 32 KiB) copied, 7.0075e-05 s, 460 MB/s
++ mkfs.fat --invariant -n kernel -C /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel -S 512 32768
+mkfs.fat: Warning: lowercase labels might not work properly on some systems
++ LC_ALL=C dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot /
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot /boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub
++ baseentry=grub
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/boot/grub
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub /boot/grub/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/boot.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/boot.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/core.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/core.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/grub.cfg ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/grub.cfg ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/vmlinuz ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/vmlinuz ::/boot/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi
++ baseentry=efi
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/efi
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi /efi/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/efi/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot /efi/boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot/bootia32.efi ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot/bootia32.efi ::/efi/boot/
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0549458 s, 611 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-f5794e53f9c7-x86-generic-generic-ext4-combined-efi.img.gz.kernel
+/builder/staging_dir/host/bin/grub-bios-setup: warning: Your BIOS Boot Partition is under 1 MiB, please increase its size..
+STDOUT
+Checking 'true'... ok.
+Checking 'false'... ok.
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... ok.
+Checking 'proper-umask'... ok.
+Checking 'perl-data-dumper'... ok.
+Checking 'perl-findbin'... ok.
+Checking 'perl-file-copy'... ok.
+Checking 'perl-file-compare'... ok.
+Checking 'perl-thread-queue'... ok.
+Checking 'perl-ipc-cmd'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... updated.
+Checking 'xargs'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... updated.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... updated.
+Checking 'egrep'... updated.
+Checking 'getopt'... ok.
+Checking 'realpath'... ok.
+Checking 'stat'... ok.
+Checking 'gzip'... updated.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'install'... ok.
+Checking 'perl'... ok.
+Checking 'python'... updated.
+Checking 'python3'... updated.
+Checking 'python3-distutils'... ok.
+Checking 'python3-stdlib'... ok.
+Checking 'file'... ok.
+Checking 'which'... ok.
+Checking 'ldconfig-stub'... ok.
+Building images for x86 - Generic x86
+Packages: autocore automount base-files default-settings-chn dnsmasq-full dropbear fdisk fstools grub2-bios-setup i915-firmware-dmc kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-r8168 kmod-usb-hid kmod-usb-net logd luci-app-package-manager luci-compat luci-lib-ipkg luci-light mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only partx-utils ppp-mod-pppoe procd-ujail uci urandom-seed urngd kmod-e1000 kmod-e1000e kmod-via-rhine kmod-drm-i915 curl git iperf3 jq kmod-fs-vfat kmod-fs-exfat kmod-fs-ext4 kmod-fs-f2fs luci-app-aria2 luci-app-diskman luci-app-docker luci-app-watchcat luci-app-xfrpc luci-proto-batman-adv luci-proto-gre luci-proto-ipip luci-proto-openconnect luci-proto-vxlan luci-proto-wireguard mtr ncdu nnn pciutils pv ripgrep rsync tmux usbutils vim-full vim-runtime wireguard-tools xz zram-swap zsh autocore automount base-files default-settings-chn dnsmasq-full dropbear fdisk fstools grub2-bios-setup i915-firmware-dmc kernel kmod-drm-i915 kmod-e1000 kmod-e1000e kmod-fs-f2fs kmod-fs-vfat kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-r8168 kmod-usb-hid kmod-usb-net kmod-via-rhine logd luci-app-package-manager luci-compat luci-lib-ipkg luci-light mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only partx-utils ppp-mod-pppoe procd-ujail uci urandom-seed urngd
+
+
+Installing packages...
+Installing libc (1.2.5-r4) to root...
+Installing libgcc1 (13.3.0-r4) to root...
+Copying /builder/dl/libgcc1_13.3.0-r4_i386_pentium4.ipk.
+Configuring libgcc1.
+Configuring libc.
+Installing kernel (6.6.93~c3b6ece951258d1ef23245649d0e6cf6-r1) to root...
+Configuring kernel.
+Installing autocore (42) to root...
+Copying /builder/dl/autocore_42_i386_pentium4.ipk.
+Installing ethtool (6.11-r1) to root...
+Copying /builder/dl/ethtool_6.11-r1_i386_pentium4.ipk.
+Installing libsysfs2 (2.1.0-r4) to root...
+Copying /builder/dl/libsysfs2_2.1.0-r4_i386_pentium4.ipk.
+Installing sysfsutils (2.1.0-r4) to root...
+Copying /builder/dl/sysfsutils_2.1.0-r4_i386_pentium4.ipk.
+Installing libsensors5 (3.6.0-r1) to root...
+Copying /builder/dl/libsensors5_3.6.0-r1_i386_pentium4.ipk.
+Installing lm-sensors (3.6.0-r1) to root...
+Copying /builder/dl/lm-sensors_3.6.0-r1_i386_pentium4.ipk.
+Installing automount (10) to root...
+Copying /builder/dl/automount_10_all.ipk.
+Installing libubox20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libubox20240329_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing libjson-c5 (0.18-r1) to root...
+Copying /builder/dl/libjson-c5_0.18-r1_i386_pentium4.ipk.
+Installing libblobmsg-json20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libblobmsg-json20240329_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing ubusd (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/ubusd_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing libubus20250102 (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/libubus20250102_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing ubus (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/ubus_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing libuci20250120 (2025.01.20~16ff0bad-r1) to root...
+Copying /builder/dl/libuci20250120_2025.01.20~16ff0bad-r1_i386_pentium4.ipk.
+Installing ubox (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/ubox_2024.04.26~85f10530-r1_i386_pentium4.ipk.
+Installing fstools (2024.07.14~408c2cc4-r1) to root...
+Copying /builder/dl/fstools_2024.07.14~408c2cc4-r1_i386_pentium4.ipk.
+Installing block-mount (2024.07.14~408c2cc4-r1) to root...
+Copying /builder/dl/block-mount_2024.07.14~408c2cc4-r1_i386_pentium4.ipk.
+Installing libpthread (1.2.5-r4) to root...
+Copying /builder/dl/libpthread_1.2.5-r4_i386_pentium4.ipk.
+Installing librt (1.2.5-r4) to root...
+Copying /builder/dl/librt_1.2.5-r4_i386_pentium4.ipk.
+Installing libuuid1 (2.40.2-r1) to root...
+Copying /builder/dl/libuuid1_2.40.2-r1_i386_pentium4.ipk.
+Installing libblkid1 (2.40.2-r1) to root...
+Copying /builder/dl/libblkid1_2.40.2-r1_i386_pentium4.ipk.
+Installing libcomerr0 (1.47.0-r2) to root...
+Copying /builder/dl/libcomerr0_1.47.0-r2_i386_pentium4.ipk.
+Installing libss2 (1.47.0-r2) to root...
+Copying /builder/dl/libss2_1.47.0-r2_i386_pentium4.ipk.
+Installing libext2fs2 (1.47.0-r2) to root...
+Copying /builder/dl/libext2fs2_1.47.0-r2_i386_pentium4.ipk.
+Installing libe2p2 (1.47.0-r2) to root...
+Copying /builder/dl/libe2p2_1.47.0-r2_i386_pentium4.ipk.
+Installing e2fsprogs (1.47.0-r2) to root...
+Copying /builder/dl/e2fsprogs_1.47.0-r2_i386_pentium4.ipk.
+Installing kmod-scsi-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-scsi-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-base (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-base_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-storage (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-storage-extras (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage-extras_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-storage-uas (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage-uas_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-crc16 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc16_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-hash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-hash_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-crc32c (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-crc32c_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-ext4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-ext4_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-exfat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-exfat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-cp437 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-cp437_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-iso8859-1 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-iso8859-1_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-utf8 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-utf8_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-vfat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-vfat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-ntfs3 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-ntfs3_6.6.93-r1_i386_pentium4.ipk.
+Installing ntfs3-mount (10) to root...
+Copying /builder/dl/ntfs3-mount_10_all.ipk.
+Installing base-files (1859~467867283bb9) to root...
+Copying /builder/dl/base-files_1859~467867283bb9_i386_pentium4.ipk.
+Installing libnl-tiny1 (2025.03.19~c0df580a-r1) to root...
+Copying /builder/dl/libnl-tiny1_2025.03.19~c0df580a-r1_i386_pentium4.ipk.
+Installing jshn (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/jshn_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing libudebug (2025.07.23~6ed85361) to root...
+Copying /builder/dl/libudebug_2025.07.23~6ed85361_i386_pentium4.ipk.
+Installing libucode20230711 (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/libucode20230711_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-fs (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-fs_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing netifd (2025.05.23~7901e66c-r1) to root...
+Copying /builder/dl/netifd_2025.05.23~7901e66c-r1_i386_pentium4.ipk.
+Installing jsonfilter (2025.04.18~8a86fb78-r1) to root...
+Copying /builder/dl/jsonfilter_2025.04.18~8a86fb78-r1_i386_pentium4.ipk.
+Installing usign (2020.05.23~f1f65026-r1) to root...
+Copying /builder/dl/usign_2020.05.23~f1f65026-r1_i386_pentium4.ipk.
+Installing openwrt-keyring (2024.11.01~c5d6bdf2-r1) to root...
+Copying /builder/dl/openwrt-keyring_2024.11.01~c5d6bdf2-r1_i386_pentium4.ipk.
+Installing fwtool (2019.11.12~8f7fe925-r1) to root...
+Copying /builder/dl/fwtool_2019.11.12~8f7fe925-r1_i386_pentium4.ipk.
+Installing libjson-script20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libjson-script20240329_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing procd (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd_2024.12.22~42d39376-r1_i386_pentium4.ipk.
+Installing procd-seccomp (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd-seccomp_2024.12.22~42d39376-r1_i386_pentium4.ipk.
+Installing busybox (1.36.1-r2) to root...
+Copying /builder/dl/busybox_1.36.1-r2_i386_pentium4.ipk.
+Installing default-settings-chn (29) to root...
+Copying /builder/dl/default-settings-chn_29_all.ipk.
+Installing luci-proto-ipv6 (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ipv6_25.184.50942~23154bf_all.ipk.
+Installing rpcd (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing rpcd-mod-file (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-file_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing rpcd-mod-luci (20240305-r1) to root...
+Copying /builder/dl/rpcd-mod-luci_20240305-r1_i386_pentium4.ipk.
+Installing rpcd-mod-ucode (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-ucode_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing cgi-io (2022.08.10~901b0f04-r21) to root...
+Copying /builder/dl/cgi-io_2022.08.10~901b0f04-r21_i386_pentium4.ipk.
+Installing ucode-mod-uci (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-uci_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-ubus (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-ubus_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-math (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-math_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-html (1) to root...
+Copying /builder/dl/ucode-mod-html_1_i386_pentium4.ipk.
+Installing liblucihttp0 (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp0_2023.03.15~9b5b683f-r1_i386_pentium4.ipk.
+Installing liblucihttp-ucode (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp-ucode_2023.03.15~9b5b683f-r1_i386_pentium4.ipk.
+Installing luci-base (25.187.32690~3d6dbd2) to root...
+Copying /builder/dl/luci-base_25.187.32690~3d6dbd2_i386_pentium4.ipk.
+Installing kmod-nfnetlink (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nfnetlink_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-reject (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-reject_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-reject6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-reject6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-conntrack (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-conntrack6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-log (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-log_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-log6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-log6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-crc32c (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc32c_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-fib (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-fib_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-flow (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-flow_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-nat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-offload (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-offload_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-fullcone (6.6.93.2023.05.17~07d93b62-r1) to root...
+Copying /builder/dl/kmod-nft-fullcone_6.6.93.2023.05.17~07d93b62-r1_i386_pentium4.ipk.
+Installing libmnl0 (1.0.5-r1) to root...
+Copying /builder/dl/libmnl0_1.0.5-r1_i386_pentium4.ipk.
+Installing libnftnl11 (1.2.8-r1) to root...
+Copying /builder/dl/libnftnl11_1.2.8-r1_i386_pentium4.ipk.
+Installing jansson4 (2.14-r3) to root...
+Copying /builder/dl/jansson4_2.14-r3_i386_pentium4.ipk.
+Installing nftables-json (1.1.1-r1) to root...
+Copying /builder/dl/nftables-json_1.1.1-r1_i386_pentium4.ipk.
+Installing firewall4 (2024.12.18~18fc0ead-r1) to root...
+Copying /builder/dl/firewall4_2024.12.18~18fc0ead-r1_i386_pentium4.ipk.
+Installing luci-app-firewall (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-firewall_25.184.50942~23154bf_all.ipk.
+Installing libiwinfo-data (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/libiwinfo-data_2024.10.20~b94f066e-r1_i386_pentium4.ipk.
+Installing libiwinfo20230701 (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/libiwinfo20230701_2024.10.20~b94f066e-r1_i386_pentium4.ipk.
+Installing rpcd-mod-iwinfo (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-iwinfo_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing luci-mod-status (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-mod-status_25.187.32633~383d9ef_i386_pentium4.ipk.
+Installing luci-mod-system (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-mod-system_25.184.50942~23154bf_all.ipk.
+Installing luci-mod-network (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-mod-network_25.187.32633~383d9ef_all.ipk.
+Installing luci-mod-admin-full (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-mod-admin-full_25.184.50942~23154bf_all.ipk.
+Installing luci-proto-ppp (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ppp_25.184.50942~23154bf_all.ipk.
+Installing luci-theme-bootstrap (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-theme-bootstrap_25.170.03049~65670be_all.ipk.
+Installing rpcd-mod-rrdns (20170710) to root...
+Copying /builder/dl/rpcd-mod-rrdns_20170710_i386_pentium4.ipk.
+Installing uhttpd (2025.07.06~7e64e8ba-r4) to root...
+Copying /builder/dl/uhttpd_2025.07.06~7e64e8ba-r4_i386_pentium4.ipk.
+Installing uhttpd-mod-ubus (2025.07.06~7e64e8ba-r4) to root...
+Copying /builder/dl/uhttpd-mod-ubus_2025.07.06~7e64e8ba-r4_i386_pentium4.ipk.
+Installing luci-light (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-light_25.184.50942~23154bf_all.ipk.
+Installing luci-app-package-manager (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-package-manager_25.184.50942~23154bf_all.ipk.
+Installing luci (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci_25.184.50942~23154bf_all.ipk.
+Installing default-settings (29) to root...
+Copying /builder/dl/default-settings_29_all.ipk.
+Installing luci-i18n-base-zh-cn (25.208.26935~438b511) to root...
+Copying /builder/dl/luci-i18n-base-zh-cn_25.208.26935~438b511_all.ipk.
+Installing dnsmasq-full (2.90-r5) to root...
+Copying /builder/dl/dnsmasq-full_2.90-r5_i386_pentium4.ipk.
+Installing libgmp10 (6.3.0-r1) to root...
+Copying /builder/dl/libgmp10_6.3.0-r1_i386_pentium4.ipk.
+Installing libnettle8 (3.9.1-r1) to root...
+Copying /builder/dl/libnettle8_3.9.1-r1_i386_pentium4.ipk.
+Installing libnfnetlink0 (1.0.2-r1) to root...
+Copying /builder/dl/libnfnetlink0_1.0.2-r1_i386_pentium4.ipk.
+Installing kmod-nf-conntrack-netlink (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack-netlink_6.6.93-r1_i386_pentium4.ipk.
+Installing libnetfilter-conntrack3 (1.0.9-r2) to root...
+Copying /builder/dl/libnetfilter-conntrack3_1.0.9-r2_i386_pentium4.ipk.
+Installing dropbear (2024.86-r1) to root...
+Copying /builder/dl/dropbear_2024.86-r1_i386_pentium4.ipk.
+Installing fdisk (2.40.2-r1) to root...
+Copying /builder/dl/fdisk_2.40.2-r1_i386_pentium4.ipk.
+Installing libsmartcols1 (2.40.2-r1) to root...
+Copying /builder/dl/libsmartcols1_2.40.2-r1_i386_pentium4.ipk.
+Installing libfdisk1 (2.40.2-r1) to root...
+Copying /builder/dl/libfdisk1_2.40.2-r1_i386_pentium4.ipk.
+Installing terminfo (6.4-r2) to root...
+Copying /builder/dl/terminfo_6.4-r2_i386_pentium4.ipk.
+Installing libncurses6 (6.4-r2) to root...
+Copying /builder/dl/libncurses6_6.4-r2_i386_pentium4.ipk.
+Package fstools (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Installing grub2-bios-setup (2.12-r1) to root...
+Copying /builder/dl/grub2-bios-setup_2.12-r1_i386_pentium4.ipk.
+Installing i915-firmware-dmc (20241110-r2) to root...
+Copying /builder/dl/i915-firmware-dmc_20241110-r2_i386_pentium4.ipk.
+Installing kmod-nf-nathelper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nathelper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-nathelper-extra (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nathelper-extra_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-textsearch (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-textsearch_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-asn1-decoder (6.6.93-r1) to root...
+Copying /builder/dl/kmod-asn1-decoder_6.6.93-r1_i386_pentium4.ipk.
+Package kmod-nft-offload (6.6.93-r1) installed in root is up to date.
+Installing kmod-r8168 (6.6.93.8.055.00-r3) to root...
+Copying /builder/dl/kmod-r8168_6.6.93.8.055.00-r3_i386_pentium4.ipk.
+Installing kmod-libphy (6.6.93-r1) to root...
+Copying /builder/dl/kmod-libphy_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-hid (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-hid_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-input-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-input-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-input-evdev (6.6.93-r1) to root...
+Copying /builder/dl/kmod-input-evdev_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-hid (6.6.93-r1) to root...
+Copying /builder/dl/kmod-hid_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-hid-generic (6.6.93-r1) to root...
+Copying /builder/dl/kmod-hid-generic_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-net (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-net_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-mii (6.6.93-r1) to root...
+Copying /builder/dl/kmod-mii_6.6.93-r1_i386_pentium4.ipk.
+Installing logd (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/logd_2024.04.26~85f10530-r1_i386_pentium4.ipk.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Installing luci-compat (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-compat_25.170.03049~65670be_all.ipk.
+Installing liblua5.1.5 (5.1.5-r11) to root...
+Copying /builder/dl/liblua5.1.5_5.1.5-r11_i386_pentium4.ipk.
+Installing lua (5.1.5-r11) to root...
+Copying /builder/dl/lua_5.1.5-r11_i386_pentium4.ipk.
+Installing luci-lib-nixio (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-nixio_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing luci-lib-ip (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-ip_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing luci-lib-jsonc (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-jsonc_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing liblucihttp-lua (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp-lua_2023.03.15~9b5b683f-r1_i386_pentium4.ipk.
+Installing luci-lib-base (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-base_25.184.50942~23154bf_all.ipk.
+Installing libubus-lua (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/libubus-lua_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing ucode-mod-lua (1) to root...
+Copying /builder/dl/ucode-mod-lua_1_i386_pentium4.ipk.
+Installing luci-lua-runtime (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lua-runtime_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing luci-lib-ipkg (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-ipkg_25.184.50942~23154bf_all.ipk.
+Package luci-light (25.184.50942~23154bf) installed in root is up to date.
+Installing mkf2fs (1.16.0-r3) to root...
+Copying /builder/dl/mkf2fs_1.16.0-r3_i386_pentium4.ipk.
+Installing libf2fs6 (1.16.0-r3) to root...
+Copying /builder/dl/libf2fs6_1.16.0-r3_i386_pentium4.ipk.
+Installing mtd (26) to root...
+Copying /builder/dl/mtd_26_i386_pentium4.ipk.
+Package netifd (2025.05.23~7901e66c-r1) installed in root is up to date.
+Package nftables-json (1.1.1-r1) installed in root is up to date.
+Installing odhcp6c (2024.09.25~b6ae9ffa-r1) to root...
+Copying /builder/dl/odhcp6c_2024.09.25~b6ae9ffa-r1_i386_pentium4.ipk.
+Installing odhcpd-ipv6only (2024.05.08~a2988231-r3) to root...
+Copying /builder/dl/odhcpd-ipv6only_2024.05.08~a2988231-r3_i386_pentium4.ipk.
+Installing partx-utils (2.40.2-r1) to root...
+Copying /builder/dl/partx-utils_2.40.2-r1_i386_pentium4.ipk.
+Installing ppp-mod-pppoe (2.5.1-r1) to root...
+Copying /builder/dl/ppp-mod-pppoe_2.5.1-r1_i386_pentium4.ipk.
+Installing kmod-lib-crc-ccitt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc-ccitt_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-slhc (6.6.93-r1) to root...
+Copying /builder/dl/kmod-slhc_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ppp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ppp_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-pppox (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pppox_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-pppoe (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pppoe_6.6.93-r1_i386_pentium4.ipk.
+Installing procd-ujail (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd-ujail_2024.12.22~42d39376-r1_i386_pentium4.ipk.
+Installing uci (2025.01.20~16ff0bad-r1) to root...
+Copying /builder/dl/uci_2025.01.20~16ff0bad-r1_i386_pentium4.ipk.
+Installing urandom-seed (3) to root...
+Copying /builder/dl/urandom-seed_3_i386_pentium4.ipk.
+Installing getrandom (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/getrandom_2024.04.26~85f10530-r1_i386_pentium4.ipk.
+Installing urngd (2023.11.01~44365eb1-r1) to root...
+Copying /builder/dl/urngd_2023.11.01~44365eb1-r1_i386_pentium4.ipk.
+Installing kmod-e1000 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-e1000_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-e1000e (6.6.93-r1) to root...
+Copying /builder/dl/kmod-e1000e_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-pps (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pps_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ptp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ptp_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-via-rhine (6.6.93-r1) to root...
+Copying /builder/dl/kmod-via-rhine_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-i915 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-i915_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-backlight (6.6.93-r1) to root...
+Copying /builder/dl/kmod-backlight_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-dma-buf (6.6.93-r1) to root...
+Copying /builder/dl/kmod-dma-buf_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-i2c-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-i2c-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-ttm (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-ttm_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-ttm-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-ttm-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-sys-fops (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-sys-fops_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-cfb-copyarea (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-cfb-copyarea_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-cfb-fillrect (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-cfb-fillrect_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-cfb-imgblt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-cfb-imgblt_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-sys-ram (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-sys-ram_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-kms-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-kms-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-i2c-algo-bit (6.6.93-r1) to root...
+Copying /builder/dl/kmod-i2c-algo-bit_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-display-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-display-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-buddy (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-buddy_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-acpi-video (6.6.93-r1) to root...
+Copying /builder/dl/kmod-acpi-video_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-exec (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-exec_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-suballoc-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-suballoc-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing curl (8.12.1-r1) to root...
+Copying /builder/dl/curl_8.12.1-r1_i386_pentium4.ipk.
+Installing libopenssl3 (3.0.17-r1) to root...
+Copying /builder/dl/libopenssl3_3.0.17-r1_i386_pentium4.ipk.
+Installing libnghttp2-14 (1.63.0-r1) to root...
+Copying /builder/dl/libnghttp2-14_1.63.0-r1_i386_pentium4.ipk.
+Installing ca-bundle (20241223-r1) to root...
+Copying /builder/dl/ca-bundle_20241223-r1_all.ipk.
+Installing libcurl4 (8.12.1-r1) to root...
+Copying /builder/dl/libcurl4_8.12.1-r1_i386_pentium4.ipk.
+Installing git (2.46.4-r1) to root...
+Copying /builder/dl/git_2.46.4-r1_i386_pentium4.ipk.
+Installing zlib (1.3.1-r1) to root...
+Copying /builder/dl/zlib_1.3.1-r1_i386_pentium4.ipk.
+Installing iperf3 (3.17.1-r4) to root...
+Copying /builder/dl/iperf3_3.17.1-r4_i386_pentium4.ipk.
+Installing libatomic1 (13.3.0-r4) to root...
+Copying /builder/dl/libatomic1_13.3.0-r4_i386_pentium4.ipk.
+Installing libiperf3 (3.17.1-r4) to root...
+Copying /builder/dl/libiperf3_3.17.1-r4_i386_pentium4.ipk.
+Installing jq (1.7.1-r1) to root...
+Copying /builder/dl/jq_1.7.1-r1_i386_pentium4.ipk.
+Package kmod-fs-vfat (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-exfat (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-ext4 (6.6.93-r1) installed in root is up to date.
+Installing kmod-fs-f2fs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-f2fs_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-crc32 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-crc32_6.6.93-r1_i386_pentium4.ipk.
+Installing luci-app-aria2 (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-app-aria2_25.187.32633~383d9ef_all.ipk.
+Installing libstdcpp6 (13.3.0-r4) to root...
+Copying /builder/dl/libstdcpp6_13.3.0-r4_i386_pentium4.ipk.
+Installing libopenssl-conf (3.0.17-r1) to root...
+Copying /builder/dl/libopenssl-conf_3.0.17-r1_i386_pentium4.ipk.
+Installing libopenssl-legacy (3.0.17-r1) to root...
+Copying /builder/dl/libopenssl-legacy_3.0.17-r1_i386_pentium4.ipk.
+Installing aria2-openssl (1.37.0-r3) to root...
+Copying /builder/dl/aria2-openssl_1.37.0-r3_i386_pentium4.ipk.
+Installing aria2 (1.37.0-r3) to root...
+Copying /builder/dl/aria2_1.37.0-r3_i386_pentium4.ipk.
+Installing ariang (1.3.6-r1) to root...
+Copying /builder/dl/ariang_1.3.6-r1_all.ipk.
+Installing luci-app-diskman (0.2.11-r2) to root...
+Copying /builder/dl/luci-app-diskman_0.2.11-r2_all.ipk.
+Installing blkid (2.40.2-r1) to root...
+Copying /builder/dl/blkid_2.40.2-r1_i386_pentium4.ipk.
+Installing libparted (3.6-r1) to root...
+Copying /builder/dl/libparted_3.6-r1_i386_pentium4.ipk.
+Installing libreadline8 (8.2-r2) to root...
+Copying /builder/dl/libreadline8_8.2-r2_i386_pentium4.ipk.
+Installing parted (3.6-r1) to root...
+Copying /builder/dl/parted_3.6-r1_i386_pentium4.ipk.
+Installing smartmontools (7.4-r1) to root...
+Copying /builder/dl/smartmontools_7.4-r1_i386_pentium4.ipk.
+Installing libattr (2.5.2-r3) to root...
+Copying /builder/dl/libattr_2.5.2-r3_i386_pentium4.ipk.
+Installing libmount1 (2.40.2-r1) to root...
+Copying /builder/dl/libmount1_2.40.2-r1_i386_pentium4.ipk.
+Installing liblzo2 (2.10-r4) to root...
+Copying /builder/dl/liblzo2_2.10-r4_i386_pentium4.ipk.
+Installing kmod-crypto-acompress (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-acompress_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-lzo (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-lzo_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-zlib-inflate (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zlib-inflate_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-zlib-deflate (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zlib-deflate_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-raid6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-raid6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-xor (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-xor_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-xxhash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-xxhash_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-zstd (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zstd_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-blake2b (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-blake2b_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-xxhash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-xxhash_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-btrfs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-btrfs_6.6.93-r1_i386_pentium4.ipk.
+Installing btrfs-progs (6.11-r1) to root...
+Copying /builder/dl/btrfs-progs_6.11-r1_i386_pentium4.ipk.
+Installing lsblk (2.40.2-r1) to root...
+Copying /builder/dl/lsblk_2.40.2-r1_i386_pentium4.ipk.
+Installing luci-app-docker (1-r12) to root...
+Copying /builder/dl/luci-app-docker_1-r12_all.ipk.
+Installing docker (27.3.1-r1) to root...
+Copying /builder/dl/docker_27.3.1-r1_i386_pentium4.ipk.
+Installing ca-certificates (20241223-r1) to root...
+Copying /builder/dl/ca-certificates_20241223-r1_all.ipk.
+Installing libseccomp (2.5.5-r1) to root...
+Copying /builder/dl/libseccomp_2.5.5-r1_i386_pentium4.ipk.
+Installing runc (1.1.14-r1) to root...
+Copying /builder/dl/runc_1.1.14-r1_i386_pentium4.ipk.
+Installing containerd (1.7.22-r1) to root...
+Copying /builder/dl/containerd_1.7.22-r1_i386_pentium4.ipk.
+Installing kmod-nf-ipt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipt_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-core_6.6.93-r1_i386_pentium4.ipk.
+Installing libip4tc2 (1.8.10-r1) to root...
+Copying /builder/dl/libip4tc2_1.8.10-r1_i386_pentium4.ipk.
+Installing libip6tc2 (1.8.10-r1) to root...
+Copying /builder/dl/libip6tc2_1.8.10-r1_i386_pentium4.ipk.
+Installing libxtables12 (1.8.10-r1) to root...
+Copying /builder/dl/libxtables12_1.8.10-r1_i386_pentium4.ipk.
+Installing libiptext0 (1.8.10-r1) to root...
+Copying /builder/dl/libiptext0_1.8.10-r1_i386_pentium4.ipk.
+Installing libiptext6-0 (1.8.10-r1) to root...
+Copying /builder/dl/libiptext6-0_1.8.10-r1_i386_pentium4.ipk.
+Installing xtables-legacy (1.8.10-r1) to root...
+Copying /builder/dl/xtables-legacy_1.8.10-r1_i386_pentium4.ipk.
+Installing iptables-zz-legacy (1.8.10-r1) to root...
+Copying /builder/dl/iptables-zz-legacy_1.8.10-r1_i386_pentium4.ipk.
+Installing kmod-ipt-extra (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-extra_6.6.93-r1_i386_pentium4.ipk.
+Installing iptables-mod-extra (1.8.10-r1) to root...
+Copying /builder/dl/iptables-mod-extra_1.8.10-r1_i386_pentium4.ipk.
+Installing kmod-nf-ipt6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipt6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ip6tables (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ip6tables_6.6.93-r1_i386_pentium4.ipk.
+Installing ip6tables-zz-legacy (1.8.10-r1) to root...
+Copying /builder/dl/ip6tables-zz-legacy_1.8.10-r1_i386_pentium4.ipk.
+Installing kmod-nf-nat6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nat6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-conntrack (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-conntrack_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-nat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-nat6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-nat6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-br-netfilter (6.6.93-r1) to root...
+Copying /builder/dl/kmod-br-netfilter_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-physdev (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-physdev_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-ipvs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipvs_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-veth (6.6.93-r1) to root...
+Copying /builder/dl/kmod-veth_6.6.93-r1_i386_pentium4.ipk.
+Installing tini (0.19.0-r2) to root...
+Copying /builder/dl/tini_0.19.0-r2_i386_pentium4.ipk.
+Installing dockerd (27.3.1-r3) to root...
+Copying /builder/dl/dockerd_27.3.1-r3_i386_pentium4.ipk.
+Installing luci-app-watchcat (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-watchcat_25.184.50942~23154bf_all.ipk.
+Installing watchcat (1-r17) to root...
+Copying /builder/dl/watchcat_1-r17_all.ipk.
+Installing luci-app-xfrpc (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-xfrpc_25.184.50942~23154bf_all.ipk.
+Installing libevent2-7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-7_2.1.12-r2_i386_pentium4.ipk.
+Installing libevent2-core7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-core7_2.1.12-r2_i386_pentium4.ipk.
+Installing libevent2-openssl7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-openssl7_2.1.12-r2_i386_pentium4.ipk.
+Installing xfrpc (3.05.661-r1) to root...
+Copying /builder/dl/xfrpc_3.05.661-r1_i386_pentium4.ipk.
+Installing luci-proto-batman-adv (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-batman-adv_25.184.50942~23154bf_all.ipk.
+Installing iw (6.9-r1) to root...
+Copying /builder/dl/iw_6.9-r1_i386_pentium4.ipk.
+Installing iwinfo (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/iwinfo_2024.10.20~b94f066e-r1_i386_pentium4.ipk.
+Installing ucode-mod-nl80211 (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-nl80211_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-rtnl (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-rtnl_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing wifi-scripts (1.0-r1) to root...
+Copying /builder/dl/wifi-scripts_1.0-r1_all.ipk.
+Installing wireless-regdb (2025.07.10-r1) to root...
+Copying /builder/dl/wireless-regdb_2025.07.10-r1_all.ipk.
+Installing kmod-cfg80211 (6.6.93.6.12.6-r2) to root...
+Copying /builder/dl/kmod-cfg80211_6.6.93.6.12.6-r2_i386_pentium4.ipk.
+Installing batctl-tiny (2024.3-r1) to root...
+Copying /builder/dl/batctl-tiny_2024.3-r1_i386_pentium4.ipk.
+Installing kmod-batman-adv (6.6.93.2024.3-r6) to root...
+Copying /builder/dl/kmod-batman-adv_6.6.93.2024.3-r6_i386_pentium4.ipk.
+Installing luci-proto-gre (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-gre_25.184.50942~23154bf_all.ipk.
+Installing kmod-iptunnel (6.6.93-r1) to root...
+Copying /builder/dl/kmod-iptunnel_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-gre (6.6.93-r1) to root...
+Copying /builder/dl/kmod-gre_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-iptunnel6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-iptunnel6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ip6-tunnel (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ip6-tunnel_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-gre6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-gre6_6.6.93-r1_i386_pentium4.ipk.
+Installing resolveip (2) to root...
+Copying /builder/dl/resolveip_2_i386_pentium4.ipk.
+Installing gre (13) to root...
+Copying /builder/dl/gre_13_all.ipk.
+Installing luci-proto-ipip (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ipip_25.184.50942~23154bf_all.ipk.
+Installing kmod-iptunnel4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-iptunnel4_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipip (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipip_6.6.93-r1_i386_pentium4.ipk.
+Installing ipip (4) to root...
+Copying /builder/dl/ipip_4_all.ipk.
+Installing luci-proto-openconnect (25.206.68186~6da5e65) to root...
+Copying /builder/dl/luci-proto-openconnect_25.206.68186~6da5e65_all.ipk.
+Installing libxml2 (2.14.5-r1) to root...
+Copying /builder/dl/libxml2_2.14.5-r1_i386_pentium4.ipk.
+Installing kmod-tun (6.6.93-r1) to root...
+Copying /builder/dl/kmod-tun_6.6.93-r1_i386_pentium4.ipk.
+Installing vpnc-scripts (20151220-r3) to root...
+Copying /builder/dl/vpnc-scripts_20151220-r3_all.ipk.
+Installing libgnutls (3.8.5-r1) to root...
+Copying /builder/dl/libgnutls_3.8.5-r1_i386_pentium4.ipk.
+Installing libtasn1 (4.19.0-r2) to root...
+Copying /builder/dl/libtasn1_4.19.0-r2_i386_pentium4.ipk.
+Installing openconnect (9.12-r5) to root...
+Copying /builder/dl/openconnect_9.12-r5_i386_pentium4.ipk.
+Installing luci-proto-vxlan (25.197.50948~1f2929f) to root...
+Copying /builder/dl/luci-proto-vxlan_25.197.50948~1f2929f_all.ipk.
+Installing kmod-udptunnel4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-udptunnel4_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-udptunnel6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-udptunnel6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-vxlan (6.6.93-r1) to root...
+Copying /builder/dl/kmod-vxlan_6.6.93-r1_i386_pentium4.ipk.
+Installing vxlan (7) to root...
+Copying /builder/dl/vxlan_7_all.ipk.
+Installing ip-bridge (6.11.0-r1) to root...
+Copying /builder/dl/ip-bridge_6.11.0-r1_i386_pentium4.ipk.
+Installing luci-proto-wireguard (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-proto-wireguard_25.170.03049~65670be_all.ipk.
+Installing ip-tiny (6.11.0-r1) to root...
+Copying /builder/dl/ip-tiny_6.11.0-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-chacha20 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-poly1305 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-poly1305_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-chacha20poly1305 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20poly1305_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-kpp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-kpp_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-curve25519 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-curve25519_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-wireguard (6.6.93-r1) to root...
+Copying /builder/dl/kmod-wireguard_6.6.93-r1_i386_pentium4.ipk.
+Installing wireguard-tools (1.0.20210914-r4) to root...
+Copying /builder/dl/wireguard-tools_1.0.20210914-r4_i386_pentium4.ipk.
+Installing luci-lib-uqr (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-uqr_25.184.50942~23154bf_all.ipk.
+Installing mtr-json (0.95-r3) to root...
+Copying /builder/dl/mtr-json_0.95-r3_i386_pentium4.ipk.
+Installing ncdu (1.20-r1) to root...
+Copying /builder/dl/ncdu_1.20-r1_i386_pentium4.ipk.
+Installing nnn (4.9-r1) to root...
+Copying /builder/dl/nnn_4.9-r1_i386_pentium4.ipk.
+Installing musl-fts (1.2.7-r1) to root...
+Copying /builder/dl/musl-fts_1.2.7-r1_i386_pentium4.ipk.
+Installing pciutils (3.14.0-r1) to root...
+Copying /builder/dl/pciutils_3.14.0-r1_i386_pentium4.ipk.
+Installing libkmod (32-r1) to root...
+Copying /builder/dl/libkmod_32-r1_i386_pentium4.ipk.
+Installing libpci (3.14.0-r1) to root...
+Copying /builder/dl/libpci_3.14.0-r1_i386_pentium4.ipk.
+Installing pciids (0.387-r1) to root...
+Copying /builder/dl/pciids_0.387-r1_i386_pentium4.ipk.
+Installing pv (1.6.6-r1) to root...
+Copying /builder/dl/pv_1.6.6-r1_i386_pentium4.ipk.
+Installing ripgrep (14.1.1-r1) to root...
+Copying /builder/dl/ripgrep_14.1.1-r1_i386_pentium4.ipk.
+Installing libpcre2 (10.42-r1) to root...
+Copying /builder/dl/libpcre2_10.42-r1_i386_pentium4.ipk.
+Installing rsync (3.4.1-r1) to root...
+Copying /builder/dl/rsync_3.4.1-r1_i386_pentium4.ipk.
+Installing libpopt0 (1.19-r1) to root...
+Copying /builder/dl/libpopt0_1.19-r1_i386_pentium4.ipk.
+Installing libacl (2.3.2-r2) to root...
+Copying /builder/dl/libacl_2.3.2-r2_i386_pentium4.ipk.
+Installing tmux (3.5a-r1) to root...
+Copying /builder/dl/tmux_3.5a-r1_i386_pentium4.ipk.
+Installing usbutils (017-r1) to root...
+Copying /builder/dl/usbutils_017-r1_i386_pentium4.ipk.
+Installing libusb-1.0-0 (1.0.27-r1) to root...
+Copying /builder/dl/libusb-1.0-0_1.0.27-r1_i386_pentium4.ipk.
+Installing libevdev (1.13.1-r1) to root...
+Copying /builder/dl/libevdev_1.13.1-r1_i386_pentium4.ipk.
+Installing libudev-zero (1.0.3-r1) to root...
+Copying /builder/dl/libudev-zero_1.0.3-r1_i386_pentium4.ipk.
+Installing usbids (0.387-r1) to root...
+Copying /builder/dl/usbids_0.387-r1_i386_pentium4.ipk.
+Installing vim-full (9.1-r1) to root...
+Copying /builder/dl/vim-full_9.1-r1_i386_pentium4.ipk.
+Installing vim-runtime (9.1-r1) to root...
+Copying /builder/dl/vim-runtime_9.1-r1_i386_pentium4.ipk.
+Package wireguard-tools (1.0.20210914-r4) installed in root is up to date.
+Installing xz (5.6.2-r2) to root...
+Copying /builder/dl/xz_5.6.2-r2_i386_pentium4.ipk.
+Installing xz-utils (5.6.2-r2) to root...
+Copying /builder/dl/xz-utils_5.6.2-r2_i386_pentium4.ipk.
+Installing liblzma (5.6.2-r2) to root...
+Copying /builder/dl/liblzma_5.6.2-r2_i386_pentium4.ipk.
+Installing zram-swap (32) to root...
+Copying /builder/dl/zram-swap_32_all.ipk.
+Installing kmod-zram (6.6.93-r1) to root...
+Copying /builder/dl/kmod-zram_6.6.93-r1_i386_pentium4.ipk.
+Installing zsh (5.9-r3) to root...
+Copying /builder/dl/zsh_5.9-r3_i386_pentium4.ipk.
+Installing libcap (2.69-r1) to root...
+Copying /builder/dl/libcap_2.69-r1_i386_pentium4.ipk.
+Package autocore (42) installed in root is up to date.
+Package automount (10) installed in root is up to date.
+Package base-files (1859~467867283bb9) installed in root is up to date.
+Package default-settings-chn (29) installed in root is up to date.
+Package dnsmasq-full (2.90-r5) installed in root is up to date.
+Package dropbear (2024.86-r1) installed in root is up to date.
+Package fdisk (2.40.2-r1) installed in root is up to date.
+Package fstools (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Package grub2-bios-setup (2.12-r1) installed in root is up to date.
+Package i915-firmware-dmc (20241110-r2) installed in root is up to date.
+Package kernel (6.6.93~c3b6ece951258d1ef23245649d0e6cf6-r1) installed in root is up to date.
+Package kmod-drm-i915 (6.6.93-r1) installed in root is up to date.
+Package kmod-e1000 (6.6.93-r1) installed in root is up to date.
+Package kmod-e1000e (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-f2fs (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-vfat (6.6.93-r1) installed in root is up to date.
+Package kmod-nf-nathelper (6.6.93-r1) installed in root is up to date.
+Package kmod-nf-nathelper-extra (6.6.93-r1) installed in root is up to date.
+Package kmod-nft-offload (6.6.93-r1) installed in root is up to date.
+Package kmod-r8168 (6.6.93.8.055.00-r3) installed in root is up to date.
+Package kmod-usb-hid (6.6.93-r1) installed in root is up to date.
+Package kmod-usb-net (6.6.93-r1) installed in root is up to date.
+Package kmod-via-rhine (6.6.93-r1) installed in root is up to date.
+Package logd (2024.04.26~85f10530-r1) installed in root is up to date.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Package luci-compat (25.170.03049~65670be) installed in root is up to date.
+Package luci-lib-ipkg (25.184.50942~23154bf) installed in root is up to date.
+Package luci-light (25.184.50942~23154bf) installed in root is up to date.
+Package mkf2fs (1.16.0-r3) installed in root is up to date.
+Package mtd (26) installed in root is up to date.
+Package netifd (2025.05.23~7901e66c-r1) installed in root is up to date.
+Package nftables-json (1.1.1-r1) installed in root is up to date.
+Package odhcp6c (2024.09.25~b6ae9ffa-r1) installed in root is up to date.
+Package odhcpd-ipv6only (2024.05.08~a2988231-r3) installed in root is up to date.
+Package partx-utils (2.40.2-r1) installed in root is up to date.
+Package ppp-mod-pppoe (2.5.1-r1) installed in root is up to date.
+Package procd-ujail (2024.12.22~42d39376-r1) installed in root is up to date.
+Package uci (2025.01.20~16ff0bad-r1) installed in root is up to date.
+Package urandom-seed (3) installed in root is up to date.
+Package urngd (2023.11.01~44365eb1-r1) installed in root is up to date.
+Configuring kmod-dma-buf.
+Configuring kmod-i2c-core.
+Configuring kmod-backlight.
+Configuring kmod-fb.
+Configuring kmod-drm.
+Configuring libpthread.
+Configuring zlib.
+Configuring libxml2.
+Configuring kmod-tun.
+Configuring resolveip.
+Configuring vpnc-scripts.
+Configuring libgmp10.
+Configuring libnettle8.
+Configuring libatomic1.
+Configuring libgnutls.
+Configuring libtasn1.
+Configuring openconnect.
+Configuring kmod-iptunnel.
+Configuring kmod-udptunnel4.
+Configuring kmod-udptunnel6.
+Configuring kmod-vxlan.
+Configuring kmod-scsi-core.
+Configuring kmod-nls-base.
+Configuring kmod-usb-core.
+Configuring kmod-usb-storage.
+Configuring terminfo.
+Configuring libnl-tiny1.
+Configuring libmnl0.
+Configuring ip-tiny.
+Configuring kmod-crypto-lib-chacha20.
+Configuring kmod-crypto-hash.
+Configuring kmod-crypto-lib-poly1305.
+Configuring kmod-crypto-lib-chacha20poly1305.
+Configuring kmod-crypto-kpp.
+Configuring kmod-crypto-lib-curve25519.
+Configuring kmod-wireguard.
+Configuring wireguard-tools.
+Configuring libjson-c5.
+Configuring libucode20230711.
+Configuring ucode.
+Configuring luci-lib-uqr.
+Configuring luci-proto-wireguard.
+Configuring libubox20240329.
+Configuring libubus20250102.
+Configuring libuci20250120.
+Configuring libblobmsg-json20240329.
+Configuring rpcd.
+Configuring rpcd-mod-file.
+Configuring rpcd-mod-luci.
+Configuring rpcd-mod-ucode.
+Configuring cgi-io.
+Configuring ucode-mod-fs.
+Configuring ucode-mod-uci.
+Configuring ucode-mod-ubus.
+Configuring ucode-mod-math.
+Configuring ucode-mod-html.
+Configuring liblucihttp0.
+Configuring liblucihttp-ucode.
+Configuring luci-base.
+Configuring libevent2-7.
+Configuring libopenssl3.
+Configuring libevent2-core7.
+Configuring libevent2-openssl7.
+Configuring xfrpc.
+Configuring luci-app-xfrpc.
+Configuring libiwinfo-data.
+Configuring libiwinfo20230701.
+Configuring iwinfo.
+Configuring watchcat.
+Configuring luci-app-watchcat.
+Configuring kmod-lib-textsearch.
+Configuring kmod-gre.
+Configuring kmod-iptunnel6.
+Configuring kmod-ip6-tunnel.
+Configuring kmod-gre6.
+Configuring gre.
+Configuring luci-proto-gre.
+Configuring liblua5.1.5.
+Configuring lua.
+Configuring luci-lib-nixio.
+Configuring luci-lib-ip.
+Configuring luci-lib-jsonc.
+Configuring liblucihttp-lua.
+Configuring luci-lib-base.
+Configuring vxlan.
+Configuring ip-bridge.
+Configuring luci-proto-vxlan.
+Configuring librt.
+Configuring libuuid1.
+Configuring libf2fs6.
+Configuring mkf2fs.
+Configuring libevdev.
+Configuring libxtables12.
+Configuring kmod-nf-reject.
+Configuring kmod-nf-ipt.
+Configuring kmod-nf-log.
+Configuring kmod-ipt-core.
+Configuring kmod-ipt-extra.
+Configuring iptables-mod-extra.
+Configuring kmod-usb-storage-uas.
+Configuring ubusd.
+Configuring ubus.
+Configuring iw.
+Configuring libiperf3.
+Configuring kmod-nfnetlink.
+Configuring kmod-nf-reject6.
+Configuring kmod-nf-conntrack.
+Configuring kmod-nf-conntrack6.
+Configuring kmod-nf-nat.
+Configuring kmod-nf-log6.
+Configuring kmod-crypto-crc32c.
+Configuring kmod-lib-crc32c.
+Configuring kmod-nft-core.
+Configuring kmod-nft-nat.
+Configuring kmod-nft-fullcone.
+Configuring busybox.
+Configuring kmod-fs-ntfs3.
+Configuring ntfs3-mount.
+Configuring kmod-lib-zlib-deflate.
+Configuring libpci.
+Configuring jq.
+Configuring kmod-nft-fib.
+Configuring kmod-zram.
+Configuring zram-swap.
+Configuring libubus-lua.
+Configuring kmod-lib-crc16.
+Configuring jshn.
+Configuring libudebug.
+Configuring netifd.
+Configuring ucode-mod-nl80211.
+Configuring ucode-mod-rtnl.
+Configuring wifi-scripts.
+Configuring wireless-regdb.
+Configuring kmod-cfg80211.
+Configuring batctl-tiny.
+Configuring kmod-batman-adv.
+Configuring kmod-br-netfilter.
+Configuring libattr.
+Configuring libacl.
+Configuring liblzma.
+Configuring luci-mod-system.
+Configuring kmod-nf-flow.
+Configuring libstdcpp6.
+Configuring libopenssl-conf.
+Configuring libopenssl-legacy.
+Configuring aria2-openssl.
+Configuring aria2.
+Configuring libjson-script20240329.
+Configuring uhttpd.
+Configuring ariang.
+Configuring luci-app-aria2.
+Configuring kmod-lib-crc-ccitt.
+Configuring liblzo2.
+Configuring getrandom.
+Configuring libiptext0.
+Configuring kmod-drm-ttm.
+Configuring kmod-drm-ttm-helper.
+Configuring kmod-asn1-decoder.
+Configuring i915-firmware-dmc.
+Configuring tini.
+Configuring luci-theme-bootstrap.
+Configuring libusb-1.0-0.
+Configuring kmod-nf-nathelper.
+Configuring kmod-slhc.
+Configuring kmod-ppp.
+Configuring kmod-pppox.
+Configuring kmod-pppoe.
+Configuring kmod-fb-sys-fops.
+Configuring kmod-fb-cfb-copyarea.
+Configuring kmod-fb-cfb-fillrect.
+Configuring kmod-fb-cfb-imgblt.
+Configuring kmod-fb-sys-ram.
+Configuring kmod-drm-kms-helper.
+Configuring kmod-drm-buddy.
+Configuring libsysfs2.
+Configuring sysfsutils.
+Configuring libcap.
+Configuring kmod-drm-exec.
+Configuring ucode-mod-lua.
+Configuring luci-lua-runtime.
+Configuring kmod-veth.
+Configuring kmod-ipt-conntrack.
+Configuring procd-ujail.
+Configuring jsonfilter.
+Configuring usign.
+Configuring openwrt-keyring.
+Configuring ubox.
+Configuring fstools.
+Configuring fwtool.
+Configuring procd.
+Configuring procd-seccomp.
+Configuring base-files.
+Configuring pciids.
+Configuring kmod-input-core.
+Configuring libblkid1.
+Configuring libsmartcols1.
+Configuring partx-utils.
+Configuring blkid.
+Configuring libcomerr0.
+Configuring libss2.
+Configuring libext2fs2.
+Configuring libe2p2.
+Configuring e2fsprogs.
+Configuring libparted.
+Configuring libncurses6.
+Configuring libreadline8.
+Configuring parted.
+Configuring smartmontools.
+Configuring libmount1.
+Configuring kmod-crypto-acompress.
+Configuring kmod-lib-lzo.
+Configuring kmod-lib-zlib-inflate.
+Configuring kmod-lib-raid6.
+Configuring kmod-lib-xor.
+Configuring kmod-lib-xxhash.
+Configuring kmod-lib-zstd.
+Configuring kmod-crypto-blake2b.
+Configuring kmod-crypto-xxhash.
+Configuring kmod-fs-btrfs.
+Configuring btrfs-progs.
+Configuring lsblk.
+Configuring luci-app-diskman.
+Configuring kmod-libphy.
+Configuring kmod-r8168.
+Configuring libseccomp.
+Configuring kmod-nft-offload.
+Configuring libnftnl11.
+Configuring jansson4.
+Configuring nftables-json.
+Configuring firewall4.
+Configuring kmod-iptunnel4.
+Configuring kmod-ipip.
+Configuring ipip.
+Configuring luci-proto-ipip.
+Configuring libkmod.
+Configuring pciutils.
+Configuring libpcre2.
+Configuring zsh.
+Configuring kmod-mii.
+Configuring libudev-zero.
+Configuring usbids.
+Configuring usbutils.
+Configuring ethtool.
+Configuring libsensors5.
+Configuring lm-sensors.
+Configuring autocore.
+Configuring pv.
+Configuring libnfnetlink0.
+Configuring kmod-nf-conntrack-netlink.
+Configuring libnetfilter-conntrack3.
+Configuring kmod-nf-nat6.
+Configuring kmod-input-evdev.
+Configuring kmod-hid.
+Configuring kmod-hid-generic.
+Configuring kmod-usb-hid.
+Configuring rpcd-mod-iwinfo.
+Configuring luci-mod-status.
+Configuring musl-fts.
+Configuring nnn.
+Configuring block-mount.
+Configuring kmod-drm-display-helper.
+Configuring kmod-usb-storage-extras.
+Configuring kmod-fs-ext4.
+Configuring kmod-fs-exfat.
+Configuring kmod-nls-cp437.
+Configuring kmod-nls-iso8859-1.
+Configuring kmod-nls-utf8.
+Configuring kmod-fs-vfat.
+Configuring automount.
+Configuring luci-app-firewall.
+Configuring luci-lib-ipkg.
+Configuring grub2-bios-setup.
+Configuring kmod-nf-ipt6.
+Configuring kmod-ip6tables.
+Configuring odhcp6c.
+Configuring docker.
+Configuring kmod-acpi-video.
+Configuring ca-certificates.
+Configuring runc.
+Configuring containerd.
+Configuring libip4tc2.
+Configuring libip6tc2.
+Configuring libiptext6-0.
+Configuring xtables-legacy.
+Configuring iptables-zz-legacy.
+Configuring ip6tables-zz-legacy.
+Configuring kmod-ipt-nat.
+Configuring kmod-ipt-nat6.
+Configuring kmod-ipt-physdev.
+Configuring kmod-nf-ipvs.
+Configuring dockerd.
+Configuring uci.
+Configuring dropbear.
+Configuring libnghttp2-14.
+Configuring ca-bundle.
+Configuring libcurl4.
+Configuring curl.
+Configuring luci-compat.
+Configuring mtd.
+Configuring odhcpd-ipv6only.
+Configuring luci-app-package-manager.
+Configuring urandom-seed.
+Configuring luci-proto-ppp.
+Configuring luci-mod-network.
+Configuring luci-mod-admin-full.
+Configuring xz-utils.
+Configuring xz.
+Configuring logd.
+Configuring kmod-usb-net.
+Configuring libpopt0.
+Configuring rsync.
+Configuring luci-proto-batman-adv.
+Configuring luci-proto-ipv6.
+Configuring kmod-nf-nathelper-extra.
+Configuring tmux.
+Configuring libfdisk1.
+Configuring kmod-e1000.
+Configuring kmod-drm-suballoc-helper.
+Configuring kmod-pps.
+Configuring vim-full.
+Configuring kmod-crypto-crc32.
+Configuring kmod-fs-f2fs.
+Configuring luci-proto-openconnect.
+Configuring rpcd-mod-rrdns.
+Configuring uhttpd-mod-ubus.
+Configuring luci-light.
+Configuring luci.
+Configuring default-settings.
+Configuring git.
+Configuring luci-i18n-base-zh-cn.
+Configuring default-settings-chn.
+Configuring ripgrep.
+Configuring kmod-ptp.
+Configuring fdisk.
+Configuring vim-runtime.
+Configuring kmod-i2c-algo-bit.
+Configuring kmod-drm-i915.
+Configuring kmod-via-rhine.
+Configuring kmod-e1000e.
+Configuring ncdu.
+Configuring mtr-json.
+Configuring luci-app-docker.
+Configuring iperf3.
+Configuring urngd.
+Configuring ppp-mod-pppoe.
+Configuring dnsmasq-full.
+
+Finalizing root filesystem...
+Enabling aria2
+Enabling autocore
+Enabling boot
+Enabling cron
+Enabling dnsmasq
+Enabling docker
+Enabling dockerd
+Enabling done
+Enabling dropbear
+Enabling firewall
+Enabling fstab
+Enabling gpio_switch
+Enabling led
+Enabling lm-sensors
+Enabling log
+Enabling network
+Enabling odhcpd
+Enabling openssl
+Enabling packet_steering
+Enabling rpcd
+Enabling sysctl
+Enabling sysfixtime
+Enabling sysfsutils
+Enabling sysntpd
+Enabling system
+Enabling ucitrack
+Enabling uhttpd
+Enabling umount
+Enabling urandom_seed
+Enabling urngd
+Enabling watchcat
+Enabling xfrpc
+Enabling zram
+
+Building images...
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs, block size 262144.
+
+[|                                                             ]    0/5905   0%
+[==========\                                                   ] 1000/5905  16%
+[================================/                             ] 3100/5905  52%
+[=============================================================-] 5905/5905 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 79266.67 Kbytes (77.41 Mbytes)
+	28.06% of uncompressed filesystem size (282526.54 Kbytes)
+Inode table size 41736 bytes (40.76 Kbytes)
+	21.25% of uncompressed inode table size (196427 bytes)
+Directory table size 53958 bytes (52.69 Kbytes)
+	44.73% of uncompressed directory table size (120642 bytes)
+Number of duplicate files found 376
+Number of inodes 5841
+Number of files 4974
+Number of fragments 148
+Number of symbolic links 648
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 218
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	unknown (0)
+Number of gids 1
+	unknown (0)
+Creating filesystem with parameters:
+    Size: 314572800
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 6400
+    Inode size: 256
+    Journal blocks: 1200
+    Label: rootfs
+    Blocks: 76800
+    Block groups: 3
+    Reserved blocks: 0
+    Reserved block group size: 23
+Created filesystem with 5850/19200 inodes and 76791/76800 blocks
+Creating filesystem with parameters:
+    Size: 33554432
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 2048
+    Inode size: 256
+    Journal blocks: 0
+    Label: kernel
+    Blocks: 8192
+    Block groups: 1
+    Reserved blocks: 0
+    Reserved block group size: 7
+Created filesystem with 17/2048 inodes and 1572/8192 blocks
+Creating filesystem with parameters:
+    Size: 33554432
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 2048
+    Inode size: 256
+    Journal blocks: 0
+    Label: kernel
+    Blocks: 8192
+    Block groups: 1
+    Reserved blocks: 0
+    Reserved block group size: 7
+Created filesystem with 17/2048 inodes and 1572/8192 blocks
+mkfs.fat 4.2 (2021-01-31)
+mkfs.fat 4.2 (2021-01-31)
+
+Calculating checksums...
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Custom Downloads
+
+COMBINED-EFI (EXT4)
+Other image type.
+sha256sum: 6d376a58de93f26040c3f4dc7d65f8e340a3938ed4b98fa0cabe06c93e2e6a58
+COMBINED (EXT4)
+Other image type.
+sha256sum: 28fe4690bd5b4e56b894ca0124715b30f597fe5a551305a856ac99b196ad8eb9
+ROOTFS (EXT4)
+Root file system as a separate image.
+sha256sum: 394c803f09ad64c39577c43105276693de74f92b783063162adc1eba6b48d6c6
+COMBINED-EFI (SQUASHFS)
+Other image type.
+sha256sum: 227131b22f9a831327281e35328ba34ab8e79de9e178c3569a7fa93ef0a3dd7f
+COMBINED (SQUASHFS)
+Other image type.
+sha256sum: 2e5f704fccaa3fdee2932d2b688db0a176647d98b4b55888b054bdc5c1faeb1c
+ROOTFS (SQUASHFS)
+Root file system as a separate image.
+sha256sum: 609deb44dc46a0f6de0e73a4cf0f9996007edd9c823170ce94cab272a8888fc1
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f
+
+
+
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Generic x86
+Platform
+x86/generic
+Version
+24.10.2 (r33247-467867283bb9)
+Date
+6/25/2025, 11:36:28 PM
+Links
+
+Customize installed packages and/or first boot script
+Build successful
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/kmods/6.6.93-1-c3b6ece951258d1ef23245649d0e6cf6/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/24.10.2/targets/x86/generic/kmods/6.6.93-1-c3b6ece951258d1ef23245649d0e6cf6/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/24.10.2/packages/i386_pentium4/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-i386_pentium4_musl/root-x86/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+Pseudo file "dev" exists in source filesystem "/builder/build_dir/target-i386_pentium4_musl/root-x86/dev".
+Ignoring, exclude it (-e/-ef) to override.
+157697+1 records in
+157697+1 records out
+80741061 bytes (81 MB, 77 MiB) copied, 0.128873 s, 627 MB/s
+0+1 records in
+1+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.21311 s, 259 MB/s
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.951268 s, 331 MB/s
+1+0 records in
+1+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.25703 s, 250 MB/s
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz -h 16 -s 63 -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3
+part 0 32768
+part 0 307200
++ set 262144 33554432 34078720 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66560
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz bs=512 seek=66560 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.427437 s, 736 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz bs=512 seek=66560 conv=notrunc
+157697+1 records in
+157697+1 records out
+80741061 bytes (81 MB, 77 MiB) copied, 2.17318 s, 37.2 MB/s
++ [ -n  ]
++ make_ext4fs -J -L kernel -l 33554432 -T 1750865788 /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz.boot
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0546425 s, 614 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined.img.gz.kernel
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz -h 16 -s 63 -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3
+part 0 32768
+part 0 307200
++ set 262144 33554432 34078720 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66560
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz bs=512 seek=66560 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.418549 s, 752 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4 of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz bs=512 seek=66560 conv=notrunc
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 1.34349 s, 234 MB/s
++ [ -n  ]
++ make_ext4fs -J -L kernel -l 33554432 -T 1750865788 /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz.boot
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0559405 s, 600 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined.img.gz.kernel
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz -h 16 -s 63 -g -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3 -G 21eda3e3-84ed-b259-d996-b272d6260400
+part 0 32768
+part 0 307200
++ set 262144 33554432 33816576 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66048
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=66048 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.463188 s, 679 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=66048 conv=notrunc
+157697+1 records in
+157697+1 records out
+80741061 bytes (81 MB, 77 MiB) copied, 0.227336 s, 355 MB/s
++ [ -n 21eda3e3-84ed-b259-d996-b272d6260400 ]
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=680448 conv=notrunc count=63
+63+0 records in
+63+0 records out
+32256 bytes (32 kB, 32 KiB) copied, 0.000110917 s, 291 MB/s
++ mkfs.fat --invariant -n kernel -C /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel -S 512 32768
+mkfs.fat: Warning: lowercase labels might not work properly on some systems
++ LC_ALL=C dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot /
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot /boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub
++ baseentry=grub
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/boot/grub
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub /boot/grub/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/boot.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/boot.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/core.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/core.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/grub.cfg ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/grub/grub.cfg ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/vmlinuz ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/boot/vmlinuz ::/boot/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi
++ baseentry=efi
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/efi
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi /efi/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel ::/efi/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot /efi/boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot/bootia32.efi ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.boot/efi/boot/bootia32.efi ::/efi/boot/
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.0554291 s, 605 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-squashfs-combined-efi.img.gz.kernel
+/builder/staging_dir/host/bin/grub-bios-setup: warning: Your BIOS Boot Partition is under 1 MiB, please increase its size..
+cp: cannot stat '/builder/staging_dir/target-i386_pentium4_musl/root-x86/boot/.': No such file or directory
++ [ 6 -ne 5 ]
++ [ 6 -ne 6 ]
++ OUTPUT=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz
++ KERNELSIZE=32
++ KERNELDIR=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot
++ KERNELPARTTYPE=83
++ ROOTFSSIZE=300
++ ROOTFSIMAGE=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4
++ ROOTFSPARTTYPE=83
++ ALIGN=256
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz
++ head=16
++ sect=63
++ ptgen -o /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz -h 16 -s 63 -g -t 83 -p 32m -t 83 -p 300m -l 256 -S 0x21eda3e3 -G 21eda3e3-84ed-b259-d996-b272d6260400
+part 0 32768
+part 0 307200
++ set 262144 33554432 33816576 314572800
++ KERNELOFFSET=512
++ KERNELSIZE=33554432
++ ROOTFSOFFSET=66048
++ ROOTFSSIZE=614400
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=66048 conv=notrunc count=614400
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 0.455555 s, 691 MB/s
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.ext4 of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=66048 conv=notrunc
+614400+0 records in
+614400+0 records out
+314572800 bytes (315 MB, 300 MiB) copied, 2.8035 s, 112 MB/s
++ [ -n 21eda3e3-84ed-b259-d996-b272d6260400 ]
++ [ -n 1 ]
++ dd if=/dev/zero of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=680448 conv=notrunc count=63
+63+0 records in
+63+0 records out
+32256 bytes (32 kB, 32 KiB) copied, 7.2851e-05 s, 443 MB/s
++ mkfs.fat --invariant -n kernel -C /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel -S 512 32768
+mkfs.fat: Warning: lowercase labels might not work properly on some systems
++ LC_ALL=C dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot /
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot /boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub
++ baseentry=grub
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/boot/grub
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub /boot/grub/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/boot.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/boot.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/core.img ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/core.img ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/grub.cfg ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/grub/grub.cfg ::/boot/grub/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/vmlinuz ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/boot/vmlinuz ::/boot/
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi
++ baseentry=efi
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/efi
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi /efi/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot ]
++ [ -d /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot ]
++ basename /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot
++ baseentry=boot
++ mmd -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel ::/efi/boot
++ dos_dircopy /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot /efi/boot/
++ local entry
++ local baseentry
++ [ -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot/bootia32.efi ]
++ mcopy -i /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.boot/efi/boot/bootia32.efi ::/efi/boot/
++ dd if=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel of=/builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz bs=512 seek=512 conv=notrunc
+65536+0 records in
+65536+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.119202 s, 281 MB/s
++ rm -f /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/tmp/immortalwrt-24.10.2-272daba102de-x86-generic-generic-ext4-combined-efi.img.gz.kernel
+/builder/staging_dir/host/bin/grub-bios-setup: warning: Your BIOS Boot Partition is under 1 MiB, please increase its size..
+STDOUT
+Checking 'true'... ok.
+Checking 'false'... ok.
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... ok.
+Checking 'proper-umask'... ok.
+Checking 'perl-data-dumper'... ok.
+Checking 'perl-findbin'... ok.
+Checking 'perl-file-copy'... ok.
+Checking 'perl-file-compare'... ok.
+Checking 'perl-thread-queue'... ok.
+Checking 'perl-ipc-cmd'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... updated.
+Checking 'xargs'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... updated.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... updated.
+Checking 'egrep'... updated.
+Checking 'getopt'... ok.
+Checking 'realpath'... ok.
+Checking 'stat'... ok.
+Checking 'gzip'... updated.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'install'... ok.
+Checking 'perl'... ok.
+Checking 'python'... updated.
+Checking 'python3'... updated.
+Checking 'python3-distutils'... ok.
+Checking 'python3-stdlib'... ok.
+Checking 'file'... ok.
+Checking 'which'... ok.
+Checking 'ldconfig-stub'... ok.
+Building images for x86 - Generic x86
+Packages: autocore automount base-files default-settings-chn dnsmasq-full dropbear fdisk fstools grub2-bios-setup i915-firmware-dmc kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-r8168 kmod-usb-hid kmod-usb-net logd luci-app-package-manager luci-compat luci-lib-ipkg luci-light mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only partx-utils ppp-mod-pppoe procd-ujail uci urandom-seed urngd kmod-e1000 kmod-e1000e kmod-via-rhine kmod-drm-i915 bluez-utils curl dbus git htop iperf3 jq losetup kmod-fs-vfat kmod-fs-exfat kmod-fs-ext4 kmod-fs-f2fs luci-app-diskman luci-app-docker luci-app-watchcat luci-app-xfrpc luci-proto-batman-adv luci-proto-gre luci-proto-ipip luci-proto-openconnect luci-proto-vxlan luci-proto-wireguard mtr ncdu nnn pciutils pv ripgrep rsync tmux usbutils vim-full vim-runtime wireguard-tools xz zram-swap zsh autocore automount base-files default-settings-chn dnsmasq-full dropbear fdisk fstools grub2-bios-setup i915-firmware-dmc kernel kmod-drm-i915 kmod-e1000 kmod-e1000e kmod-fs-f2fs kmod-fs-vfat kmod-nf-nathelper kmod-nf-nathelper-extra kmod-nft-offload kmod-r8168 kmod-usb-hid kmod-usb-net kmod-via-rhine logd luci-app-package-manager luci-compat luci-lib-ipkg luci-light mkf2fs mtd netifd nftables odhcp6c odhcpd-ipv6only partx-utils ppp-mod-pppoe procd-ujail uci urandom-seed urngd
+
+
+Installing packages...
+Installing libc (1.2.5-r4) to root...
+Installing libgcc1 (13.3.0-r4) to root...
+Copying /builder/dl/libgcc1_13.3.0-r4_i386_pentium4.ipk.
+Configuring libgcc1.
+Configuring libc.
+Installing kernel (6.6.93~c3b6ece951258d1ef23245649d0e6cf6-r1) to root...
+Configuring kernel.
+Installing autocore (42) to root...
+Copying /builder/dl/autocore_42_i386_pentium4.ipk.
+Installing ethtool (6.11-r1) to root...
+Copying /builder/dl/ethtool_6.11-r1_i386_pentium4.ipk.
+Installing libsysfs2 (2.1.0-r4) to root...
+Copying /builder/dl/libsysfs2_2.1.0-r4_i386_pentium4.ipk.
+Installing sysfsutils (2.1.0-r4) to root...
+Copying /builder/dl/sysfsutils_2.1.0-r4_i386_pentium4.ipk.
+Installing libsensors5 (3.6.0-r1) to root...
+Copying /builder/dl/libsensors5_3.6.0-r1_i386_pentium4.ipk.
+Installing lm-sensors (3.6.0-r1) to root...
+Copying /builder/dl/lm-sensors_3.6.0-r1_i386_pentium4.ipk.
+Installing automount (10) to root...
+Copying /builder/dl/automount_10_all.ipk.
+Installing libubox20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libubox20240329_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing libjson-c5 (0.18-r1) to root...
+Copying /builder/dl/libjson-c5_0.18-r1_i386_pentium4.ipk.
+Installing libblobmsg-json20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libblobmsg-json20240329_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing ubusd (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/ubusd_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing libubus20250102 (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/libubus20250102_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing ubus (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/ubus_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing libuci20250120 (2025.01.20~16ff0bad-r1) to root...
+Copying /builder/dl/libuci20250120_2025.01.20~16ff0bad-r1_i386_pentium4.ipk.
+Installing ubox (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/ubox_2024.04.26~85f10530-r1_i386_pentium4.ipk.
+Installing fstools (2024.07.14~408c2cc4-r1) to root...
+Copying /builder/dl/fstools_2024.07.14~408c2cc4-r1_i386_pentium4.ipk.
+Installing block-mount (2024.07.14~408c2cc4-r1) to root...
+Copying /builder/dl/block-mount_2024.07.14~408c2cc4-r1_i386_pentium4.ipk.
+Installing libpthread (1.2.5-r4) to root...
+Copying /builder/dl/libpthread_1.2.5-r4_i386_pentium4.ipk.
+Installing librt (1.2.5-r4) to root...
+Copying /builder/dl/librt_1.2.5-r4_i386_pentium4.ipk.
+Installing libuuid1 (2.40.2-r1) to root...
+Copying /builder/dl/libuuid1_2.40.2-r1_i386_pentium4.ipk.
+Installing libblkid1 (2.40.2-r1) to root...
+Copying /builder/dl/libblkid1_2.40.2-r1_i386_pentium4.ipk.
+Installing libcomerr0 (1.47.0-r2) to root...
+Copying /builder/dl/libcomerr0_1.47.0-r2_i386_pentium4.ipk.
+Installing libss2 (1.47.0-r2) to root...
+Copying /builder/dl/libss2_1.47.0-r2_i386_pentium4.ipk.
+Installing libext2fs2 (1.47.0-r2) to root...
+Copying /builder/dl/libext2fs2_1.47.0-r2_i386_pentium4.ipk.
+Installing libe2p2 (1.47.0-r2) to root...
+Copying /builder/dl/libe2p2_1.47.0-r2_i386_pentium4.ipk.
+Installing e2fsprogs (1.47.0-r2) to root...
+Copying /builder/dl/e2fsprogs_1.47.0-r2_i386_pentium4.ipk.
+Installing kmod-scsi-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-scsi-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-base (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-base_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-storage (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-storage-extras (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage-extras_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-storage-uas (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-storage-uas_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-crc16 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc16_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-hash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-hash_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-crc32c (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-crc32c_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-ext4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-ext4_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-exfat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-exfat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-cp437 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-cp437_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-iso8859-1 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-iso8859-1_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nls-utf8 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nls-utf8_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-vfat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-vfat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-ntfs3 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-ntfs3_6.6.93-r1_i386_pentium4.ipk.
+Installing ntfs3-mount (10) to root...
+Copying /builder/dl/ntfs3-mount_10_all.ipk.
+Installing base-files (1859~467867283bb9) to root...
+Copying /builder/dl/base-files_1859~467867283bb9_i386_pentium4.ipk.
+Installing libnl-tiny1 (2025.03.19~c0df580a-r1) to root...
+Copying /builder/dl/libnl-tiny1_2025.03.19~c0df580a-r1_i386_pentium4.ipk.
+Installing jshn (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/jshn_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing libudebug (2025.07.23~6ed85361) to root...
+Copying /builder/dl/libudebug_2025.07.23~6ed85361_i386_pentium4.ipk.
+Installing libucode20230711 (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/libucode20230711_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-fs (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-fs_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing netifd (2025.05.23~7901e66c-r1) to root...
+Copying /builder/dl/netifd_2025.05.23~7901e66c-r1_i386_pentium4.ipk.
+Installing jsonfilter (2025.04.18~8a86fb78-r1) to root...
+Copying /builder/dl/jsonfilter_2025.04.18~8a86fb78-r1_i386_pentium4.ipk.
+Installing usign (2020.05.23~f1f65026-r1) to root...
+Copying /builder/dl/usign_2020.05.23~f1f65026-r1_i386_pentium4.ipk.
+Installing openwrt-keyring (2024.11.01~c5d6bdf2-r1) to root...
+Copying /builder/dl/openwrt-keyring_2024.11.01~c5d6bdf2-r1_i386_pentium4.ipk.
+Installing fwtool (2019.11.12~8f7fe925-r1) to root...
+Copying /builder/dl/fwtool_2019.11.12~8f7fe925-r1_i386_pentium4.ipk.
+Installing libjson-script20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libjson-script20240329_2025.07.23~49056d17-r1_i386_pentium4.ipk.
+Installing procd (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd_2024.12.22~42d39376-r1_i386_pentium4.ipk.
+Installing procd-seccomp (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd-seccomp_2024.12.22~42d39376-r1_i386_pentium4.ipk.
+Installing busybox (1.36.1-r2) to root...
+Copying /builder/dl/busybox_1.36.1-r2_i386_pentium4.ipk.
+Installing default-settings-chn (29) to root...
+Copying /builder/dl/default-settings-chn_29_all.ipk.
+Installing luci-proto-ipv6 (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ipv6_25.184.50942~23154bf_all.ipk.
+Installing rpcd (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing rpcd-mod-file (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-file_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing rpcd-mod-luci (20240305-r1) to root...
+Copying /builder/dl/rpcd-mod-luci_20240305-r1_i386_pentium4.ipk.
+Installing rpcd-mod-ucode (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-ucode_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing cgi-io (2022.08.10~901b0f04-r21) to root...
+Copying /builder/dl/cgi-io_2022.08.10~901b0f04-r21_i386_pentium4.ipk.
+Installing ucode-mod-uci (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-uci_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-ubus (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-ubus_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-math (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-math_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-html (1) to root...
+Copying /builder/dl/ucode-mod-html_1_i386_pentium4.ipk.
+Installing liblucihttp0 (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp0_2023.03.15~9b5b683f-r1_i386_pentium4.ipk.
+Installing liblucihttp-ucode (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp-ucode_2023.03.15~9b5b683f-r1_i386_pentium4.ipk.
+Installing luci-base (25.187.32690~3d6dbd2) to root...
+Copying /builder/dl/luci-base_25.187.32690~3d6dbd2_i386_pentium4.ipk.
+Installing kmod-nfnetlink (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nfnetlink_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-reject (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-reject_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-reject6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-reject6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-conntrack (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-conntrack6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-log (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-log_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-log6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-log6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-crc32c (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc32c_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-fib (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-fib_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-flow (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-flow_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-nat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-offload (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nft-offload_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nft-fullcone (6.6.93.2023.05.17~07d93b62-r1) to root...
+Copying /builder/dl/kmod-nft-fullcone_6.6.93.2023.05.17~07d93b62-r1_i386_pentium4.ipk.
+Installing libmnl0 (1.0.5-r1) to root...
+Copying /builder/dl/libmnl0_1.0.5-r1_i386_pentium4.ipk.
+Installing libnftnl11 (1.2.8-r1) to root...
+Copying /builder/dl/libnftnl11_1.2.8-r1_i386_pentium4.ipk.
+Installing jansson4 (2.14-r3) to root...
+Copying /builder/dl/jansson4_2.14-r3_i386_pentium4.ipk.
+Installing nftables-json (1.1.1-r1) to root...
+Copying /builder/dl/nftables-json_1.1.1-r1_i386_pentium4.ipk.
+Installing firewall4 (2024.12.18~18fc0ead-r1) to root...
+Copying /builder/dl/firewall4_2024.12.18~18fc0ead-r1_i386_pentium4.ipk.
+Installing luci-app-firewall (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-firewall_25.184.50942~23154bf_all.ipk.
+Installing libiwinfo-data (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/libiwinfo-data_2024.10.20~b94f066e-r1_i386_pentium4.ipk.
+Installing libiwinfo20230701 (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/libiwinfo20230701_2024.10.20~b94f066e-r1_i386_pentium4.ipk.
+Installing rpcd-mod-iwinfo (2024.09.17~9f4b86e7-r1) to root...
+Copying /builder/dl/rpcd-mod-iwinfo_2024.09.17~9f4b86e7-r1_i386_pentium4.ipk.
+Installing luci-mod-status (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-mod-status_25.187.32633~383d9ef_i386_pentium4.ipk.
+Installing luci-mod-system (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-mod-system_25.184.50942~23154bf_all.ipk.
+Installing luci-mod-network (25.187.32633~383d9ef) to root...
+Copying /builder/dl/luci-mod-network_25.187.32633~383d9ef_all.ipk.
+Installing luci-mod-admin-full (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-mod-admin-full_25.184.50942~23154bf_all.ipk.
+Installing luci-proto-ppp (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ppp_25.184.50942~23154bf_all.ipk.
+Installing luci-theme-bootstrap (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-theme-bootstrap_25.170.03049~65670be_all.ipk.
+Installing rpcd-mod-rrdns (20170710) to root...
+Copying /builder/dl/rpcd-mod-rrdns_20170710_i386_pentium4.ipk.
+Installing uhttpd (2025.07.06~7e64e8ba-r4) to root...
+Copying /builder/dl/uhttpd_2025.07.06~7e64e8ba-r4_i386_pentium4.ipk.
+Installing uhttpd-mod-ubus (2025.07.06~7e64e8ba-r4) to root...
+Copying /builder/dl/uhttpd-mod-ubus_2025.07.06~7e64e8ba-r4_i386_pentium4.ipk.
+Installing luci-light (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-light_25.184.50942~23154bf_all.ipk.
+Installing luci-app-package-manager (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-package-manager_25.184.50942~23154bf_all.ipk.
+Installing luci (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci_25.184.50942~23154bf_all.ipk.
+Installing default-settings (29) to root...
+Copying /builder/dl/default-settings_29_all.ipk.
+Installing luci-i18n-base-zh-cn (25.208.26935~438b511) to root...
+Copying /builder/dl/luci-i18n-base-zh-cn_25.208.26935~438b511_all.ipk.
+Installing dnsmasq-full (2.90-r5) to root...
+Copying /builder/dl/dnsmasq-full_2.90-r5_i386_pentium4.ipk.
+Installing libgmp10 (6.3.0-r1) to root...
+Copying /builder/dl/libgmp10_6.3.0-r1_i386_pentium4.ipk.
+Installing libnettle8 (3.9.1-r1) to root...
+Copying /builder/dl/libnettle8_3.9.1-r1_i386_pentium4.ipk.
+Installing libnfnetlink0 (1.0.2-r1) to root...
+Copying /builder/dl/libnfnetlink0_1.0.2-r1_i386_pentium4.ipk.
+Installing kmod-nf-conntrack-netlink (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-conntrack-netlink_6.6.93-r1_i386_pentium4.ipk.
+Installing libnetfilter-conntrack3 (1.0.9-r2) to root...
+Copying /builder/dl/libnetfilter-conntrack3_1.0.9-r2_i386_pentium4.ipk.
+Installing dropbear (2024.86-r1) to root...
+Copying /builder/dl/dropbear_2024.86-r1_i386_pentium4.ipk.
+Installing fdisk (2.40.2-r1) to root...
+Copying /builder/dl/fdisk_2.40.2-r1_i386_pentium4.ipk.
+Installing libsmartcols1 (2.40.2-r1) to root...
+Copying /builder/dl/libsmartcols1_2.40.2-r1_i386_pentium4.ipk.
+Installing libfdisk1 (2.40.2-r1) to root...
+Copying /builder/dl/libfdisk1_2.40.2-r1_i386_pentium4.ipk.
+Installing terminfo (6.4-r2) to root...
+Copying /builder/dl/terminfo_6.4-r2_i386_pentium4.ipk.
+Installing libncurses6 (6.4-r2) to root...
+Copying /builder/dl/libncurses6_6.4-r2_i386_pentium4.ipk.
+Package fstools (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Installing grub2-bios-setup (2.12-r1) to root...
+Copying /builder/dl/grub2-bios-setup_2.12-r1_i386_pentium4.ipk.
+Installing i915-firmware-dmc (20241110-r2) to root...
+Copying /builder/dl/i915-firmware-dmc_20241110-r2_i386_pentium4.ipk.
+Installing kmod-nf-nathelper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nathelper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-nathelper-extra (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nathelper-extra_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-textsearch (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-textsearch_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-asn1-decoder (6.6.93-r1) to root...
+Copying /builder/dl/kmod-asn1-decoder_6.6.93-r1_i386_pentium4.ipk.
+Package kmod-nft-offload (6.6.93-r1) installed in root is up to date.
+Installing kmod-r8168 (6.6.93.8.055.00-r3) to root...
+Copying /builder/dl/kmod-r8168_6.6.93.8.055.00-r3_i386_pentium4.ipk.
+Installing kmod-libphy (6.6.93-r1) to root...
+Copying /builder/dl/kmod-libphy_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-hid (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-hid_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-input-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-input-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-input-evdev (6.6.93-r1) to root...
+Copying /builder/dl/kmod-input-evdev_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-hid (6.6.93-r1) to root...
+Copying /builder/dl/kmod-hid_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-hid-generic (6.6.93-r1) to root...
+Copying /builder/dl/kmod-hid-generic_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-usb-net (6.6.93-r1) to root...
+Copying /builder/dl/kmod-usb-net_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-mii (6.6.93-r1) to root...
+Copying /builder/dl/kmod-mii_6.6.93-r1_i386_pentium4.ipk.
+Installing logd (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/logd_2024.04.26~85f10530-r1_i386_pentium4.ipk.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Installing luci-compat (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-compat_25.170.03049~65670be_all.ipk.
+Installing liblua5.1.5 (5.1.5-r11) to root...
+Copying /builder/dl/liblua5.1.5_5.1.5-r11_i386_pentium4.ipk.
+Installing lua (5.1.5-r11) to root...
+Copying /builder/dl/lua_5.1.5-r11_i386_pentium4.ipk.
+Installing luci-lib-nixio (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-nixio_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing luci-lib-ip (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-ip_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing luci-lib-jsonc (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-jsonc_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing liblucihttp-lua (2023.03.15~9b5b683f-r1) to root...
+Copying /builder/dl/liblucihttp-lua_2023.03.15~9b5b683f-r1_i386_pentium4.ipk.
+Installing luci-lib-base (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-base_25.184.50942~23154bf_all.ipk.
+Installing libubus-lua (2025.07.02~5952b48e-r1) to root...
+Copying /builder/dl/libubus-lua_2025.07.02~5952b48e-r1_i386_pentium4.ipk.
+Installing ucode-mod-lua (1) to root...
+Copying /builder/dl/ucode-mod-lua_1_i386_pentium4.ipk.
+Installing luci-lua-runtime (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lua-runtime_25.184.50942~23154bf_i386_pentium4.ipk.
+Installing luci-lib-ipkg (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-ipkg_25.184.50942~23154bf_all.ipk.
+Package luci-light (25.184.50942~23154bf) installed in root is up to date.
+Installing mkf2fs (1.16.0-r3) to root...
+Copying /builder/dl/mkf2fs_1.16.0-r3_i386_pentium4.ipk.
+Installing libf2fs6 (1.16.0-r3) to root...
+Copying /builder/dl/libf2fs6_1.16.0-r3_i386_pentium4.ipk.
+Installing mtd (26) to root...
+Copying /builder/dl/mtd_26_i386_pentium4.ipk.
+Package netifd (2025.05.23~7901e66c-r1) installed in root is up to date.
+Package nftables-json (1.1.1-r1) installed in root is up to date.
+Installing odhcp6c (2024.09.25~b6ae9ffa-r1) to root...
+Copying /builder/dl/odhcp6c_2024.09.25~b6ae9ffa-r1_i386_pentium4.ipk.
+Installing odhcpd-ipv6only (2024.05.08~a2988231-r3) to root...
+Copying /builder/dl/odhcpd-ipv6only_2024.05.08~a2988231-r3_i386_pentium4.ipk.
+Installing partx-utils (2.40.2-r1) to root...
+Copying /builder/dl/partx-utils_2.40.2-r1_i386_pentium4.ipk.
+Installing ppp-mod-pppoe (2.5.1-r1) to root...
+Copying /builder/dl/ppp-mod-pppoe_2.5.1-r1_i386_pentium4.ipk.
+Installing kmod-lib-crc-ccitt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-crc-ccitt_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-slhc (6.6.93-r1) to root...
+Copying /builder/dl/kmod-slhc_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ppp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ppp_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-pppox (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pppox_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-pppoe (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pppoe_6.6.93-r1_i386_pentium4.ipk.
+Installing procd-ujail (2024.12.22~42d39376-r1) to root...
+Copying /builder/dl/procd-ujail_2024.12.22~42d39376-r1_i386_pentium4.ipk.
+Installing uci (2025.01.20~16ff0bad-r1) to root...
+Copying /builder/dl/uci_2025.01.20~16ff0bad-r1_i386_pentium4.ipk.
+Installing urandom-seed (3) to root...
+Copying /builder/dl/urandom-seed_3_i386_pentium4.ipk.
+Installing getrandom (2024.04.26~85f10530-r1) to root...
+Copying /builder/dl/getrandom_2024.04.26~85f10530-r1_i386_pentium4.ipk.
+Installing urngd (2023.11.01~44365eb1-r1) to root...
+Copying /builder/dl/urngd_2023.11.01~44365eb1-r1_i386_pentium4.ipk.
+Installing kmod-e1000 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-e1000_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-e1000e (6.6.93-r1) to root...
+Copying /builder/dl/kmod-e1000e_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-pps (6.6.93-r1) to root...
+Copying /builder/dl/kmod-pps_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ptp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ptp_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-via-rhine (6.6.93-r1) to root...
+Copying /builder/dl/kmod-via-rhine_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-i915 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-i915_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-backlight (6.6.93-r1) to root...
+Copying /builder/dl/kmod-backlight_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-dma-buf (6.6.93-r1) to root...
+Copying /builder/dl/kmod-dma-buf_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-i2c-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-i2c-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-ttm (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-ttm_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-ttm-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-ttm-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-sys-fops (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-sys-fops_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-cfb-copyarea (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-cfb-copyarea_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-cfb-fillrect (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-cfb-fillrect_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-cfb-imgblt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-cfb-imgblt_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fb-sys-ram (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fb-sys-ram_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-kms-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-kms-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-i2c-algo-bit (6.6.93-r1) to root...
+Copying /builder/dl/kmod-i2c-algo-bit_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-display-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-display-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-buddy (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-buddy_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-acpi-video (6.6.93-r1) to root...
+Copying /builder/dl/kmod-acpi-video_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-exec (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-exec_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-drm-suballoc-helper (6.6.93-r1) to root...
+Copying /builder/dl/kmod-drm-suballoc-helper_6.6.93-r1_i386_pentium4.ipk.
+Installing bluez-utils (5.72-r2) to root...
+Copying /builder/dl/bluez-utils_5.72-r2_i386_pentium4.ipk.
+Installing kmod-crypto-null (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-null_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-aead (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-aead_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-manager (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-manager_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-ecb (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-ecb_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-cmac (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-cmac_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-regmap-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-regmap-core_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-kpp (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-kpp_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-hmac (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-hmac_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-sha512 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-sha512_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-sha3 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-sha3_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-rng (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-rng_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-ecdh (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-ecdh_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-bluetooth (6.6.93-r1) to root...
+Copying /builder/dl/kmod-bluetooth_6.6.93-r1_i386_pentium4.ipk.
+Installing bluez-libs (5.72-r2) to root...
+Copying /builder/dl/bluez-libs_5.72-r2_i386_pentium4.ipk.
+Installing curl (8.12.1-r1) to root...
+Copying /builder/dl/curl_8.12.1-r1_i386_pentium4.ipk.
+Installing libopenssl3 (3.0.17-r1) to root...
+Copying /builder/dl/libopenssl3_3.0.17-r1_i386_pentium4.ipk.
+Installing libnghttp2-14 (1.63.0-r1) to root...
+Copying /builder/dl/libnghttp2-14_1.63.0-r1_i386_pentium4.ipk.
+Installing ca-bundle (20241223-r1) to root...
+Copying /builder/dl/ca-bundle_20241223-r1_all.ipk.
+Installing libcurl4 (8.12.1-r1) to root...
+Copying /builder/dl/libcurl4_8.12.1-r1_i386_pentium4.ipk.
+Installing dbus (1.14.10-r1) to root...
+Copying /builder/dl/dbus_1.14.10-r1_i386_pentium4.ipk.
+Installing libexpat (2.7.1-r1) to root...
+Copying /builder/dl/libexpat_2.7.1-r1_i386_pentium4.ipk.
+Installing libdbus (1.14.10-r1) to root...
+Copying /builder/dl/libdbus_1.14.10-r1_i386_pentium4.ipk.
+Installing git (2.46.4-r1) to root...
+Copying /builder/dl/git_2.46.4-r1_i386_pentium4.ipk.
+Installing zlib (1.3.1-r1) to root...
+Copying /builder/dl/zlib_1.3.1-r1_i386_pentium4.ipk.
+Installing htop (3.4.1-r1) to root...
+Copying /builder/dl/htop_3.4.1-r1_i386_pentium4.ipk.
+Installing iperf3 (3.17.1-r4) to root...
+Copying /builder/dl/iperf3_3.17.1-r4_i386_pentium4.ipk.
+Installing libatomic1 (13.3.0-r4) to root...
+Copying /builder/dl/libatomic1_13.3.0-r4_i386_pentium4.ipk.
+Installing libiperf3 (3.17.1-r4) to root...
+Copying /builder/dl/libiperf3_3.17.1-r4_i386_pentium4.ipk.
+Installing jq (1.7.1-r1) to root...
+Copying /builder/dl/jq_1.7.1-r1_i386_pentium4.ipk.
+Installing losetup (2.40.2-r1) to root...
+Copying /builder/dl/losetup_2.40.2-r1_i386_pentium4.ipk.
+Package kmod-fs-vfat (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-exfat (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-ext4 (6.6.93-r1) installed in root is up to date.
+Installing kmod-fs-f2fs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-f2fs_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-crc32 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-crc32_6.6.93-r1_i386_pentium4.ipk.
+Installing luci-app-diskman (0.2.11-r2) to root...
+Copying /builder/dl/luci-app-diskman_0.2.11-r2_all.ipk.
+Installing blkid (2.40.2-r1) to root...
+Copying /builder/dl/blkid_2.40.2-r1_i386_pentium4.ipk.
+Installing libparted (3.6-r1) to root...
+Copying /builder/dl/libparted_3.6-r1_i386_pentium4.ipk.
+Installing libreadline8 (8.2-r2) to root...
+Copying /builder/dl/libreadline8_8.2-r2_i386_pentium4.ipk.
+Installing parted (3.6-r1) to root...
+Copying /builder/dl/parted_3.6-r1_i386_pentium4.ipk.
+Installing libstdcpp6 (13.3.0-r4) to root...
+Copying /builder/dl/libstdcpp6_13.3.0-r4_i386_pentium4.ipk.
+Installing smartmontools (7.4-r1) to root...
+Copying /builder/dl/smartmontools_7.4-r1_i386_pentium4.ipk.
+Installing libattr (2.5.2-r3) to root...
+Copying /builder/dl/libattr_2.5.2-r3_i386_pentium4.ipk.
+Installing libmount1 (2.40.2-r1) to root...
+Copying /builder/dl/libmount1_2.40.2-r1_i386_pentium4.ipk.
+Installing liblzo2 (2.10-r4) to root...
+Copying /builder/dl/liblzo2_2.10-r4_i386_pentium4.ipk.
+Installing kmod-crypto-acompress (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-acompress_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-lzo (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-lzo_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-zlib-inflate (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zlib-inflate_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-zlib-deflate (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zlib-deflate_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-raid6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-raid6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-xor (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-xor_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-xxhash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-xxhash_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-lib-zstd (6.6.93-r1) to root...
+Copying /builder/dl/kmod-lib-zstd_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-blake2b (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-blake2b_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-xxhash (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-xxhash_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-fs-btrfs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-fs-btrfs_6.6.93-r1_i386_pentium4.ipk.
+Installing btrfs-progs (6.11-r1) to root...
+Copying /builder/dl/btrfs-progs_6.11-r1_i386_pentium4.ipk.
+Installing lsblk (2.40.2-r1) to root...
+Copying /builder/dl/lsblk_2.40.2-r1_i386_pentium4.ipk.
+Installing luci-app-docker (1-r12) to root...
+Copying /builder/dl/luci-app-docker_1-r12_all.ipk.
+Installing docker (27.3.1-r1) to root...
+Copying /builder/dl/docker_27.3.1-r1_i386_pentium4.ipk.
+Installing ca-certificates (20241223-r1) to root...
+Copying /builder/dl/ca-certificates_20241223-r1_all.ipk.
+Installing libseccomp (2.5.5-r1) to root...
+Copying /builder/dl/libseccomp_2.5.5-r1_i386_pentium4.ipk.
+Installing runc (1.1.14-r1) to root...
+Copying /builder/dl/runc_1.1.14-r1_i386_pentium4.ipk.
+Installing containerd (1.7.22-r1) to root...
+Copying /builder/dl/containerd_1.7.22-r1_i386_pentium4.ipk.
+Installing kmod-nf-ipt (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipt_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-core (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-core_6.6.93-r1_i386_pentium4.ipk.
+Installing libip4tc2 (1.8.10-r1) to root...
+Copying /builder/dl/libip4tc2_1.8.10-r1_i386_pentium4.ipk.
+Installing libip6tc2 (1.8.10-r1) to root...
+Copying /builder/dl/libip6tc2_1.8.10-r1_i386_pentium4.ipk.
+Installing libxtables12 (1.8.10-r1) to root...
+Copying /builder/dl/libxtables12_1.8.10-r1_i386_pentium4.ipk.
+Installing libiptext0 (1.8.10-r1) to root...
+Copying /builder/dl/libiptext0_1.8.10-r1_i386_pentium4.ipk.
+Installing libiptext6-0 (1.8.10-r1) to root...
+Copying /builder/dl/libiptext6-0_1.8.10-r1_i386_pentium4.ipk.
+Installing xtables-legacy (1.8.10-r1) to root...
+Copying /builder/dl/xtables-legacy_1.8.10-r1_i386_pentium4.ipk.
+Installing iptables-zz-legacy (1.8.10-r1) to root...
+Copying /builder/dl/iptables-zz-legacy_1.8.10-r1_i386_pentium4.ipk.
+Installing kmod-ipt-extra (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-extra_6.6.93-r1_i386_pentium4.ipk.
+Installing iptables-mod-extra (1.8.10-r1) to root...
+Copying /builder/dl/iptables-mod-extra_1.8.10-r1_i386_pentium4.ipk.
+Installing kmod-nf-ipt6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipt6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ip6tables (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ip6tables_6.6.93-r1_i386_pentium4.ipk.
+Installing ip6tables-zz-legacy (1.8.10-r1) to root...
+Copying /builder/dl/ip6tables-zz-legacy_1.8.10-r1_i386_pentium4.ipk.
+Installing kmod-nf-nat6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-nat6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-conntrack (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-conntrack_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-nat (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-nat_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-nat6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-nat6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-br-netfilter (6.6.93-r1) to root...
+Copying /builder/dl/kmod-br-netfilter_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipt-physdev (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipt-physdev_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-nf-ipvs (6.6.93-r1) to root...
+Copying /builder/dl/kmod-nf-ipvs_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-veth (6.6.93-r1) to root...
+Copying /builder/dl/kmod-veth_6.6.93-r1_i386_pentium4.ipk.
+Installing tini (0.19.0-r2) to root...
+Copying /builder/dl/tini_0.19.0-r2_i386_pentium4.ipk.
+Installing dockerd (27.3.1-r3) to root...
+Copying /builder/dl/dockerd_27.3.1-r3_i386_pentium4.ipk.
+Installing luci-app-watchcat (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-watchcat_25.184.50942~23154bf_all.ipk.
+Installing watchcat (1-r17) to root...
+Copying /builder/dl/watchcat_1-r17_all.ipk.
+Installing luci-app-xfrpc (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-app-xfrpc_25.184.50942~23154bf_all.ipk.
+Installing libevent2-7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-7_2.1.12-r2_i386_pentium4.ipk.
+Installing libevent2-core7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-core7_2.1.12-r2_i386_pentium4.ipk.
+Installing libevent2-openssl7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-openssl7_2.1.12-r2_i386_pentium4.ipk.
+Installing xfrpc (3.05.661-r1) to root...
+Copying /builder/dl/xfrpc_3.05.661-r1_i386_pentium4.ipk.
+Installing luci-proto-batman-adv (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-batman-adv_25.184.50942~23154bf_all.ipk.
+Installing iw (6.9-r1) to root...
+Copying /builder/dl/iw_6.9-r1_i386_pentium4.ipk.
+Installing iwinfo (2024.10.20~b94f066e-r1) to root...
+Copying /builder/dl/iwinfo_2024.10.20~b94f066e-r1_i386_pentium4.ipk.
+Installing ucode-mod-nl80211 (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-nl80211_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing ucode-mod-rtnl (2025.07.18~3f64c808-r1) to root...
+Copying /builder/dl/ucode-mod-rtnl_2025.07.18~3f64c808-r1_i386_pentium4.ipk.
+Installing wifi-scripts (1.0-r1) to root...
+Copying /builder/dl/wifi-scripts_1.0-r1_all.ipk.
+Installing wireless-regdb (2025.07.10-r1) to root...
+Copying /builder/dl/wireless-regdb_2025.07.10-r1_all.ipk.
+Installing kmod-cfg80211 (6.6.93.6.12.6-r2) to root...
+Copying /builder/dl/kmod-cfg80211_6.6.93.6.12.6-r2_i386_pentium4.ipk.
+Installing batctl-tiny (2024.3-r1) to root...
+Copying /builder/dl/batctl-tiny_2024.3-r1_i386_pentium4.ipk.
+Installing kmod-batman-adv (6.6.93.2024.3-r6) to root...
+Copying /builder/dl/kmod-batman-adv_6.6.93.2024.3-r6_i386_pentium4.ipk.
+Installing luci-proto-gre (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-gre_25.184.50942~23154bf_all.ipk.
+Installing kmod-iptunnel (6.6.93-r1) to root...
+Copying /builder/dl/kmod-iptunnel_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-gre (6.6.93-r1) to root...
+Copying /builder/dl/kmod-gre_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-iptunnel6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-iptunnel6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ip6-tunnel (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ip6-tunnel_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-gre6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-gre6_6.6.93-r1_i386_pentium4.ipk.
+Installing resolveip (2) to root...
+Copying /builder/dl/resolveip_2_i386_pentium4.ipk.
+Installing gre (13) to root...
+Copying /builder/dl/gre_13_all.ipk.
+Installing luci-proto-ipip (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-proto-ipip_25.184.50942~23154bf_all.ipk.
+Installing kmod-iptunnel4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-iptunnel4_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-ipip (6.6.93-r1) to root...
+Copying /builder/dl/kmod-ipip_6.6.93-r1_i386_pentium4.ipk.
+Installing ipip (4) to root...
+Copying /builder/dl/ipip_4_all.ipk.
+Installing luci-proto-openconnect (25.206.68186~6da5e65) to root...
+Copying /builder/dl/luci-proto-openconnect_25.206.68186~6da5e65_all.ipk.
+Installing libxml2 (2.14.5-r1) to root...
+Copying /builder/dl/libxml2_2.14.5-r1_i386_pentium4.ipk.
+Installing kmod-tun (6.6.93-r1) to root...
+Copying /builder/dl/kmod-tun_6.6.93-r1_i386_pentium4.ipk.
+Installing vpnc-scripts (20151220-r3) to root...
+Copying /builder/dl/vpnc-scripts_20151220-r3_all.ipk.
+Installing libgnutls (3.8.5-r1) to root...
+Copying /builder/dl/libgnutls_3.8.5-r1_i386_pentium4.ipk.
+Installing libtasn1 (4.19.0-r2) to root...
+Copying /builder/dl/libtasn1_4.19.0-r2_i386_pentium4.ipk.
+Installing openconnect (9.12-r5) to root...
+Copying /builder/dl/openconnect_9.12-r5_i386_pentium4.ipk.
+Installing luci-proto-vxlan (25.197.50948~1f2929f) to root...
+Copying /builder/dl/luci-proto-vxlan_25.197.50948~1f2929f_all.ipk.
+Installing kmod-udptunnel4 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-udptunnel4_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-udptunnel6 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-udptunnel6_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-vxlan (6.6.93-r1) to root...
+Copying /builder/dl/kmod-vxlan_6.6.93-r1_i386_pentium4.ipk.
+Installing vxlan (7) to root...
+Copying /builder/dl/vxlan_7_all.ipk.
+Installing ip-bridge (6.11.0-r1) to root...
+Copying /builder/dl/ip-bridge_6.11.0-r1_i386_pentium4.ipk.
+Installing luci-proto-wireguard (25.170.03049~65670be) to root...
+Copying /builder/dl/luci-proto-wireguard_25.170.03049~65670be_all.ipk.
+Installing ip-tiny (6.11.0-r1) to root...
+Copying /builder/dl/ip-tiny_6.11.0-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-chacha20 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-poly1305 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-poly1305_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-chacha20poly1305 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-chacha20poly1305_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-crypto-lib-curve25519 (6.6.93-r1) to root...
+Copying /builder/dl/kmod-crypto-lib-curve25519_6.6.93-r1_i386_pentium4.ipk.
+Installing kmod-wireguard (6.6.93-r1) to root...
+Copying /builder/dl/kmod-wireguard_6.6.93-r1_i386_pentium4.ipk.
+Installing wireguard-tools (1.0.20210914-r4) to root...
+Copying /builder/dl/wireguard-tools_1.0.20210914-r4_i386_pentium4.ipk.
+Installing luci-lib-uqr (25.184.50942~23154bf) to root...
+Copying /builder/dl/luci-lib-uqr_25.184.50942~23154bf_all.ipk.
+Installing mtr-json (0.95-r3) to root...
+Copying /builder/dl/mtr-json_0.95-r3_i386_pentium4.ipk.
+Installing ncdu (1.20-r1) to root...
+Copying /builder/dl/ncdu_1.20-r1_i386_pentium4.ipk.
+Installing nnn (4.9-r1) to root...
+Copying /builder/dl/nnn_4.9-r1_i386_pentium4.ipk.
+Installing musl-fts (1.2.7-r1) to root...
+Copying /builder/dl/musl-fts_1.2.7-r1_i386_pentium4.ipk.
+Installing pciutils (3.14.0-r1) to root...
+Copying /builder/dl/pciutils_3.14.0-r1_i386_pentium4.ipk.
+Installing libkmod (32-r1) to root...
+Copying /builder/dl/libkmod_32-r1_i386_pentium4.ipk.
+Installing libpci (3.14.0-r1) to root...
+Copying /builder/dl/libpci_3.14.0-r1_i386_pentium4.ipk.
+Installing pciids (0.387-r1) to root...
+Copying /builder/dl/pciids_0.387-r1_i386_pentium4.ipk.
+Installing pv (1.6.6-r1) to root...
+Copying /builder/dl/pv_1.6.6-r1_i386_pentium4.ipk.
+Installing ripgrep (14.1.1-r1) to root...
+Copying /builder/dl/ripgrep_14.1.1-r1_i386_pentium4.ipk.
+Installing libpcre2 (10.42-r1) to root...
+Copying /builder/dl/libpcre2_10.42-r1_i386_pentium4.ipk.
+Installing rsync (3.4.1-r1) to root...
+Copying /builder/dl/rsync_3.4.1-r1_i386_pentium4.ipk.
+Installing libpopt0 (1.19-r1) to root...
+Copying /builder/dl/libpopt0_1.19-r1_i386_pentium4.ipk.
+Installing libacl (2.3.2-r2) to root...
+Copying /builder/dl/libacl_2.3.2-r2_i386_pentium4.ipk.
+Installing tmux (3.5a-r1) to root...
+Copying /builder/dl/tmux_3.5a-r1_i386_pentium4.ipk.
+Installing usbutils (017-r1) to root...
+Copying /builder/dl/usbutils_017-r1_i386_pentium4.ipk.
+Installing libusb-1.0-0 (1.0.27-r1) to root...
+Copying /builder/dl/libusb-1.0-0_1.0.27-r1_i386_pentium4.ipk.
+Installing libevdev (1.13.1-r1) to root...
+Copying /builder/dl/libevdev_1.13.1-r1_i386_pentium4.ipk.
+Installing libudev-zero (1.0.3-r1) to root...
+Copying /builder/dl/libudev-zero_1.0.3-r1_i386_pentium4.ipk.
+Installing usbids (0.387-r1) to root...
+Copying /builder/dl/usbids_0.387-r1_i386_pentium4.ipk.
+Installing vim-full (9.1-r1) to root...
+Copying /builder/dl/vim-full_9.1-r1_i386_pentium4.ipk.
+Installing vim-runtime (9.1-r1) to root...
+Copying /builder/dl/vim-runtime_9.1-r1_i386_pentium4.ipk.
+Package wireguard-tools (1.0.20210914-r4) installed in root is up to date.
+Installing xz (5.6.2-r2) to root...
+Copying /builder/dl/xz_5.6.2-r2_i386_pentium4.ipk.
+Installing xz-utils (5.6.2-r2) to root...
+Copying /builder/dl/xz-utils_5.6.2-r2_i386_pentium4.ipk.
+Installing liblzma (5.6.2-r2) to root...
+Copying /builder/dl/liblzma_5.6.2-r2_i386_pentium4.ipk.
+Installing zram-swap (32) to root...
+Copying /builder/dl/zram-swap_32_all.ipk.
+Installing kmod-zram (6.6.93-r1) to root...
+Copying /builder/dl/kmod-zram_6.6.93-r1_i386_pentium4.ipk.
+Installing zsh (5.9-r3) to root...
+Copying /builder/dl/zsh_5.9-r3_i386_pentium4.ipk.
+Installing libcap (2.69-r1) to root...
+Copying /builder/dl/libcap_2.69-r1_i386_pentium4.ipk.
+Package autocore (42) installed in root is up to date.
+Package automount (10) installed in root is up to date.
+Package base-files (1859~467867283bb9) installed in root is up to date.
+Package default-settings-chn (29) installed in root is up to date.
+Package dnsmasq-full (2.90-r5) installed in root is up to date.
+Package dropbear (2024.86-r1) installed in root is up to date.
+Package fdisk (2.40.2-r1) installed in root is up to date.
+Package fstools (2024.07.14~408c2cc4-r1) installed in root is up to date.
+Package grub2-bios-setup (2.12-r1) installed in root is up to date.
+Package i915-firmware-dmc (20241110-r2) installed in root is up to date.
+Package kernel (6.6.93~c3b6ece951258d1ef23245649d0e6cf6-r1) installed in root is up to date.
+Package kmod-drm-i915 (6.6.93-r1) installed in root is up to date.
+Package kmod-e1000 (6.6.93-r1) installed in root is up to date.
+Package kmod-e1000e (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-f2fs (6.6.93-r1) installed in root is up to date.
+Package kmod-fs-vfat (6.6.93-r1) installed in root is up to date.
+Package kmod-nf-nathelper (6.6.93-r1) installed in root is up to date.
+Package kmod-nf-nathelper-extra (6.6.93-r1) installed in root is up to date.
+Package kmod-nft-offload (6.6.93-r1) installed in root is up to date.
+Package kmod-r8168 (6.6.93.8.055.00-r3) installed in root is up to date.
+Package kmod-usb-hid (6.6.93-r1) installed in root is up to date.
+Package kmod-usb-net (6.6.93-r1) installed in root is up to date.
+Package kmod-via-rhine (6.6.93-r1) installed in root is up to date.
+Package logd (2024.04.26~85f10530-r1) installed in root is up to date.
+Package luci-app-package-manager (25.184.50942~23154bf) installed in root is up to date.
+Package luci-compat (25.170.03049~65670be) installed in root is up to date.
+Package luci-lib-ipkg (25.184.50942~23154bf) installed in root is up to date.
+Package luci-light (25.184.50942~23154bf) installed in root is up to date.
+Package mkf2fs (1.16.0-r3) installed in root is up to date.
+Package mtd (26) installed in root is up to date.
+Package netifd (2025.05.23~7901e66c-r1) installed in root is up to date.
+Package nftables-json (1.1.1-r1) installed in root is up to date.
+Package odhcp6c (2024.09.25~b6ae9ffa-r1) installed in root is up to date.
+Package odhcpd-ipv6only (2024.05.08~a2988231-r3) installed in root is up to date.
+Package partx-utils (2.40.2-r1) installed in root is up to date.
+Package ppp-mod-pppoe (2.5.1-r1) installed in root is up to date.
+Package procd-ujail (2024.12.22~42d39376-r1) installed in root is up to date.
+Package uci (2025.01.20~16ff0bad-r1) installed in root is up to date.
+Package urandom-seed (3) installed in root is up to date.
+Package urngd (2023.11.01~44365eb1-r1) installed in root is up to date.
+Configuring kmod-dma-buf.
+Configuring kmod-i2c-core.
+Configuring kmod-backlight.
+Configuring kmod-fb.
+Configuring kmod-drm.
+Configuring libpthread.
+Configuring zlib.
+Configuring libxml2.
+Configuring kmod-tun.
+Configuring resolveip.
+Configuring vpnc-scripts.
+Configuring libgmp10.
+Configuring libnettle8.
+Configuring libatomic1.
+Configuring libgnutls.
+Configuring libtasn1.
+Configuring openconnect.
+Configuring kmod-iptunnel.
+Configuring kmod-udptunnel4.
+Configuring kmod-udptunnel6.
+Configuring kmod-vxlan.
+Configuring kmod-scsi-core.
+Configuring kmod-nls-base.
+Configuring kmod-usb-core.
+Configuring kmod-usb-storage.
+Configuring terminfo.
+Configuring libnl-tiny1.
+Configuring libmnl0.
+Configuring ip-tiny.
+Configuring kmod-crypto-lib-chacha20.
+Configuring kmod-crypto-hash.
+Configuring kmod-crypto-lib-poly1305.
+Configuring kmod-crypto-lib-chacha20poly1305.
+Configuring kmod-crypto-kpp.
+Configuring kmod-crypto-lib-curve25519.
+Configuring kmod-wireguard.
+Configuring wireguard-tools.
+Configuring libjson-c5.
+Configuring libucode20230711.
+Configuring ucode.
+Configuring luci-lib-uqr.
+Configuring luci-proto-wireguard.
+Configuring libubox20240329.
+Configuring libubus20250102.
+Configuring libuci20250120.
+Configuring libblobmsg-json20240329.
+Configuring rpcd.
+Configuring rpcd-mod-file.
+Configuring rpcd-mod-luci.
+Configuring rpcd-mod-ucode.
+Configuring cgi-io.
+Configuring ucode-mod-fs.
+Configuring ucode-mod-uci.
+Configuring ucode-mod-ubus.
+Configuring ucode-mod-math.
+Configuring ucode-mod-html.
+Configuring liblucihttp0.
+Configuring liblucihttp-ucode.
+Configuring luci-base.
+Configuring libevent2-7.
+Configuring libopenssl3.
+Configuring libevent2-core7.
+Configuring libevent2-openssl7.
+Configuring xfrpc.
+Configuring luci-app-xfrpc.
+Configuring libiwinfo-data.
+Configuring libiwinfo20230701.
+Configuring iwinfo.
+Configuring watchcat.
+Configuring luci-app-watchcat.
+Configuring kmod-lib-textsearch.
+Configuring kmod-gre.
+Configuring kmod-iptunnel6.
+Configuring kmod-ip6-tunnel.
+Configuring kmod-gre6.
+Configuring gre.
+Configuring luci-proto-gre.
+Configuring liblua5.1.5.
+Configuring lua.
+Configuring luci-lib-nixio.
+Configuring luci-lib-ip.
+Configuring luci-lib-jsonc.
+Configuring liblucihttp-lua.
+Configuring luci-lib-base.
+Configuring vxlan.
+Configuring ip-bridge.
+Configuring luci-proto-vxlan.
+Configuring librt.
+Configuring libuuid1.
+Configuring libf2fs6.
+Configuring mkf2fs.
+Configuring libevdev.
+Configuring libxtables12.
+Configuring kmod-nf-reject.
+Configuring kmod-nf-ipt.
+Configuring kmod-nf-log.
+Configuring kmod-ipt-core.
+Configuring kmod-ipt-extra.
+Configuring iptables-mod-extra.
+Configuring kmod-usb-storage-uas.
+Configuring ubusd.
+Configuring ubus.
+Configuring iw.
+Configuring libiperf3.
+Configuring kmod-crypto-null.
+Configuring kmod-crypto-aead.
+Configuring kmod-crypto-manager.
+Configuring kmod-nfnetlink.
+Configuring kmod-nf-reject6.
+Configuring kmod-nf-conntrack.
+Configuring kmod-nf-conntrack6.
+Configuring kmod-nf-nat.
+Configuring kmod-nf-log6.
+Configuring kmod-crypto-crc32c.
+Configuring kmod-lib-crc32c.
+Configuring kmod-nft-core.
+Configuring kmod-nft-nat.
+Configuring kmod-nft-fullcone.
+Configuring busybox.
+Configuring kmod-fs-ntfs3.
+Configuring ntfs3-mount.
+Configuring kmod-lib-zlib-deflate.
+Configuring libpci.
+Configuring jq.
+Configuring kmod-nft-fib.
+Configuring kmod-zram.
+Configuring zram-swap.
+Configuring libubus-lua.
+Configuring kmod-lib-crc16.
+Configuring jshn.
+Configuring libudebug.
+Configuring netifd.
+Configuring ucode-mod-nl80211.
+Configuring ucode-mod-rtnl.
+Configuring wifi-scripts.
+Configuring wireless-regdb.
+Configuring kmod-cfg80211.
+Configuring batctl-tiny.
+Configuring kmod-batman-adv.
+Configuring libdbus.
+Configuring kmod-br-netfilter.
+Configuring libattr.
+Configuring libacl.
+Configuring liblzma.
+Configuring luci-mod-system.
+Configuring kmod-nf-flow.
+Configuring kmod-lib-crc-ccitt.
+Configuring liblzo2.
+Configuring getrandom.
+Configuring libiptext0.
+Configuring kmod-drm-ttm.
+Configuring kmod-drm-ttm-helper.
+Configuring kmod-asn1-decoder.
+Configuring i915-firmware-dmc.
+Configuring tini.
+Configuring luci-theme-bootstrap.
+Configuring libusb-1.0-0.
+Configuring kmod-nf-nathelper.
+Configuring kmod-slhc.
+Configuring kmod-ppp.
+Configuring kmod-pppox.
+Configuring kmod-pppoe.
+Configuring kmod-fb-sys-fops.
+Configuring kmod-fb-cfb-copyarea.
+Configuring kmod-fb-cfb-fillrect.
+Configuring kmod-fb-cfb-imgblt.
+Configuring kmod-fb-sys-ram.
+Configuring kmod-drm-kms-helper.
+Configuring kmod-drm-buddy.
+Configuring libsysfs2.
+Configuring sysfsutils.
+Configuring libcap.
+Configuring kmod-drm-exec.
+Configuring ucode-mod-lua.
+Configuring luci-lua-runtime.
+Configuring kmod-veth.
+Configuring kmod-ipt-conntrack.
+Configuring procd-ujail.
+Configuring jsonfilter.
+Configuring usign.
+Configuring openwrt-keyring.
+Configuring ubox.
+Configuring fstools.
+Configuring fwtool.
+Configuring libjson-script20240329.
+Configuring procd.
+Configuring procd-seccomp.
+Configuring base-files.
+Configuring pciids.
+Configuring kmod-input-core.
+Configuring libblkid1.
+Configuring libsmartcols1.
+Configuring partx-utils.
+Configuring blkid.
+Configuring libcomerr0.
+Configuring libss2.
+Configuring libext2fs2.
+Configuring libe2p2.
+Configuring e2fsprogs.
+Configuring libparted.
+Configuring libncurses6.
+Configuring libreadline8.
+Configuring parted.
+Configuring libstdcpp6.
+Configuring smartmontools.
+Configuring libmount1.
+Configuring kmod-crypto-acompress.
+Configuring kmod-lib-lzo.
+Configuring kmod-lib-zlib-inflate.
+Configuring kmod-lib-raid6.
+Configuring kmod-lib-xor.
+Configuring kmod-lib-xxhash.
+Configuring kmod-lib-zstd.
+Configuring kmod-crypto-blake2b.
+Configuring kmod-crypto-xxhash.
+Configuring kmod-fs-btrfs.
+Configuring btrfs-progs.
+Configuring lsblk.
+Configuring luci-app-diskman.
+Configuring kmod-libphy.
+Configuring kmod-r8168.
+Configuring libseccomp.
+Configuring kmod-nft-offload.
+Configuring libnftnl11.
+Configuring jansson4.
+Configuring nftables-json.
+Configuring firewall4.
+Configuring kmod-iptunnel4.
+Configuring kmod-ipip.
+Configuring ipip.
+Configuring luci-proto-ipip.
+Configuring libkmod.
+Configuring pciutils.
+Configuring libpcre2.
+Configuring zsh.
+Configuring kmod-mii.
+Configuring libudev-zero.
+Configuring usbids.
+Configuring usbutils.
+Configuring kmod-crypto-hmac.
+Configuring ethtool.
+Configuring libsensors5.
+Configuring lm-sensors.
+Configuring autocore.
+Configuring pv.
+Configuring libnfnetlink0.
+Configuring kmod-nf-conntrack-netlink.
+Configuring libnetfilter-conntrack3.
+Configuring kmod-nf-nat6.
+Configuring kmod-input-evdev.
+Configuring kmod-hid.
+Configuring kmod-hid-generic.
+Configuring kmod-usb-hid.
+Configuring rpcd-mod-iwinfo.
+Configuring luci-mod-status.
+Configuring kmod-crypto-ecb.
+Configuring kmod-crypto-cmac.
+Configuring kmod-regmap-core.
+Configuring kmod-crypto-sha512.
+Configuring kmod-crypto-sha3.
+Configuring kmod-crypto-rng.
+Configuring kmod-crypto-ecdh.
+Configuring kmod-bluetooth.
+Configuring bluez-libs.
+Configuring musl-fts.
+Configuring nnn.
+Configuring block-mount.
+Configuring kmod-drm-display-helper.
+Configuring kmod-usb-storage-extras.
+Configuring kmod-fs-ext4.
+Configuring kmod-fs-exfat.
+Configuring kmod-nls-cp437.
+Configuring kmod-nls-iso8859-1.
+Configuring kmod-nls-utf8.
+Configuring kmod-fs-vfat.
+Configuring automount.
+Configuring luci-app-firewall.
+Configuring luci-lib-ipkg.
+Configuring grub2-bios-setup.
+Configuring kmod-nf-ipt6.
+Configuring kmod-ip6tables.
+Configuring odhcp6c.
+Configuring docker.
+Configuring kmod-acpi-video.
+Configuring ca-certificates.
+Configuring runc.
+Configuring containerd.
+Configuring libip4tc2.
+Configuring libip6tc2.
+Configuring libiptext6-0.
+Configuring xtables-legacy.
+Configuring iptables-zz-legacy.
+Configuring ip6tables-zz-legacy.
+Configuring kmod-ipt-nat.
+Configuring kmod-ipt-nat6.
+Configuring kmod-ipt-physdev.
+Configuring kmod-nf-ipvs.
+Configuring dockerd.
+Configuring uci.
+Configuring losetup.
+Configuring libexpat.
+Configuring dbus.
+Configuring dropbear.
+Configuring libnghttp2-14.
+Configuring ca-bundle.
+Configuring libcurl4.
+Configuring curl.
+Configuring luci-compat.
+Configuring mtd.
+Configuring odhcpd-ipv6only.
+Configuring luci-app-package-manager.
+Configuring urandom-seed.
+Configuring luci-proto-ppp.
+Configuring luci-mod-network.
+Configuring luci-mod-admin-full.
+Configuring xz-utils.
+Configuring xz.
+Configuring logd.
+Configuring kmod-usb-net.
+Configuring libpopt0.
+Configuring rsync.
+Configuring luci-proto-batman-adv.
+Configuring luci-proto-ipv6.
+Configuring kmod-nf-nathelper-extra.
+Configuring tmux.
+Configuring libfdisk1.
+Configuring kmod-e1000.
+Configuring kmod-drm-suballoc-helper.
+Configuring kmod-pps.
+Configuring vim-full.
+Configuring kmod-crypto-crc32.
+Configuring kmod-fs-f2fs.
+Configuring luci-proto-openconnect.
+Configuring uhttpd.
+Configuring rpcd-mod-rrdns.
+Configuring uhttpd-mod-ubus.
+Configuring luci-light.
+Configuring luci.
+Configuring default-settings.
+Configuring git.
+Configuring luci-i18n-base-zh-cn.
+Configuring default-settings-chn.
+Configuring htop.
+Configuring bluez-utils.
+Configuring ripgrep.
+Configuring kmod-ptp.
+Configuring fdisk.
+Configuring vim-runtime.
+Configuring kmod-i2c-algo-bit.
+Configuring kmod-drm-i915.
+Configuring kmod-via-rhine.
+Configuring kmod-e1000e.
+Configuring ncdu.
+Configuring mtr-json.
+Configuring luci-app-docker.
+Configuring iperf3.
+Configuring urngd.
+Configuring ppp-mod-pppoe.
+Configuring dnsmasq-full.
+
+Finalizing root filesystem...
+Enabling autocore
+Enabling boot
+Enabling cron
+Enabling dbus
+Enabling dnsmasq
+Enabling docker
+Enabling dockerd
+Enabling done
+Enabling dropbear
+Enabling firewall
+Enabling fstab
+Enabling gpio_switch
+Enabling led
+Enabling lm-sensors
+Enabling log
+Enabling network
+Enabling odhcpd
+Enabling packet_steering
+Enabling rpcd
+Enabling sysctl
+Enabling sysfixtime
+Enabling sysfsutils
+Enabling sysntpd
+Enabling system
+Enabling ucitrack
+Enabling uhttpd
+Enabling umount
+Enabling urandom_seed
+Enabling urngd
+Enabling watchcat
+Enabling xfrpc
+Enabling zram
+
+Building images...
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /builder/build_dir/target-i386_pentium4_musl/linux-x86_generic/root.squashfs, block size 262144.
+
+[|                                                             ]    0/5956   0%
+[===========\                                                  ] 1100/5956  18%
+[==================/                                           ] 1800/5956  30%
+[=============================================================-] 5956/5956 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 78848.69 Kbytes (77.00 Mbytes)
+	28.02% of uncompressed filesystem size (281416.47 Kbytes)
+Inode table size 42014 bytes (41.03 Kbytes)
+	21.19% of uncompressed inode table size (198285 bytes)
+Directory table size 54298 bytes (53.03 Kbytes)
+	44.56% of uncompressed directory table size (121867 bytes)
+Number of duplicate files found 388
+Number of inodes 5898
+Number of files 5030
+Number of fragments 149
+Number of symbolic links 652
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 215
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	unknown (0)
+Number of gids 1
+	unknown (0)
+Creating filesystem with parameters:
+    Size: 314572800
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 6400
+    Inode size: 256
+    Journal blocks: 1200
+    Label: rootfs
+    Blocks: 76800
+    Block groups: 3
+    Reserved blocks: 0
+    Reserved block group size: 23
+Created filesystem with 5907/19200 inodes and 76559/76800 blocks
+Creating filesystem with parameters:
+    Size: 33554432
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 2048
+    Inode size: 256
+    Journal blocks: 0
+    Label: kernel
+    Blocks: 8192
+    Block groups: 1
+    Reserved blocks: 0
+    Reserved block group size: 7
+Created filesystem with 17/2048 inodes and 1572/8192 blocks
+Creating filesystem with parameters:
+    Size: 33554432
+    Block size: 4096
+    Blocks per group: 32768
+    Inodes per group: 2048
+    Inode size: 256
+    Journal blocks: 0
+    Label: kernel
+    Blocks: 8192
+    Block groups: 1
+    Reserved blocks: 0
+    Reserved block group size: 7
+Created filesystem with 17/2048 inodes and 1572/8192 blocks
+mkfs.fat 4.2 (2021-01-31)
+mkfs.fat 4.2 (2021-01-31)
+
+Calculating checksums...
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Custom Downloads
+
+COMBINED-EFI (EXT4)
+Other image type.
+sha256sum: c620670120cc58a87c728408fb03e68024be0e00f5c20358f67654ccdb5ee823
+COMBINED (EXT4)
+Other image type.
+sha256sum: eaaf8f919333305d9152aa4283b952b630c308b2b58c98842bd90b7bda9f9b71
+ROOTFS (EXT4)
+Root file system as a separate image.
+sha256sum: e0cd5278ba8bde1c87e737dd3071473478c01df7654d98176826618af3e875f4
+COMBINED-EFI (SQUASHFS)
+Other image type.
+sha256sum: 03cab807d117e546ee7708de580a0cabe04b184a4a2a132146f43b8bb1ecfe9e
+COMBINED (SQUASHFS)
+Other image type.
+sha256sum: 9fecb0da3a9a645801218943439ac9e3dc3b0cb7dc011ae1b549b42ec4042bd2
+ROOTFS (SQUASHFS)
+Root file system as a separate image.
+sha256sum: 5123133b4207ce5ebcd88c5f2a763fbcca7e00b6715921788500eda203e90e06
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f
