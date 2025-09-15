@@ -1,0 +1,412 @@
+Download ImmortalWrt firmware for your device
+
+Type the name or model of your device, then select a stable build or the nightly "snapshot" build.
+
+
+About this build
+
+Model
+Lantiq VR9 EASY80920 NAND
+Platform
+lantiq/xrx200
+Version
+24.10.2 (r33247-467867283bb9)
+Date
+6/25/2025, 11:36:28 PM
+Links
+
+Customize installed packages and/or first boot script
+Build successful
+STDERR
+Package list missing or not up-to-date, generating it.
+
+Building package index...
+Downloading http://192.168.49.7/releases/24.10.2/targets/lantiq/xrx200/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_core
+Downloading http://192.168.49.7/releases/24.10.2/targets/lantiq/xrx200/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/base/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_base
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/base/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/targets/lantiq/xrx200/kmods/6.6.93-1-f7515a03d56200f9716973881710e96d/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_kmods
+Downloading http://192.168.49.7/releases/24.10.2/targets/lantiq/xrx200/kmods/6.6.93-1-f7515a03d56200f9716973881710e96d/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/luci/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_luci
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/luci/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/packages/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_packages
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/packages/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/routing/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_routing
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/routing/Packages.sig
+Signature check passed.
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/telephony/Packages.gz
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/immortalwrt_telephony
+Downloading http://192.168.49.7/releases/24.10.2/packages/mips_24kc/telephony/Packages.sig
+Signature check passed.
+Downloading file:packages/Packages
+Updated list of available packages in /builder/build_dir/target-mips_24kc_musl/root-lantiq/../../../../builder/dl/imagebuilder
+Downloading file:packages/Packages.sig
+Signature check passed.
+/builder/staging_dir/host/bin/bash: ./etc/rc.common: No such file or directory
+/builder/staging_dir/host/bin/bash: ./etc/rc.common: No such file or directory
+/builder/staging_dir/host/bin/bash: ./etc/rc.common: No such file or directory
+/builder/staging_dir/host/bin/bash: ./etc/rc.common: No such file or directory
+/builder/staging_dir/host/bin/bash: ./etc/rc.common: No such file or directory
+6651+1 records in
+6651+1 records out
+3405724 bytes (3.4 MB, 3.2 MiB) copied, 0.00549268 s, 620 MB/s
+44804+1 records in
+44804+1 records out
+22940066 bytes (23 MB, 22 MiB) copied, 0.0379752 s, 604 MB/s
+padding image to 01921000
+padding image to 01922000
+padding image to 01924000
+padding image to 01930000
+padding image to 01940000
+STDOUT
+Checking 'true'... ok.
+Checking 'false'... ok.
+Checking 'working-make'... ok.
+Checking 'case-sensitive-fs'... ok.
+Checking 'proper-umask'... ok.
+Checking 'perl-data-dumper'... ok.
+Checking 'perl-findbin'... ok.
+Checking 'perl-file-copy'... ok.
+Checking 'perl-file-compare'... ok.
+Checking 'perl-thread-queue'... ok.
+Checking 'perl-ipc-cmd'... ok.
+Checking 'tar'... ok.
+Checking 'find'... ok.
+Checking 'bash'... ok.
+Checking 'xargs'... ok.
+Checking 'patch'... ok.
+Checking 'diff'... ok.
+Checking 'cp'... ok.
+Checking 'seq'... ok.
+Checking 'awk'... ok.
+Checking 'grep'... ok.
+Checking 'egrep'... ok.
+Checking 'getopt'... ok.
+Checking 'realpath'... ok.
+Checking 'stat'... ok.
+Checking 'gzip'... ok.
+Checking 'unzip'... ok.
+Checking 'bzip2'... ok.
+Checking 'wget'... ok.
+Checking 'install'... ok.
+Checking 'perl'... ok.
+Checking 'python'... updated.
+Checking 'python3'... updated.
+Checking 'python3-distutils'... ok.
+Checking 'python3-stdlib'... ok.
+Checking 'file'... ok.
+Checking 'which'... ok.
+Checking 'ldconfig-stub'... ok.
+Building images for lantiq - Lantiq VR9 EASY80920 NAND
+Packages: adblock-fast chinadns-ng dufs git hd-idle htop iperf3 ip-full less lsblk lsof ncdu nnn pv rhash ripgrep rsync ss strace tmux usbutils vim-full vim-runtime xfrpc xray-core xxhash xz zsh kernel
+
+
+Installing packages...
+Installing libc (1.2.5-r4) to root...
+Installing libgcc1 (13.3.0-r4) to root...
+Copying /builder/dl/libgcc1_13.3.0-r4_mips_24kc.ipk.
+Configuring libgcc1.
+Configuring libc.
+Installing kernel (6.6.93~f7515a03d56200f9716973881710e96d-r1) to root...
+Configuring kernel.
+Installing adblock-fast (1.1.4-r12) to root...
+Copying /builder/dl/adblock-fast_1.1.4-r12_all.ipk.
+Installing libjson-c5 (0.18-r1) to root...
+Copying /builder/dl/libjson-c5_0.18-r1_mips_24kc.ipk.
+Installing libubox20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libubox20240329_2025.07.23~49056d17-r1_mips_24kc.ipk.
+Installing libblobmsg-json20240329 (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/libblobmsg-json20240329_2025.07.23~49056d17-r1_mips_24kc.ipk.
+Installing jshn (2025.07.23~49056d17-r1) to root...
+Copying /builder/dl/jshn_2025.07.23~49056d17-r1_mips_24kc.ipk.
+Installing libatomic1 (13.3.0-r4) to root...
+Copying /builder/dl/libatomic1_13.3.0-r4_mips_24kc.ipk.
+Installing libopenssl3 (3.0.17-r1) to root...
+Copying /builder/dl/libopenssl3_3.0.17-r1_mips_24kc.ipk.
+Installing libpthread (1.2.5-r4) to root...
+Copying /builder/dl/libpthread_1.2.5-r4_mips_24kc.ipk.
+Installing libnghttp2-14 (1.63.0-r1) to root...
+Copying /builder/dl/libnghttp2-14_1.63.0-r1_mips_24kc.ipk.
+Installing ca-bundle (20250419-r1) to root...
+Copying /builder/dl/ca-bundle_20250419-r1_all.ipk.
+Installing libcurl4 (8.12.1-r1) to root...
+Copying /builder/dl/libcurl4_8.12.1-r1_mips_24kc.ipk.
+Installing curl (8.12.1-r1) to root...
+Copying /builder/dl/curl_8.12.1-r1_mips_24kc.ipk.
+Installing chinadns-ng (2025.08.09-r1) to root...
+Copying /builder/dl/chinadns-ng_2025.08.09-r1_mips_24kc.ipk.
+Installing dufs (0.43.0-r5) to root...
+Copying /builder/dl/dufs_0.43.0-r5_mips_24kc.ipk.
+Installing liblzma (5.6.2-r2) to root...
+Copying /builder/dl/liblzma_5.6.2-r2_mips_24kc.ipk.
+Installing git (2.46.4-r1) to root...
+Copying /builder/dl/git_2.46.4-r1_mips_24kc.ipk.
+Installing librt (1.2.5-r4) to root...
+Copying /builder/dl/librt_1.2.5-r4_mips_24kc.ipk.
+Installing zlib (1.3.1-r1) to root...
+Copying /builder/dl/zlib_1.3.1-r1_mips_24kc.ipk.
+Installing hd-idle (1.05-r2) to root...
+Copying /builder/dl/hd-idle_1.05-r2_mips_24kc.ipk.
+Installing htop (3.4.1-r1) to root...
+Copying /builder/dl/htop_3.4.1-r1_mips_24kc.ipk.
+Installing terminfo (6.4-r2) to root...
+Copying /builder/dl/terminfo_6.4-r2_mips_24kc.ipk.
+Installing libncurses6 (6.4-r2) to root...
+Copying /builder/dl/libncurses6_6.4-r2_mips_24kc.ipk.
+Installing iperf3 (3.17.1-r4) to root...
+Copying /builder/dl/iperf3_3.17.1-r4_mips_24kc.ipk.
+Installing libiperf3 (3.17.1-r4) to root...
+Copying /builder/dl/libiperf3_3.17.1-r4_mips_24kc.ipk.
+Installing ip-full (6.11.0-r1) to root...
+Copying /builder/dl/ip-full_6.11.0-r1_mips_24kc.ipk.
+Installing libnl-tiny1 (2025.03.19~c0df580a-r1) to root...
+Copying /builder/dl/libnl-tiny1_2025.03.19~c0df580a-r1_mips_24kc.ipk.
+Installing libelf1 (0.192-r1) to root...
+Copying /builder/dl/libelf1_0.192-r1_mips_24kc.ipk.
+Installing libbpf1 (1.5.0-r1) to root...
+Copying /builder/dl/libbpf1_1.5.0-r1_mips_24kc.ipk.
+Installing libmnl0 (1.0.5-r1) to root...
+Copying /builder/dl/libmnl0_1.0.5-r1_mips_24kc.ipk.
+Installing less (661-r1) to root...
+Copying /builder/dl/less_661-r1_mips_24kc.ipk.
+Installing lsblk (2.40.2-r1) to root...
+Copying /builder/dl/lsblk_2.40.2-r1_mips_24kc.ipk.
+Installing libuuid1 (2.40.2-r1) to root...
+Copying /builder/dl/libuuid1_2.40.2-r1_mips_24kc.ipk.
+Installing libblkid1 (2.40.2-r1) to root...
+Copying /builder/dl/libblkid1_2.40.2-r1_mips_24kc.ipk.
+Installing libmount1 (2.40.2-r1) to root...
+Copying /builder/dl/libmount1_2.40.2-r1_mips_24kc.ipk.
+Installing libsmartcols1 (2.40.2-r1) to root...
+Copying /builder/dl/libsmartcols1_2.40.2-r1_mips_24kc.ipk.
+Installing lsof (4.99.3-r1) to root...
+Copying /builder/dl/lsof_4.99.3-r1_mips_24kc.ipk.
+Installing libtirpc (1.3.6-r1) to root...
+Copying /builder/dl/libtirpc_1.3.6-r1_mips_24kc.ipk.
+Installing ncdu (1.20-r1) to root...
+Copying /builder/dl/ncdu_1.20-r1_mips_24kc.ipk.
+Installing nnn (4.9-r1) to root...
+Copying /builder/dl/nnn_4.9-r1_mips_24kc.ipk.
+Installing libreadline8 (8.2-r2) to root...
+Copying /builder/dl/libreadline8_8.2-r2_mips_24kc.ipk.
+Installing musl-fts (1.2.7-r1) to root...
+Copying /builder/dl/musl-fts_1.2.7-r1_mips_24kc.ipk.
+Installing pv (1.6.6-r1) to root...
+Copying /builder/dl/pv_1.6.6-r1_mips_24kc.ipk.
+Installing rhash (1.4.6-r1) to root...
+Copying /builder/dl/rhash_1.4.6-r1_mips_24kc.ipk.
+Installing librhash1 (1.4.6-r1) to root...
+Copying /builder/dl/librhash1_1.4.6-r1_mips_24kc.ipk.
+Installing ripgrep (14.1.1-r1) to root...
+Copying /builder/dl/ripgrep_14.1.1-r1_mips_24kc.ipk.
+Installing libpcre2 (10.42-r1) to root...
+Copying /builder/dl/libpcre2_10.42-r1_mips_24kc.ipk.
+Installing rsync (3.4.1-r1) to root...
+Copying /builder/dl/rsync_3.4.1-r1_mips_24kc.ipk.
+Installing libpopt0 (1.19-r1) to root...
+Copying /builder/dl/libpopt0_1.19-r1_mips_24kc.ipk.
+Installing libattr (2.5.2-r3) to root...
+Copying /builder/dl/libattr_2.5.2-r3_mips_24kc.ipk.
+Installing libacl (2.3.2-r2) to root...
+Copying /builder/dl/libacl_2.3.2-r2_mips_24kc.ipk.
+Installing ss (6.11.0-r1) to root...
+Copying /builder/dl/ss_6.11.0-r1_mips_24kc.ipk.
+Installing kmod-netlink-diag (6.6.93-r1) to root...
+Copying /builder/dl/kmod-netlink-diag_6.6.93-r1_mips_24kc.ipk.
+Installing strace (6.12-r1) to root...
+Copying /builder/dl/strace_6.12-r1_mips_24kc.ipk.
+Installing tmux (3.5a-r1) to root...
+Copying /builder/dl/tmux_3.5a-r1_mips_24kc.ipk.
+Installing libevent2-core7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-core7_2.1.12-r2_mips_24kc.ipk.
+Installing usbutils (017-r1) to root...
+Copying /builder/dl/usbutils_017-r1_mips_24kc.ipk.
+Installing libusb-1.0-0 (1.0.27-r1) to root...
+Copying /builder/dl/libusb-1.0-0_1.0.27-r1_mips_24kc.ipk.
+Installing libevdev (1.13.1-r1) to root...
+Copying /builder/dl/libevdev_1.13.1-r1_mips_24kc.ipk.
+Installing libudev-zero (1.0.3-r1) to root...
+Copying /builder/dl/libudev-zero_1.0.3-r1_mips_24kc.ipk.
+Installing usbids (0.387-r1) to root...
+Copying /builder/dl/usbids_0.387-r1_mips_24kc.ipk.
+Installing vim-full (9.1-r1) to root...
+Copying /builder/dl/vim-full_9.1-r1_mips_24kc.ipk.
+Installing vim-runtime (9.1-r1) to root...
+Copying /builder/dl/vim-runtime_9.1-r1_mips_24kc.ipk.
+Installing xfrpc (3.05.661-r1) to root...
+Copying /builder/dl/xfrpc_3.05.661-r1_mips_24kc.ipk.
+Installing libevent2-7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-7_2.1.12-r2_mips_24kc.ipk.
+Installing libevent2-openssl7 (2.1.12-r2) to root...
+Copying /builder/dl/libevent2-openssl7_2.1.12-r2_mips_24kc.ipk.
+Installing xray-core (25.2.21-r1) to root...
+Copying /builder/dl/xray-core_25.2.21-r1_mips_24kc.ipk.
+Installing xxhash (0.8.2-r2) to root...
+Copying /builder/dl/xxhash_0.8.2-r2_mips_24kc.ipk.
+Installing libxxhash (0.8.2-r2) to root...
+Copying /builder/dl/libxxhash_0.8.2-r2_mips_24kc.ipk.
+Installing xz (5.6.2-r2) to root...
+Copying /builder/dl/xz_5.6.2-r2_mips_24kc.ipk.
+Installing xz-utils (5.6.2-r2) to root...
+Copying /builder/dl/xz-utils_5.6.2-r2_mips_24kc.ipk.
+Installing zsh (5.9-r3) to root...
+Copying /builder/dl/zsh_5.9-r3_mips_24kc.ipk.
+Installing libcap (2.69-r1) to root...
+Copying /builder/dl/libcap_2.69-r1_mips_24kc.ipk.
+Package kernel (6.6.93~f7515a03d56200f9716973881710e96d-r1) installed in root is up to date.
+Configuring terminfo.
+Configuring libatomic1.
+Configuring libopenssl3.
+Configuring libevdev.
+Configuring libpthread.
+Configuring libiperf3.
+Configuring libtirpc.
+Configuring lsof.
+Configuring libnl-tiny1.
+Configuring zlib.
+Configuring libelf1.
+Configuring libbpf1.
+Configuring libmnl0.
+Configuring ip-full.
+Configuring libxxhash.
+Configuring kmod-netlink-diag.
+Configuring strace.
+Configuring libattr.
+Configuring libacl.
+Configuring chinadns-ng.
+Configuring liblzma.
+Configuring libevent2-core7.
+Configuring libevent2-openssl7.
+Configuring dufs.
+Configuring librt.
+Configuring libusb-1.0-0.
+Configuring libuuid1.
+Configuring libcap.
+Configuring librhash1.
+Configuring rhash.
+Configuring hd-idle.
+Configuring libsmartcols1.
+Configuring libncurses6.
+Configuring libpcre2.
+Configuring zsh.
+Configuring libudev-zero.
+Configuring usbids.
+Configuring usbutils.
+Configuring libblkid1.
+Configuring libmount1.
+Configuring pv.
+Configuring less.
+Configuring lsblk.
+Configuring libreadline8.
+Configuring musl-fts.
+Configuring nnn.
+Configuring ss.
+Configuring libnghttp2-14.
+Configuring ca-bundle.
+Configuring libcurl4.
+Configuring curl.
+Configuring xz-utils.
+Configuring xz.
+Configuring libpopt0.
+Configuring rsync.
+Configuring tmux.
+Configuring libjson-c5.
+Configuring libubox20240329.
+Configuring libblobmsg-json20240329.
+Configuring jshn.
+Configuring vim-full.
+Configuring libevent2-7.
+Configuring xfrpc.
+Configuring git.
+Configuring htop.
+Configuring ripgrep.
+Configuring vim-runtime.
+Configuring adblock-fast.
+Configuring ncdu.
+Configuring iperf3.
+Configuring xxhash.
+Configuring xray-core.
+
+Finalizing root filesystem...
+Enabling adblock-fast
+Enabling dufs
+Enabling hd-idle
+Enabling xfrpc
+Enabling xray
+
+Building images...
+Parallel mksquashfs: Using 4 processors
+Creating 4.0 filesystem on /builder/build_dir/target-mips_24kc_musl/linux-lantiq_xrx200/root.squashfs, block size 262144.
+
+[=====\                                                        ]  300/3135   9%
+[=============================================================|] 3135/3135 100%
+
+Exportable Squashfs 4.0 filesystem, xz compressed, data block size 262144
+	compressed data, compressed metadata, compressed fragments,
+	no xattrs, compressed ids
+	duplicates are removed
+Filesystem size 22402.41 Kbytes (21.88 Mbytes)
+	27.40% of uncompressed filesystem size (81770.35 Kbytes)
+Inode table size 21674 bytes (21.17 Kbytes)
+	20.64% of uncompressed inode table size (105024 bytes)
+Directory table size 28504 bytes (27.84 Kbytes)
+	47.52% of uncompressed directory table size (59981 bytes)
+Number of duplicate files found 88
+Number of inodes 3252
+Number of files 2915
+Number of fragments 101
+Number of symbolic links 238
+Number of device nodes 1
+Number of fifo nodes 0
+Number of socket nodes 0
+Number of directories 98
+Number of hard-links 0
+Number of ids (unique uids + gids) 1
+Number of uids 1
+	unknown (0)
+Number of gids 1
+	unknown (0)
+Image Name:   ImmortalWrt RootFS
+Created:      Wed Jun 25 15:36:28 2025
+Image Type:   MIPS Linux Filesystem Image (lzma compressed)
+Data Size:    22940066 Bytes = 22402.41 KiB = 21.88 MiB
+Load Address: 00000000
+Entry Point:  00000000
+Image Name:   OpenWrt fullimage
+Created:      Wed Jun 25 15:36:28 2025
+Image Type:   MIPS Linux Multi-File Image (uncompressed)
+Data Size:    26345862 Bytes = 25728.38 KiB = 25.13 MiB
+Load Address: 00000000
+Entry Point:  00000000
+Contents:
+   Image 0: 26345854 Bytes = 25728.37 KiB = 25.13 MiB
+
+Calculating checksums...
+Installed Packages
+
+
+Script to run on first boot (uci-defaults)
+
+
+
+REQUEST BUILD
+Custom Downloads
+
+SYSUPGRADE
+Use a Sysupgrade image to update a router that already runs ImmortalWrt. The image can be used with the LuCI web interface or the terminal.
+sha256sum: d7b2c0012ba6c800bcbc548415900df96b3b672ab70d717eddb8b76152eb7740
+FULLIMAGE
+Other image type.
+sha256sum: e4880df2f902e1777c060c2fb53d5460457b4b1ade83c6559a2142c452875e75
+All Downloads | Feedback | OFS v5.0.3-6-g1214fd6f

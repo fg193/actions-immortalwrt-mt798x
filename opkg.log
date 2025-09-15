@@ -1,3 +1,4 @@
+acpid
 autocore
 base-files
 block-mount
@@ -44,11 +45,16 @@ kmod-mt7915e
 kmod-mt7981-firmware
 mt7981-wo-firmware
 
+acpid
 beep
 chinadns-ng
 curl
+dmidecode
 docker
 dockerd
+dumpe2fs
+f2fs-tools
+file
 git
 htop
 iperf3
@@ -79,6 +85,7 @@ luci-app-upnp
 luci-app-watchcat
 luci-app-wol
 luci-app-xfrpc
+luci-proto-batman-adv
 luci-proto-gre
 luci-proto-ipip
 luci-proto-openconnect
@@ -90,12 +97,18 @@ nginx-mod-luci
 nmap-ssl
 nnn
 owut
+pciutils
+picocom
 pv
+rhash
 ripgrep
 rsync
+sing-box-tiny
 ss
+strace
 tcpdump
 tmux
+usbutils
 vim-full
 vim-runtime
 xray-core
