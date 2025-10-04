@@ -12,6 +12,8 @@ luci-proto-wireguard
 065 iperf3
 083 xz
 089 htop
+126 (ip-tiny)
+187 ip-full
 150 luci-app-adblock-fast - curl
 158 nnn
 205 rsync
